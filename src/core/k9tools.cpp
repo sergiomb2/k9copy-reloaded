@@ -88,7 +88,7 @@ bool k9Tools::checkProgram(QString _progName,bool _msg) {
     #if QT_VERSION >= 0x050000
     bool res=QStandardPaths::findExecutable( _progName) !=NULL ;
     #else // Qt4 Code
-    bool res= KStandardDirs::findExe( _progName,NULL,false) !=NULL ;
+    bool res= KStandardDirs::findExe( _progName,NULL,0) !=NULL ;
     #endif
     if (_msg && !res)
         k9Dialogs::error(i18n("Error starting program %1").arg(_progName),i18n("Running program"));

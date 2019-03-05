@@ -34,6 +34,7 @@
 #include <stdarg.h>
 #include <errno.h>
 #include <string.h>
+#include <math.h>
 #include <qdir.h>
 
 #include <kmessagebox.h>
@@ -950,7 +951,8 @@ k9Vobu * k9DVDBackup::remapOffset(uint32_t _sector,uint32_t *_offset,int _dir) {
         vobu2 = lstCell->findVobu(sector + _dir * offset);
 
         if ((vobu1 !=NULL) && (vobu2!=NULL)) {
-            *_offset = abs((long)vobu1->newSector - vobu2->newSector) | maskOffset1 ;
+            *_offset = fabs(vobu1->newSector - vobu2->newSector);
+            *_offset |= maskOffset1;
             *_offset |= maskOffset2;
             return vobu2;
         }

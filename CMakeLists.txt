@@ -1,6 +1,6 @@
+cmake_minimum_required(VERSION 3.1)
 project(k9copy CXX)
-#set (VERSION 3.0.3.0000)
-cmake_minimum_required(VERSION 3.0)
+set (VERSION 3.0.3)
 
 SET(CMAKE_BUILD_TYPE Debug)
 
