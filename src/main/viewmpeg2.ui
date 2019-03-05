@@ -192,7 +192,7 @@
        </spacer>
       </item>
       <item row="4" column="1" >
-       <widget class="KPushButton" name="bCropDetect" >
+       <widget class="QPushButton" name="bCropDetect" >
         <property name="sizePolicy" >
          <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
           <horstretch>0</horstretch>

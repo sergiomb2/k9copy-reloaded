@@ -8,54 +8,80 @@ msgstr ""
 "Project-Id-Version: ja\n"
 "Report-Msgid-Bugs-To: http://sourceforge.net/tracker/?"
 "group_id=50231&atid=459007\n"
-"POT-Creation-Date: 2010-07-11 10:08+0900\n"
+"POT-Creation-Date: 2016-12-14 09:03+0000\n"
 "PO-Revision-Date: 2010-07-11 10:17+0900\n"
 "Last-Translator: Munehiro Yamamoto <munepixyz@gmail.com>\n"
 "Language-Team: munepi <munepixyz@gmail.com>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: main.cpp:38
+#: main.cpp:55
 msgid "A DVD Backup software for KDE"
 msgstr "KDE の DVD バックアップソフトウェア"
 
-#: main.cpp:43 src/player/main.cpp:40 src/xine/main.cpp:40
-msgid "k9copy"
+#: main.cpp:64
+#, fuzzy
+msgid "K9copy"
 msgstr "k9copy"
 
-#: main.cpp:44
-msgid "(C) 2009 Jean-Michel PETIT"
-msgstr "(C) 2009 Jean-Michel PETIT"
+#: main.cpp:67
+msgid ""
+"<p>Copyright (C) 2014 Pauline123</p><p>(C) 2004-2011 Jean-Michel PETIT</p>"
+msgstr ""
 
-#: main.cpp:45
+#: main.cpp:70 src/player/main.cpp:65 src/xine/main.cpp:59
+msgid "<p>Please report bugs to:</p>"
+msgstr ""
+
+#: main.cpp:71 main.cpp:86 src/player/main.cpp:66 src/player/main.cpp:74
+#: src/xine/main.cpp:60 src/xine/main.cpp:68
+msgid "Pauline123"
+msgstr ""
+
+#: main.cpp:71 main.cpp:72 src/player/main.cpp:66 src/player/main.cpp:67
+#: src/xine/main.cpp:60 src/xine/main.cpp:61
+msgid "developer"
+msgstr ""
+
+#: main.cpp:72 main.cpp:87 src/player/main.cpp:67 src/xine/main.cpp:61
 msgid "Jean-Michel PETIT"
 msgstr "Jean-Michel PETIT"
 
-#: main.cpp:46 src/player/main.cpp:43 src/xine/main.cpp:43
+#: main.cpp:79 src/player/main.cpp:60 src/player/main.cpp:71
+#: src/xine/main.cpp:54 src/xine/main.cpp:65
+msgid "k9copy"
+msgstr "k9copy"
+
+#: main.cpp:82
+msgid "<p>(C) 2014 Pauline123</p><p>(C) 2004-2011 Jean-Michel PETIT</p>"
+msgstr ""
+
+#: main.cpp:88 src/player/main.cpp:76 src/xine/main.cpp:70
 msgid "_: NAME OF TRANSLATORS\\nYour names"
 msgstr "Munehiro Yamamoto"
 
-#: main.cpp:47 src/player/main.cpp:44 src/xine/main.cpp:44
+#: main.cpp:89 src/player/main.cpp:77 src/xine/main.cpp:71
 msgid "_: EMAIL OF TRANSLATORS\\nYour emails"
 msgstr "munepixyz@gmail.com"
 
-#: main.cpp:51 src/player/main.cpp:48
+#: main.cpp:102 main.cpp:112 src/player/main.cpp:97 src/player/main.cpp:121
 msgid "input device"
 msgstr "入力デバイス"
 
-#: main.cpp:52 src/player/main.cpp:49
+#: main.cpp:103 main.cpp:113 src/player/main.cpp:98 src/player/main.cpp:122
 msgid "output device"
 msgstr "出力デバイス"
 
-#: main.cpp:53 src/player/main.cpp:50
-msgid "title to play"
-msgstr ""
-
-#: main.cpp:54
+#: main.cpp:104 main.cpp:115
 msgid "the k9copy backup assistant"
 msgstr "k9copy バックアップアシスタント"
+
+#: main.cpp:114 src/player/main.cpp:99 src/player/main.cpp:123
+msgid "title to play"
+msgstr ""
 
 #: po/rc.cpp:1 rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -67,258 +93,249 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "munepixyz@gmail.com "
 
-#: src/assistant/k9assistant.cpp:43
+#: src/assistant/k9assistant.cpp:49
 msgid "DVD backup assistant"
 msgstr "DVD バックアップアシスタント"
 
-#: src/assistant/k9assistant.cpp:47
+#: src/assistant/k9assistant.cpp:53
 msgid "source"
 msgstr "元"
 
-#: src/assistant/k9assistant.cpp:48
+#: src/assistant/k9assistant.cpp:54
 msgid "Select the source of the backup"
 msgstr "バックアップ元を選択して下さい"
 
-#: src/assistant/k9assistant.cpp:54
+#: src/assistant/k9assistant.cpp:64
 msgid "destination"
 msgstr "先"
 
-#: src/assistant/k9assistant.cpp:55
+#: src/assistant/k9assistant.cpp:65
 msgid "Select the destination of the backup"
 msgstr "バックアップ先を選択して下さい"
 
-#: src/assistant/k9assistant.cpp:60
+#: src/assistant/k9assistant.cpp:74
 msgid "titles"
 msgstr "タイトル"
 
-#: src/assistant/k9assistant.cpp:61
+#: src/assistant/k9assistant.cpp:75
 msgid "Select the titles you want to copy"
 msgstr "コピーしたいタイトルを選択して下さい"
 
-#: src/assistant/k9assistant.cpp:68
+#: src/assistant/k9assistant.cpp:87
 msgid "streams"
 msgstr "ストリーム"
 
-#: src/assistant/k9assistant.cpp:69
+#: src/assistant/k9assistant.cpp:88
 msgid "Select the streams you want to keep"
 msgstr "保存したいストリームを選択して下さい"
 
-#: src/assistant/k9assistant.cpp:75
+#: src/assistant/k9assistant.cpp:98
 msgid "mp4"
 msgstr "mp4"
 
-#: src/assistant/k9assistant.cpp:76
+#: src/assistant/k9assistant.cpp:99
 msgid "Set mp4 options for each title"
 msgstr "タイトルごとにmp4オプションを設定して下さい"
 
-#: src/assistant/k9assistant.cpp:82
+#: src/assistant/k9assistant.cpp:109
 msgid "DVDOption"
 msgstr "DVDオプション"
 
-#: src/assistant/k9assistant.cpp:83
+#: src/assistant/k9assistant.cpp:110
 msgid "Set DVD playback options"
 msgstr "DVDプレイバックオプションを設定して下さい"
 
-#: src/assistant/k9assistant.cpp:89
+#: src/assistant/k9assistant.cpp:120
 msgid "mpeg"
 msgstr "mpeg"
 
-#: src/assistant/k9assistant.cpp:90
+#: src/assistant/k9assistant.cpp:121
 msgid "Set mpeg options for each title"
 msgstr "タイトルごとにmpegオプションを設定して下さい"
 
-#: src/assistant/k9assistant.cpp:109 src/assistant/k9assistant.cpp:208
-#: src/import/k9importfiles.cpp:178 src/import/k9importfiles.cpp:246
-#: src/main/k9copy.cpp:278 src/main/k9copy.cpp:403 src/main/k9settings.cpp:28
+#: src/assistant/k9assistant.cpp:151 src/assistant/k9assistant.cpp:155
+#: src/assistant/k9assistant.cpp:255 src/import/k9importfiles.cpp:249
+#: src/main/k9copy.cpp:398 src/main/k9settings.cpp:46
 msgid "Settings"
 msgstr "設定"
 
-#: src/assistant/k9assistant.cpp:110
+#: src/assistant/k9assistant.cpp:152 src/assistant/k9assistant.cpp:156
 msgid "k9copy settings"
 msgstr "k9copy の設定"
 
-#: src/assistant/k9assistant.cpp:148
+#: src/assistant/k9assistant.cpp:195
 msgid "The destination of the copy isn't valid"
 msgstr "コピー先が不明です"
 
-#: src/assistant/k9assistant.cpp:165
+#: src/assistant/k9assistant.cpp:212
 msgid "You must select at least on title !"
 msgstr "タイトルを少なくとも1つ選択して下さい"
 
-#: src/assistant/k9assistant.cpp:203
+#: src/assistant/k9assistant.cpp:250
 msgid "cannot continue"
 msgstr "継続できません"
 
-#: src/assistant/k9astdestination.cpp:36
-msgid "Save iso image"
-msgstr "isoイメージを保存"
-
-#: src/assistant/k9astdestination.cpp:83 src/core/k9dvd.cpp:214
-#: src/core/k9dvd.cpp:222 src/core/k9dvd.cpp:230 src/core/k9dvd.cpp:401
-#: src/main/k9main.cpp:496 src/main/k9main.cpp:1501
+#. i18n("Couldn't read enough bytes for title.\n");
+#. setError(c);
+#: src/assistant/k9astdestination.cpp:83 src/core/k9dvd.cpp:224
+#: src/core/k9dvd.cpp:232 src/core/k9dvd.cpp:240 src/core/k9dvd.cpp:427
+#: src/main/k9main.cpp:520 src/main/k9main.cpp:1542
 msgid "unknown"
 msgstr "unknown"
 
-#: src/assistant/k9astsource.cpp:33
-msgid "Open ISO image"
-msgstr "isoイメージを開く"
-
-#: src/assistant/k9aststreams.cpp:52
+#: src/assistant/k9aststreams.cpp:57
 msgid "%4 - %1 %2 %3 ch"
 msgstr "%4 - %1 %2 %3 ch"
 
-#: src/assistant/k9aststreams.cpp:63
+#: src/assistant/k9aststreams.cpp:68
 msgid "%3 - %1 %2"
 msgstr "%3 - %1 %2"
 
-#: src/assistant/k9asttitles.cpp:258 src/backup/k9mp4enc.cpp:302
-#: src/backup/k9mp4enc.cpp:304 src/backup/k9mp4enc.cpp:364
-#: src/backup/k9mp4enc.cpp:793 src/main/k9main.cpp:520 src/main/k9main.cpp:650
-#: src/main/k9main.cpp:674 src/main/k9main.cpp:695 src/main/k9main.cpp:716
-#: src/main/k9mp4title.cpp:97 src/main/k9prefdvd.cpp:41
-#: src/main/k9prefmpeg4.cpp:36
+#: src/assistant/k9asttitles.cpp:258 src/backup/k9mp4enc.cpp:319
+#: src/backup/k9mp4enc.cpp:321 src/backup/k9mp4enc.cpp:381
+#: src/backup/k9mp4enc.cpp:810 src/main/k9main.cpp:545 src/main/k9main.cpp:675
+#: src/main/k9main.cpp:699 src/main/k9main.cpp:720 src/main/k9main.cpp:741
+#: src/main/k9mp4title.cpp:110 src/main/k9prefdvd.cpp:48
+#: src/main/k9prefmpeg4.cpp:35
 msgid "MB"
 msgstr "MB"
 
 #: src/assistant/k9asttitles.cpp:279 src/assistant/k9asttitles.cpp:290
-#: src/import/k9import.cpp:180 src/import/k9import.cpp:195
-#: src/import/k9newtitle.cpp:164 src/import/k9newtitle.cpp:186
-#: src/main/k9main.cpp:591 src/main/k9main.cpp:609
+#: src/import/k9import.cpp:189 src/import/k9import.cpp:204
+#: src/import/k9newtitle.cpp:183 src/import/k9newtitle.cpp:205
+#: src/main/k9main.cpp:616 src/main/k9main.cpp:634
 msgid "chapter %1"
 msgstr "チャプター %1"
 
 #: src/assistant/k9asttitles.cpp:284 src/assistant/k9asttitles.cpp:294
-#: src/main/k9main.cpp:595 src/main/k9main.cpp:615 src/main/k9main.cpp:1448
+#: src/main/k9main.cpp:620 src/main/k9main.cpp:640 src/main/k9main.cpp:1485
 msgid "%1 MB"
 msgstr "%1 MB"
 
-#: src/backup/k9backupdlg.cpp:43 src/backup/k9dvdauthor.cpp:436
+#: src/backup/k9backupdlg.cpp:70 src/backup/k9backupdlg.cpp:72
+#: src/backup/k9dvdauthor.cpp:475 src/backup/k9dvdauthor.cpp:477
 msgid "Backup progression"
 msgstr "バックアップ進歩"
 
-#: src/backup/k9backupdlg.cpp:69 src/backup/k9mp4dlg.cpp:44
-#: src/core/k9burnprogress.cpp:43 src/core/k9progress.cpp:40
-#: src/import/k9processlist.cpp:76
-msgid "Stop"
-msgstr "停止"
-
-#: src/backup/k9dvdauthor.cpp:146 src/backup/k9dvdauthor.cpp:394
+#. i18n("'%s' not selected"),l_track->getname().latin1());
+#: src/backup/k9dvdauthor.cpp:177 src/backup/k9dvdauthor.cpp:431
 msgid "'%1' not selected"
 msgstr "%1 は選択されていません"
 
-#: src/backup/k9dvdauthor.cpp:147 src/backup/k9dvdauthor.cpp:395
-#: src/backup/k9dvdauthor.cpp:418 src/backup/k9dvdauthor.cpp:472
-#: src/backup/k9dvdauthor.cpp:481 src/backup/k9dvdauthor.cpp:483
-#: src/import/k9newdvd.cpp:132
+#: src/backup/k9dvdauthor.cpp:178 src/backup/k9dvdauthor.cpp:432
+#: src/backup/k9dvdauthor.cpp:455 src/backup/k9dvdauthor.cpp:521
+#: src/backup/k9dvdauthor.cpp:530 src/backup/k9dvdauthor.cpp:535
+#: src/import/k9newdvd.cpp:140
 msgid "authoring"
 msgstr "オーサリング"
 
-#: src/backup/k9dvdauthor.cpp:418 src/backup/k9execcopy.cpp:194
-#: src/backup/k9mp4enc.cpp:143 src/backup/k9mp4enc.cpp:144
-#: src/backup/k9mp4enc.cpp:154 src/backup/k9mp4enc.cpp:155
-#: src/core/k9burndvd.cpp:255 src/core/k9burndvd.cpp:351
-#: src/mplayer/k9mplayer.cpp:156 src/mplayer/k9xine.cpp:142
+#: src/backup/k9dvdauthor.cpp:455 src/backup/k9execcopy.cpp:191
+#: src/backup/k9mp4enc.cpp:160 src/backup/k9mp4enc.cpp:161
+#: src/backup/k9mp4enc.cpp:171 src/backup/k9mp4enc.cpp:172
+#: src/core/k9burndvd.cpp:263 src/core/k9burndvd.cpp:362
+#: src/mplayer/k9mplayer.cpp:177 src/mplayer/k9xine.cpp:163
 msgid "Unable to run %1"
 msgstr "%1 を実行できません"
 
-#: src/backup/k9dvdauthor.cpp:435 src/backup/k9dvdauthor.cpp:512
-#: src/backup/k9dvdauthor.cpp:550 src/import/k9newdvd.cpp:153
-#: src/main/k9settings.cpp:57 src/main/k9settings.cpp:58
+#: src/backup/k9dvdauthor.cpp:473 src/backup/k9dvdauthor.cpp:564
+#: src/backup/k9dvdauthor.cpp:604 src/import/k9newdvd.cpp:161
+#: src/main/k9settings.cpp:89 src/main/k9settings.cpp:90
 msgid "Authoring"
 msgstr "オーサリング"
 
-#: src/backup/k9dvdauthor.cpp:472
+#: src/backup/k9dvdauthor.cpp:521
 msgid "Dvdauthor error :\n"
 msgstr "DVDAuthor エラー\n"
 
-#: src/backup/k9dvdauthor.cpp:481
+#. i18n("authoring"), tr2i18n("Authoring canceled"));
+#: src/backup/k9dvdauthor.cpp:530
 msgid "Authoring cancelled"
 msgstr "オーサリングをキャンセルしました"
 
-#: src/backup/k9dvdauthor.cpp:483 src/import/k9newdvd.cpp:146
+#: src/backup/k9dvdauthor.cpp:535 src/import/k9newdvd.cpp:154
 msgid "An error occured while running DVDAuthor:\n"
 msgstr "DVDAuthor を実行中にエラーが起こりました\n"
 
-#: src/backup/k9dvdauthor.cpp:551
+#: src/backup/k9dvdauthor.cpp:605
 msgid "Fixing VOBUS"
 msgstr "VOBUS を修正しています"
 
-#: src/backup/k9dvdbackup.cpp:152 src/backup/k9dvdbackup.cpp:166
-#: src/backup/k9dvdbackup.cpp:529 src/backup/k9dvdbackup.cpp:615
+#: src/backup/k9dvdbackup.cpp:170 src/backup/k9dvdbackup.cpp:184
+#: src/backup/k9dvdbackup.cpp:572 src/backup/k9dvdbackup.cpp:659
 msgid "DVD backup cancelled"
 msgstr "DVD バックアップをキャンセルしました"
 
-#: src/backup/k9dvdbackup.cpp:179
+#: src/backup/k9dvdbackup.cpp:197
 msgid "unable to open VIDEO_TS.IFO"
 msgstr "VIDEO_TS.IFO を開けません"
 
-#: src/backup/k9dvdbackup.cpp:201 src/backup/k9dvdbackup.cpp:382
-#: src/backup/k9dvdbackup.cpp:453
+#: src/backup/k9dvdbackup.cpp:219 src/backup/k9dvdbackup.cpp:416
+#: src/backup/k9dvdbackup.cpp:495
 msgid "Unable to open file "
 msgstr "ファイルを開けません"
 
-#: src/backup/k9dvdbackup.cpp:280
+#: src/backup/k9dvdbackup.cpp:298
 msgid "Unable to open titleset %1"
 msgstr "タイトル %1 を開けません"
 
-#: src/backup/k9dvdbackup.cpp:286 src/backup/k9dvdbackup.cpp:587
+#: src/backup/k9dvdbackup.cpp:304 src/backup/k9dvdbackup.cpp:630
 msgid "Extracting titleset %1"
 msgstr "タイトル %1 を展開しています"
 
-#: src/backup/k9dvdbackup.cpp:460
+#: src/backup/k9dvdbackup.cpp:502
 msgid "Unable to open menu for titleset %1"
 msgstr "タイトル %1 に対するメニューを開けません"
 
-#: src/backup/k9dvdbackup.cpp:486
+#: src/backup/k9dvdbackup.cpp:528
 msgid "Extracting menu for titleset %1"
 msgstr "タイトル %1 に対するメニューを展開しています"
 
-#: src/backup/k9dvdbackup.cpp:579
+#: src/backup/k9dvdbackup.cpp:622
 msgid "Unable to open ifo file for titleset %1"
 msgstr "タイトル %1 に対する ifo ファイルを開けません"
 
-#: src/backup/k9dvdbackup.cpp:591 src/backup/k9dvdbackup.cpp:1734
+#: src/backup/k9dvdbackup.cpp:635 src/backup/k9dvdbackup.cpp:1806
 msgid "Unable to open DVD"
 msgstr "DVD を開けません"
 
-#: src/backup/k9dvdbackup.cpp:601
+#: src/backup/k9dvdbackup.cpp:645
 msgid "Unable to open vobs for titleset %1"
 msgstr "タイトル %1 に対する vobs を開けません"
 
-#: src/backup/k9dvdbackup.cpp:1428
+#: src/backup/k9dvdbackup.cpp:1500
 msgid "Updating vob %1"
 msgstr "vob %1 を更新しています"
 
-#: src/backup/k9dvdbackup.cpp:1445
+#: src/backup/k9dvdbackup.cpp:1517
 msgid "DVD backup canceled"
 msgstr "DVD バックアップをキャンセルしました"
 
-#: src/backup/k9execcopy.cpp:36 src/core/k9burndvd.cpp:189
-#: src/core/k9burndvd.cpp:311 src/import/k9import.cpp:324
-#: src/main/k9copy.cpp:291 src/main/k9main.cpp:1343
-#: src/main/k9playbackoptions.cpp:128
+#: src/backup/k9execcopy.cpp:33 src/core/k9burndvd.cpp:192
+#: src/core/k9burndvd.cpp:325 src/import/k9import.cpp:333
+#: src/main/k9main.cpp:1368 src/main/k9playbackoptions.cpp:133
 msgid "default"
 msgstr "標準"
 
-#: src/backup/k9execcopy.cpp:44 src/backup/k9execcopy.cpp:140
-#: src/backup/k9execcopy.cpp:331 src/backup/k9execcopy.cpp:387
+#: src/backup/k9execcopy.cpp:42 src/backup/k9execcopy.cpp:137
+#: src/backup/k9execcopy.cpp:345 src/backup/k9execcopy.cpp:401
 msgid "DVD is not opened"
 msgstr "DVD を開けません"
 
-#: src/backup/k9execcopy.cpp:44 src/backup/k9execcopy.cpp:76
-#: src/backup/k9execcopy.cpp:130
+#: src/backup/k9execcopy.cpp:42 src/backup/k9execcopy.cpp:73
+#: src/backup/k9execcopy.cpp:127
 msgid "DVD Copy"
 msgstr "DVD コピー"
 
-#: src/backup/k9execcopy.cpp:76
+#: src/backup/k9execcopy.cpp:73
+#, fuzzy
 msgid ""
 "Insufficient disk space on %1\n"
-"%2 mb expected."
+"%2 MB expected."
 msgstr ""
 "%1 上のディスク容量が足りません。\n"
 "%2 MB 程度必要です。"
 
-#: src/backup/k9execcopy.cpp:83
+#: src/backup/k9execcopy.cpp:80
 msgid ""
 "Directory already exists.\n"
 "Please choose another location or rename the DVD title."
@@ -326,895 +343,898 @@ msgstr ""
 "ディレクトリはすでに存在します。\n"
 "別の場所を選択するか DVD タイトルを別名にして下さい。"
 
-#: src/backup/k9execcopy.cpp:83
+#: src/backup/k9execcopy.cpp:80
 msgid "Warning!"
 msgstr "警告！"
 
-#: src/backup/k9execcopy.cpp:130 src/backup/k9execcopy.cpp:378
-#: src/backup/k9execcopy.cpp:438
+#: src/backup/k9execcopy.cpp:127 src/backup/k9execcopy.cpp:392
+#: src/backup/k9execcopy.cpp:452
 msgid "Selected titles have been successfully extracted"
 msgstr "選択されたタイトルは無事に抽出されました。"
 
-#: src/backup/k9execcopy.cpp:140 src/backup/k9execcopy.cpp:331
-#: src/main/k9settings.cpp:47 src/player/k9play.cpp:80
+#: src/backup/k9execcopy.cpp:137 src/backup/k9execcopy.cpp:345
+#: src/main/k9settings.cpp:72 src/player/k9play.cpp:90
 msgid "MPEG-4 Encoding"
 msgstr "MPEG-4 エンコーディング"
 
-#: src/backup/k9execcopy.cpp:158 src/backup/k9execcopy.cpp:349
-#: src/backup/k9execcopy.cpp:405 src/backup/k9mp4enc.cpp:291
+#: src/backup/k9execcopy.cpp:155 src/backup/k9execcopy.cpp:363
+#: src/backup/k9execcopy.cpp:419 src/backup/k9mp4enc.cpp:308
 msgid "Save file to disk"
 msgstr "ディスクにファイルを保存"
 
-#: src/backup/k9execcopy.cpp:194 src/backup/k9mp4enc.cpp:128
-#: src/backup/k9mp4enc.cpp:137 src/backup/k9mp4enc.cpp:144
-#: src/backup/k9mp4enc.cpp:155 src/backup/k9mp4enc.cpp:442
+#: src/backup/k9execcopy.cpp:191 src/backup/k9mp4enc.cpp:145
+#: src/backup/k9mp4enc.cpp:154 src/backup/k9mp4enc.cpp:161
+#: src/backup/k9mp4enc.cpp:172 src/backup/k9mp4enc.cpp:459
 msgid "Encoding error"
 msgstr "エンコーディングエラー"
 
-#: src/backup/k9execcopy.cpp:215
+#: src/backup/k9execcopy.cpp:212
 msgid "Selected titles have been successfully encoded"
 msgstr "選択されたタイトルは無事にエンコードされました。"
 
-#: src/backup/k9execcopy.cpp:215 src/backup/k9execcopy.cpp:378
-#: src/backup/k9execcopy.cpp:438 src/backup/k9mp4dlg.cpp:30
+#: src/backup/k9execcopy.cpp:212 src/backup/k9execcopy.cpp:392
+#: src/backup/k9execcopy.cpp:452 src/backup/k9mp4dlg.cpp:38
+#: src/backup/k9mp4dlg.cpp:40
 msgid "Encoding"
 msgstr "エンコーディング"
 
-#: src/backup/k9execcopy.cpp:310
+#: src/backup/k9execcopy.cpp:324
 msgid "Muxing Matroska file"
 msgstr "Matroska ファイルをミキシングしています "
 
-#: src/backup/k9execcopy.cpp:323
+#: src/backup/k9execcopy.cpp:337
 msgid "An error occured while running mkvmerge"
 msgstr "mkvmerge を実行中にエラーが起こりました"
 
-#: src/backup/k9execcopy.cpp:323
+#: src/backup/k9execcopy.cpp:337
 msgid "Muxing Matroska"
 msgstr "Matroska をミキシングしています"
 
-#: src/backup/k9execcopy.cpp:387
+#: src/backup/k9execcopy.cpp:401
 msgid "Audio Extraction"
 msgstr "音声抽出"
 
-#: src/backup/k9execcopy.h:24
-msgid "Cancel"
-msgstr "キャンセル"
-
-#: src/backup/k9mp4enc.cpp:127 src/backup/k9mp4enc.cpp:128
+#: src/backup/k9mp4enc.cpp:144 src/backup/k9mp4enc.cpp:145
 msgid "Audio extraction can only be done with ffmpeg"
 msgstr "音声抽出は ffmpeg を用いてのみ行えます"
 
-#: src/backup/k9mp4enc.cpp:136 src/backup/k9mp4enc.cpp:137
+#: src/backup/k9mp4enc.cpp:153 src/backup/k9mp4enc.cpp:154
 msgid "Matroska encoding can only be done with ffmpeg"
 msgstr "Matroska エンコーディングは ffmpeg を用いてのみ行えます"
 
-#: src/backup/k9mp4enc.cpp:167
+#: src/backup/k9mp4enc.cpp:184
 msgid "Starting extraction of %1, chapters %2"
 msgstr "%1、チャプター %2 の抽出を開始しています"
 
-#: src/backup/k9mp4enc.cpp:169
+#: src/backup/k9mp4enc.cpp:186
 msgid "Starting encoding of %1, chapters %2"
 msgstr "%1、チャプター %2 のエンコーディングを開始しています"
 
-#: src/backup/k9mp4enc.cpp:170
+#: src/backup/k9mp4enc.cpp:187
 msgid "source : %1"
 msgstr "元：%1"
 
-#: src/backup/k9mp4enc.cpp:171
+#: src/backup/k9mp4enc.cpp:188
 msgid "destination : %1"
 msgstr "先：%1"
 
-#: src/backup/k9mp4enc.cpp:172
+#: src/backup/k9mp4enc.cpp:189
 msgid "disk cache : %1"
 msgstr "キャッシュ：%1"
 
-#: src/backup/k9mp4enc.cpp:172
+#: src/backup/k9mp4enc.cpp:189
 msgid "activated"
 msgstr ""
 
-#: src/backup/k9mp4enc.cpp:172
+#: src/backup/k9mp4enc.cpp:189
 msgid "disabled"
 msgstr ""
 
-#: src/backup/k9mp4enc.cpp:191 src/main/k9titlefactor.cpp:63
+#: src/backup/k9mp4enc.cpp:208 src/main/k9titlefactor.cpp:63
 #: src/main/k9titlefactor.cpp:100 src/main/k9titlefactor.cpp:134
 msgid "size : %1 MB"
 msgstr "容量：%1 MB"
 
-#: src/backup/k9mp4enc.cpp:193
+#: src/backup/k9mp4enc.cpp:210
 msgid "audio bitrate : %1"
 msgstr "音声ビットレート：%1"
 
-#: src/backup/k9mp4enc.cpp:196
+#: src/backup/k9mp4enc.cpp:213
 msgid "user defined video bitrate : %1"
 msgstr "ユーザが指定した映像ビットレート：%1"
 
-#: src/backup/k9mp4enc.cpp:198
+#: src/backup/k9mp4enc.cpp:215
 msgid "calculated video bitrate : %1"
 msgstr "計算した映像ビットレート"
 
-#: src/backup/k9mp4enc.cpp:225
+#: src/backup/k9mp4enc.cpp:242
 msgid "starting pass %1 of %2"
 msgstr "%2 の %1 パスを開始しています"
 
-#: src/backup/k9mp4enc.cpp:493 src/backup/k9mp4enc.cpp:557
-#: src/backup/k9mp4enc.cpp:559 src/backup/k9mp4enc.cpp:676
-#: src/backup/k9mp4enc.cpp:678 src/import/k9newdvd.cpp:277
+#: src/backup/k9mp4enc.cpp:510 src/backup/k9mp4enc.cpp:574
+#: src/backup/k9mp4enc.cpp:576 src/backup/k9mp4enc.cpp:693
+#: src/backup/k9mp4enc.cpp:695 src/import/k9newdvd.cpp:285
 msgid "Encoding %1"
 msgstr "%1 をエンコーディングしています"
 
-#: src/backup/k9mp4enc.cpp:505 src/backup/k9mp4enc.cpp:626
-#: src/backup/k9mp4enc.cpp:733 src/core/k9burndvd.cpp:230
-#: src/core/k9burndvd.cpp:250 src/core/k9burndvd.cpp:345
+#: src/backup/k9mp4enc.cpp:522 src/backup/k9mp4enc.cpp:643
+#: src/backup/k9mp4enc.cpp:750 src/core/k9burndvd.cpp:237
+#: src/core/k9burndvd.cpp:258 src/core/k9burndvd.cpp:356
 msgid "starting thread : %1"
 msgstr "%1 スレッドを開始しています"
 
-#: src/backup/k9mp4enc.cpp:557 src/backup/k9mp4enc.cpp:676
+#: src/backup/k9mp4enc.cpp:574 src/backup/k9mp4enc.cpp:693
 msgid "pass %1"
 msgstr "%1 パス"
 
-#: src/backup/k9mp4enc.cpp:741
+#: src/backup/k9mp4enc.cpp:758
 msgid "cancel requested"
 msgstr "キャンセルを要求しました"
 
-#: src/backup/k9mp4enc.cpp:883 src/backup/k9mp4enc.cpp:908
+#: src/backup/k9mp4enc.cpp:897 src/backup/k9mp4enc.cpp:922
 msgid "An error occured while encoding the %1 stream"
 msgstr "%1 ストリームをエンコーディング中にエラーが起こりました"
 
-#: src/backup/k9mp4enc.cpp:883
+#: src/backup/k9mp4enc.cpp:897
 msgid "audio"
 msgstr "音声"
 
-#: src/backup/k9mp4enc.cpp:908
+#: src/backup/k9mp4enc.cpp:922
 msgid "video"
 msgstr "映像"
 
-#: src/core/k9burndvd.cpp:148
+#: src/core/k9burndvd.cpp:151
 msgid "image size : %1"
 msgstr "イメージ容量：%1"
 
-#: src/core/k9burndvd.cpp:200 src/core/k9burndvd.cpp:201
-#: src/core/k9burndvd.cpp:288 src/core/k9burndvd.cpp:289
-#: src/core/k9burndvd.cpp:407
+#: src/core/k9burndvd.cpp:204 src/core/k9burndvd.cpp:206
+#: src/core/k9burndvd.cpp:208 src/core/k9burndvd.cpp:299
+#: src/core/k9burndvd.cpp:301 src/core/k9burndvd.cpp:303
+#: src/core/k9burndvd.cpp:415
 msgid "Burning DVD"
 msgstr "DVD に書き込んでいます"
 
-#: src/core/k9burndvd.cpp:212 src/core/k9burndvd.cpp:317
-#: src/import/k9import.cpp:297
+#: src/core/k9burndvd.cpp:219 src/core/k9burndvd.cpp:331
+#: src/import/k9import.cpp:306
 msgid "Save image to disk"
 msgstr "ディスクにイメージを保存"
 
-#: src/core/k9burndvd.cpp:228
+#: src/core/k9burndvd.cpp:235
 msgid "computing image size"
 msgstr "イメージ容量を計算しています"
 
-#: src/core/k9burndvd.cpp:239 src/core/k9burndvd.cpp:241
-#: src/core/k9burndvd.cpp:255 src/core/k9burndvd.cpp:263
-#: src/core/k9burndvd.cpp:273 src/core/k9burndvd.cpp:275
-#: src/core/k9burndvd.cpp:337 src/core/k9burndvd.cpp:339
-#: src/core/k9burndvd.cpp:351 src/core/k9burndvd.cpp:360
-#: src/core/k9burndvd.cpp:369 src/core/k9burndvd.cpp:371
-msgid "DVD burning"
-msgstr "DVD に書き込んでいます"
-
-#: src/core/k9burndvd.cpp:239 src/core/k9burndvd.cpp:241
-#: src/core/k9burndvd.cpp:335
+#: src/core/k9burndvd.cpp:246 src/core/k9burndvd.cpp:248
+#: src/core/k9burndvd.cpp:349
 msgid "Insert a recordable DVD"
 msgstr "書き込み可能な DVD を挿入して下さい"
 
-#: src/core/k9burndvd.cpp:249 src/core/k9burndvd.cpp:344
+#: src/core/k9burndvd.cpp:246 src/core/k9burndvd.cpp:248
+#: src/core/k9burndvd.cpp:263 src/core/k9burndvd.cpp:271
+#: src/core/k9burndvd.cpp:281 src/core/k9burndvd.cpp:284
+#: src/core/k9burndvd.cpp:350 src/core/k9burndvd.cpp:362
+#: src/core/k9burndvd.cpp:371 src/core/k9burndvd.cpp:379
+msgid "DVD burning"
+msgstr "DVD に書き込んでいます"
+
+#: src/core/k9burndvd.cpp:257 src/core/k9burndvd.cpp:355
 msgid "start burning"
 msgstr "書き込みを開始します"
 
-#: src/core/k9burndvd.cpp:254 src/core/k9burndvd.cpp:266
-#: src/core/k9burndvd.cpp:349 src/core/k9burndvd.cpp:364
+#: src/core/k9burndvd.cpp:262 src/core/k9burndvd.cpp:274
+#: src/core/k9burndvd.cpp:360 src/core/k9burndvd.cpp:375
 msgid "Error"
 msgstr "エラー"
 
-#: src/core/k9burndvd.cpp:255 src/core/k9burndvd.cpp:351
+#: src/core/k9burndvd.cpp:263 src/core/k9burndvd.cpp:362
 msgid "Error burning DVD :\n"
 msgstr "DVD 書き込み中にエラー：\n"
 
-#: src/core/k9burndvd.cpp:261 src/core/k9burndvd.cpp:356
+#: src/core/k9burndvd.cpp:269 src/core/k9burndvd.cpp:367
 msgid "Success"
 msgstr "成功"
 
-#: src/core/k9burndvd.cpp:263 src/core/k9burndvd.cpp:360
+#: src/core/k9burndvd.cpp:271 src/core/k9burndvd.cpp:371
 msgid "DVD Burning finished"
 msgstr "DVD 書き込みが終了しました"
 
-#: src/core/k9burndvd.cpp:271 src/core/k9burndvd.cpp:367
+#: src/core/k9burndvd.cpp:279 src/core/k9burndvd.cpp:378
 msgid "An error occured while Burning DVD"
 msgstr "DVD を書き込み中にエラーが起こりました"
 
-#: src/core/k9burndvd.cpp:271 src/core/k9burndvd.cpp:367
+#: src/core/k9burndvd.cpp:279 src/core/k9burndvd.cpp:378
 msgid "Insert an other DVD"
 msgstr "他の DVD を挿入して下さい"
 
-#: src/core/k9burndvd.cpp:408
+#: src/core/k9burndvd.cpp:416
 msgid "Current write speed :%1 x"
 msgstr "現在の書き込み速度：%1"
 
-#: src/core/k9burndvd.cpp:428
+#: src/core/k9burndvd.cpp:436
 msgid "%1"
 msgstr "%1"
 
-#: src/core/k9dialogs.cpp:68
+#: src/core/k9dialogs.cpp:86
 msgid "select a directory"
 msgstr "ディレクトリを選択"
 
-#: src/core/k9dvd.cpp:142
+#: src/core/k9dialogs.cpp:151
+#, fuzzy
+msgid "Continue"
+msgstr "継続できません"
+
+#: src/core/k9dvd.cpp:152
 msgid "for visually impaired"
 msgstr ""
 
-#: src/core/k9dvd.cpp:143
+#: src/core/k9dvd.cpp:153
 msgid "director's comments"
 msgstr ""
 
-#: src/core/k9dvd.cpp:144
+#: src/core/k9dvd.cpp:154
 msgid "alternate director's comments"
 msgstr ""
 
-#: src/core/k9dvd.cpp:148
+#: src/core/k9dvd.cpp:158
 msgid "Large"
 msgstr ""
 
-#: src/core/k9dvd.cpp:149
+#: src/core/k9dvd.cpp:159
 msgid "Children"
 msgstr ""
 
-#: src/core/k9dvd.cpp:150 src/core/k9dvd.cpp:156 src/core/k9dvd.cpp:157
-#: src/core/k9dvd.cpp:158
+#: src/core/k9dvd.cpp:160 src/core/k9dvd.cpp:166 src/core/k9dvd.cpp:167
+#: src/core/k9dvd.cpp:168
 msgid "reserved"
 msgstr ""
 
-#: src/core/k9dvd.cpp:151
+#: src/core/k9dvd.cpp:161
 msgid "Normal captions"
 msgstr ""
 
-#: src/core/k9dvd.cpp:152
+#: src/core/k9dvd.cpp:162
 msgid "Large captions"
 msgstr ""
 
-#: src/core/k9dvd.cpp:153
+#: src/core/k9dvd.cpp:163
 msgid "Children captions"
 msgstr ""
 
-#: src/core/k9dvd.cpp:155
+#: src/core/k9dvd.cpp:165
 msgid "Forced"
 msgstr ""
 
-#: src/core/k9dvd.cpp:159
+#: src/core/k9dvd.cpp:169
 msgid "Director's comments"
 msgstr ""
 
-#: src/core/k9dvd.cpp:160
+#: src/core/k9dvd.cpp:170
 msgid "Large director's comments"
 msgstr ""
 
-#: src/core/k9dvd.cpp:161
+#: src/core/k9dvd.cpp:171
 msgid "Director's comments for children"
 msgstr ""
 
-#: src/core/k9dvd.cpp:212
+#: src/core/k9dvd.cpp:222
 msgid "Couldn't open %1 for title\n"
 msgstr ""
 
-#: src/core/k9dvd.cpp:220
+#: src/core/k9dvd.cpp:230
 msgid "Couldn't seek in %1 for title\n"
 msgstr ""
 
-#: src/core/k9dvd.cpp:246
+#: src/core/k9dvd.cpp:256
 msgid "Not Specified"
 msgstr ""
 
-#: src/core/k9dvd.cpp:246
+#: src/core/k9dvd.cpp:256
 msgid "Afar"
 msgstr "Afar"
 
-#: src/core/k9dvd.cpp:246
+#: src/core/k9dvd.cpp:256
 msgid "Abkhazian"
 msgstr "Abkhazian"
 
-#: src/core/k9dvd.cpp:246
+#: src/core/k9dvd.cpp:256
 msgid "Afrikaans"
 msgstr "Afrikaans"
 
-#: src/core/k9dvd.cpp:246
+#: src/core/k9dvd.cpp:256
 msgid "Amharic"
 msgstr "Amharic"
 
-#: src/core/k9dvd.cpp:247
+#: src/core/k9dvd.cpp:257
 msgid "Arabic"
 msgstr "Arabic"
 
-#: src/core/k9dvd.cpp:247
+#: src/core/k9dvd.cpp:257
 msgid "Assamese"
 msgstr "Assamese"
 
-#: src/core/k9dvd.cpp:247
+#: src/core/k9dvd.cpp:257
 msgid "Aymara"
 msgstr "Aymara"
 
-#: src/core/k9dvd.cpp:247
+#: src/core/k9dvd.cpp:257
 msgid "Azerbaijani"
 msgstr "Azerbaijani"
 
-#: src/core/k9dvd.cpp:247
+#: src/core/k9dvd.cpp:257
 msgid "Bashkir"
 msgstr "Bashkir"
 
-#: src/core/k9dvd.cpp:248
+#: src/core/k9dvd.cpp:258
 msgid "Byelorussian"
 msgstr "Byelorussian"
 
-#: src/core/k9dvd.cpp:248
+#: src/core/k9dvd.cpp:258
 msgid "Bulgarian"
 msgstr "Bulgarian"
 
-#: src/core/k9dvd.cpp:248
+#: src/core/k9dvd.cpp:258
 msgid "Bihari"
 msgstr "Bihari"
 
-#: src/core/k9dvd.cpp:248
+#: src/core/k9dvd.cpp:258
 msgid "Bislama"
 msgstr "Bislama"
 
-#: src/core/k9dvd.cpp:248
+#: src/core/k9dvd.cpp:258
 msgid "Bengali; Bangla"
 msgstr "Bengali; Bangla"
 
-#: src/core/k9dvd.cpp:249
+#: src/core/k9dvd.cpp:259
 msgid "Tibetan"
 msgstr "Tibetan"
 
-#: src/core/k9dvd.cpp:249
+#: src/core/k9dvd.cpp:259
 msgid "Breton"
 msgstr "Breton"
 
-#: src/core/k9dvd.cpp:249
+#: src/core/k9dvd.cpp:259
 msgid "Catalan"
 msgstr "Catalan"
 
-#: src/core/k9dvd.cpp:249
+#: src/core/k9dvd.cpp:259
 msgid "Corsican"
 msgstr "Corsican"
 
-#: src/core/k9dvd.cpp:249
+#: src/core/k9dvd.cpp:259
 msgid "Czech"
 msgstr "Czech"
 
-#: src/core/k9dvd.cpp:250
+#: src/core/k9dvd.cpp:260
 msgid "Welsh"
 msgstr "Welsh"
 
-#: src/core/k9dvd.cpp:250
+#: src/core/k9dvd.cpp:260
 msgid "Dansk"
 msgstr "Dansk"
 
-#: src/core/k9dvd.cpp:250
+#: src/core/k9dvd.cpp:260
 msgid "Deutsch"
 msgstr "Deutsch"
 
-#: src/core/k9dvd.cpp:250
+#: src/core/k9dvd.cpp:260
 msgid "Bhutani"
 msgstr "Bhutani"
 
-#: src/core/k9dvd.cpp:250
+#: src/core/k9dvd.cpp:260
 msgid "Greek"
 msgstr "Greek"
 
-#: src/core/k9dvd.cpp:250
+#: src/core/k9dvd.cpp:260
 msgid "English"
 msgstr "English"
 
-#: src/core/k9dvd.cpp:251
+#: src/core/k9dvd.cpp:261
 msgid "Esperanto"
 msgstr "Esperanto"
 
-#: src/core/k9dvd.cpp:251
+#: src/core/k9dvd.cpp:261
 msgid "Espanol"
 msgstr "Espanol"
 
-#: src/core/k9dvd.cpp:251
+#: src/core/k9dvd.cpp:261
 msgid "Estonian"
 msgstr "Estonian"
 
-#: src/core/k9dvd.cpp:251
+#: src/core/k9dvd.cpp:261
 msgid "Basque"
 msgstr "Basque"
 
-#: src/core/k9dvd.cpp:251
+#: src/core/k9dvd.cpp:261
 msgid "Persian"
 msgstr "Persian"
 
-#: src/core/k9dvd.cpp:252
+#: src/core/k9dvd.cpp:262
 msgid "Suomi"
 msgstr "Suomi"
 
-#: src/core/k9dvd.cpp:252
+#: src/core/k9dvd.cpp:262
 msgid "Fiji"
 msgstr "Fiji"
 
-#: src/core/k9dvd.cpp:252
+#: src/core/k9dvd.cpp:262
 msgid "Faroese"
 msgstr "Faroese"
 
-#: src/core/k9dvd.cpp:252
+#: src/core/k9dvd.cpp:262
 msgid "Francais"
 msgstr "Francais"
 
-#: src/core/k9dvd.cpp:252
+#: src/core/k9dvd.cpp:262
 msgid "Frisian"
 msgstr "Frisian"
 
-#: src/core/k9dvd.cpp:252
+#: src/core/k9dvd.cpp:262
 msgid "Gaelic"
 msgstr "Gaelic"
 
-#: src/core/k9dvd.cpp:253
+#: src/core/k9dvd.cpp:263
 msgid "Scots Gaelic"
 msgstr "Scots Gaelic"
 
-#: src/core/k9dvd.cpp:253
+#: src/core/k9dvd.cpp:263
 msgid "Galician"
 msgstr "Galician"
 
-#: src/core/k9dvd.cpp:253
+#: src/core/k9dvd.cpp:263
 msgid "Guarani"
 msgstr "Guarani"
 
-#: src/core/k9dvd.cpp:253
+#: src/core/k9dvd.cpp:263
 msgid "Gujarati"
 msgstr "Gujarati"
 
-#: src/core/k9dvd.cpp:253
+#: src/core/k9dvd.cpp:263
 msgid "Hausa"
 msgstr "Hausa"
 
-#: src/core/k9dvd.cpp:254 src/core/k9dvd.cpp:256
+#: src/core/k9dvd.cpp:264 src/core/k9dvd.cpp:266
 msgid "Hebrew"
 msgstr "Hebrew"
 
-#: src/core/k9dvd.cpp:254
+#: src/core/k9dvd.cpp:264
 msgid "Hindi"
 msgstr "Hindi"
 
-#: src/core/k9dvd.cpp:254
+#: src/core/k9dvd.cpp:264
 msgid "Hrvatski"
 msgstr "Hrvatski"
 
-#: src/core/k9dvd.cpp:254
+#: src/core/k9dvd.cpp:264
 msgid "Magyar"
 msgstr "Magyar"
 
-#: src/core/k9dvd.cpp:254
+#: src/core/k9dvd.cpp:264
 msgid "Armenian"
 msgstr "Armenian"
 
-#: src/core/k9dvd.cpp:255
+#: src/core/k9dvd.cpp:265
 msgid "Interlingua"
 msgstr "Interlingua"
 
-#: src/core/k9dvd.cpp:255
+#: src/core/k9dvd.cpp:265
 msgid "Indonesian"
 msgstr "Indonesian"
 
-#: src/core/k9dvd.cpp:255
+#: src/core/k9dvd.cpp:265
 msgid "Interlingue"
 msgstr "Interlingue"
 
-#: src/core/k9dvd.cpp:255
+#: src/core/k9dvd.cpp:265
 msgid "Inupiak"
 msgstr "Inupiak"
 
-#: src/core/k9dvd.cpp:256
+#: src/core/k9dvd.cpp:266
 msgid "Islenska"
 msgstr "Islenska"
 
-#: src/core/k9dvd.cpp:256
+#: src/core/k9dvd.cpp:266
 msgid "Italiano"
 msgstr "Italiano"
 
-#: src/core/k9dvd.cpp:256
+#: src/core/k9dvd.cpp:266
 msgid "Inuktitut"
 msgstr "Inuktitut"
 
-#: src/core/k9dvd.cpp:256
+#: src/core/k9dvd.cpp:266
 msgid "Japanese"
 msgstr "日本語"
 
-#: src/core/k9dvd.cpp:257 src/core/k9dvd.cpp:272
+#: src/core/k9dvd.cpp:267 src/core/k9dvd.cpp:282
 msgid "Yiddish"
 msgstr "Yiddish"
 
-#: src/core/k9dvd.cpp:257
+#: src/core/k9dvd.cpp:267
 msgid "Javanese"
 msgstr "Javanese"
 
-#: src/core/k9dvd.cpp:257
+#: src/core/k9dvd.cpp:267
 msgid "Georgian"
 msgstr "Georgian"
 
-#: src/core/k9dvd.cpp:257
+#: src/core/k9dvd.cpp:267
 msgid "Kazakh"
 msgstr "Kazakh"
 
-#: src/core/k9dvd.cpp:257
+#: src/core/k9dvd.cpp:267
 msgid "Greenlandic"
 msgstr "Greenlandic"
 
-#: src/core/k9dvd.cpp:258
+#: src/core/k9dvd.cpp:268
 msgid "Cambodian"
 msgstr "Cambodian"
 
-#: src/core/k9dvd.cpp:258
+#: src/core/k9dvd.cpp:268
 msgid "Kannada"
 msgstr "Kannada"
 
-#: src/core/k9dvd.cpp:258
+#: src/core/k9dvd.cpp:268
 msgid "Korean"
 msgstr "Korean"
 
-#: src/core/k9dvd.cpp:258
+#: src/core/k9dvd.cpp:268
 msgid "Kashmiri"
 msgstr "Kashmiri"
 
-#: src/core/k9dvd.cpp:258
+#: src/core/k9dvd.cpp:268
 msgid "Kurdish"
 msgstr "Kurdish"
 
-#: src/core/k9dvd.cpp:259
+#: src/core/k9dvd.cpp:269
 msgid "Kirghiz"
 msgstr "Kirghiz"
 
-#: src/core/k9dvd.cpp:259
+#: src/core/k9dvd.cpp:269
 msgid "Latin"
 msgstr "Latin"
 
-#: src/core/k9dvd.cpp:259
+#: src/core/k9dvd.cpp:269
 msgid "Lingala"
 msgstr "Lingala"
 
-#: src/core/k9dvd.cpp:259
+#: src/core/k9dvd.cpp:269
 msgid "Laothian"
 msgstr "Laothian"
 
-#: src/core/k9dvd.cpp:259
+#: src/core/k9dvd.cpp:269
 msgid "Lithuanian"
 msgstr "Lithuanian"
 
-#: src/core/k9dvd.cpp:260
+#: src/core/k9dvd.cpp:270
 msgid "Latvian, Lettish"
 msgstr "Latvian, Lettish"
 
-#: src/core/k9dvd.cpp:260
+#: src/core/k9dvd.cpp:270
 msgid "Malagasy"
 msgstr "Malagasy"
 
-#: src/core/k9dvd.cpp:260
+#: src/core/k9dvd.cpp:270
 msgid "Maori"
 msgstr "Maori"
 
-#: src/core/k9dvd.cpp:260
+#: src/core/k9dvd.cpp:270
 msgid "Macedonian"
 msgstr "Macedonian"
 
-#: src/core/k9dvd.cpp:260
+#: src/core/k9dvd.cpp:270
 msgid "Malayalam"
 msgstr "Malayalam"
 
-#: src/core/k9dvd.cpp:261
+#: src/core/k9dvd.cpp:271
 msgid "Mongolian"
 msgstr "Mongolian"
 
-#: src/core/k9dvd.cpp:261
+#: src/core/k9dvd.cpp:271
 msgid "Moldavian"
 msgstr "Moldavian"
 
-#: src/core/k9dvd.cpp:261
+#: src/core/k9dvd.cpp:271
 msgid "Marathi"
 msgstr "Marathi"
 
-#: src/core/k9dvd.cpp:261
+#: src/core/k9dvd.cpp:271
 msgid "Malay"
 msgstr "Malay"
 
-#: src/core/k9dvd.cpp:261
+#: src/core/k9dvd.cpp:271
 msgid "Maltese"
 msgstr "Maltese"
 
-#: src/core/k9dvd.cpp:262
+#: src/core/k9dvd.cpp:272
 msgid "Burmese"
 msgstr "Burmese"
 
-#: src/core/k9dvd.cpp:262
+#: src/core/k9dvd.cpp:272
 msgid "Nauru"
 msgstr "Nauru"
 
-#: src/core/k9dvd.cpp:262
+#: src/core/k9dvd.cpp:272
 msgid "Nepali"
 msgstr "Nepali"
 
-#: src/core/k9dvd.cpp:262
+#: src/core/k9dvd.cpp:272
 msgid "Nederlands"
 msgstr "Nederlands"
 
-#: src/core/k9dvd.cpp:262
+#: src/core/k9dvd.cpp:272
 msgid "Norsk"
 msgstr "Norsk"
 
-#: src/core/k9dvd.cpp:262
+#: src/core/k9dvd.cpp:272
 msgid "Occitan"
 msgstr "Occitan"
 
-#: src/core/k9dvd.cpp:263
+#: src/core/k9dvd.cpp:273
 msgid "Oromo"
 msgstr "Oromo"
 
-#: src/core/k9dvd.cpp:263
+#: src/core/k9dvd.cpp:273
 msgid "Oriya"
 msgstr "Oriya"
 
-#: src/core/k9dvd.cpp:263
+#: src/core/k9dvd.cpp:273
 msgid "Punjabi"
 msgstr "Punjabi"
 
-#: src/core/k9dvd.cpp:263
+#: src/core/k9dvd.cpp:273
 msgid "Polish"
 msgstr "Polish"
 
-#: src/core/k9dvd.cpp:263
+#: src/core/k9dvd.cpp:273
 msgid "Pashto, Pushto"
 msgstr "Pashto, Pushto"
 
-#: src/core/k9dvd.cpp:264
+#: src/core/k9dvd.cpp:274
 msgid "Portugues"
 msgstr "Portugues"
 
-#: src/core/k9dvd.cpp:264
+#: src/core/k9dvd.cpp:274
 msgid "Quechua"
 msgstr "Quechua"
 
-#: src/core/k9dvd.cpp:264
+#: src/core/k9dvd.cpp:274
 msgid "Rhaeto-Romance"
 msgstr "Rhaeto-Romance"
 
-#: src/core/k9dvd.cpp:264
+#: src/core/k9dvd.cpp:274
 msgid "Kirundi"
 msgstr "Kirundi"
 
-#: src/core/k9dvd.cpp:264
+#: src/core/k9dvd.cpp:274
 msgid "Romanian"
 msgstr "Romanian"
 
-#: src/core/k9dvd.cpp:265
+#: src/core/k9dvd.cpp:275
 msgid "Russian"
 msgstr "Russian"
 
-#: src/core/k9dvd.cpp:265
+#: src/core/k9dvd.cpp:275
 msgid "Kinyarwanda"
 msgstr "Kinyarwanda"
 
-#: src/core/k9dvd.cpp:265
+#: src/core/k9dvd.cpp:275
 msgid "Sanskrit"
 msgstr "Sanskrit"
 
-#: src/core/k9dvd.cpp:265
+#: src/core/k9dvd.cpp:275
 msgid "Sindhi"
 msgstr "Sindhi"
 
-#: src/core/k9dvd.cpp:265
+#: src/core/k9dvd.cpp:275
 msgid "Sangho"
 msgstr "Sangho"
 
-#: src/core/k9dvd.cpp:266
+#: src/core/k9dvd.cpp:276
 msgid "Serbo-Croatian"
 msgstr "Serbo-Croatian"
 
-#: src/core/k9dvd.cpp:266
+#: src/core/k9dvd.cpp:276
 msgid "Sinhalese"
 msgstr "Sinhalese"
 
-#: src/core/k9dvd.cpp:266
+#: src/core/k9dvd.cpp:276
 msgid "Slovak"
 msgstr "Slovak"
 
-#: src/core/k9dvd.cpp:266
+#: src/core/k9dvd.cpp:276
 msgid "Slovenian"
 msgstr "Slovenian"
 
-#: src/core/k9dvd.cpp:266
+#: src/core/k9dvd.cpp:276
 msgid "Samoan"
 msgstr "Samoan"
 
-#: src/core/k9dvd.cpp:267
+#: src/core/k9dvd.cpp:277
 msgid "Shona"
 msgstr "Shona"
 
-#: src/core/k9dvd.cpp:267
+#: src/core/k9dvd.cpp:277
 msgid "Somali"
 msgstr "Somali"
 
-#: src/core/k9dvd.cpp:267
+#: src/core/k9dvd.cpp:277
 msgid "Albanian"
 msgstr "Albanian"
 
-#: src/core/k9dvd.cpp:267
+#: src/core/k9dvd.cpp:277
 msgid "Serbian"
 msgstr "Serbian"
 
-#: src/core/k9dvd.cpp:267
+#: src/core/k9dvd.cpp:277
 msgid "Siswati"
 msgstr "Siswati"
 
-#: src/core/k9dvd.cpp:268
+#: src/core/k9dvd.cpp:278
 msgid "Sesotho"
 msgstr "Sesotho"
 
-#: src/core/k9dvd.cpp:268
+#: src/core/k9dvd.cpp:278
 msgid "Sundanese"
 msgstr "Sundanese"
 
-#: src/core/k9dvd.cpp:268
+#: src/core/k9dvd.cpp:278
 msgid "Svenska"
 msgstr "Svenska"
 
-#: src/core/k9dvd.cpp:268
+#: src/core/k9dvd.cpp:278
 msgid "Swahili"
 msgstr "Swahili"
 
-#: src/core/k9dvd.cpp:268
+#: src/core/k9dvd.cpp:278
 msgid "Tamil"
 msgstr "Tamil"
 
-#: src/core/k9dvd.cpp:269
+#: src/core/k9dvd.cpp:279
 msgid "Telugu"
 msgstr "Telugu"
 
-#: src/core/k9dvd.cpp:269
+#: src/core/k9dvd.cpp:279
 msgid "Tajik"
 msgstr "Tajik"
 
-#: src/core/k9dvd.cpp:269
+#: src/core/k9dvd.cpp:279
 msgid "Thai"
 msgstr "Thai"
 
-#: src/core/k9dvd.cpp:269
+#: src/core/k9dvd.cpp:279
 msgid "Tigrinya"
 msgstr "Tigrinya"
 
-#: src/core/k9dvd.cpp:269
+#: src/core/k9dvd.cpp:279
 msgid "Turkmen"
 msgstr "Turkmen"
 
-#: src/core/k9dvd.cpp:269
+#: src/core/k9dvd.cpp:279
 msgid "Tagalog"
 msgstr "Tagalog"
 
-#: src/core/k9dvd.cpp:270
+#: src/core/k9dvd.cpp:280
 msgid "Setswana"
 msgstr "Setswana"
 
-#: src/core/k9dvd.cpp:270
+#: src/core/k9dvd.cpp:280
 msgid "Tonga"
 msgstr "Tonga"
 
-#: src/core/k9dvd.cpp:270
+#: src/core/k9dvd.cpp:280
 msgid "Turkish"
 msgstr "Turkish"
 
-#: src/core/k9dvd.cpp:270
+#: src/core/k9dvd.cpp:280
 msgid "Tsonga"
 msgstr "Tsonga"
 
-#: src/core/k9dvd.cpp:270
+#: src/core/k9dvd.cpp:280
 msgid "Tatar"
 msgstr "Tatar"
 
-#: src/core/k9dvd.cpp:270
+#: src/core/k9dvd.cpp:280
 msgid "Twi"
 msgstr "Twi"
 
-#: src/core/k9dvd.cpp:271
+#: src/core/k9dvd.cpp:281
 msgid "Uighur"
 msgstr "Uighur"
 
-#: src/core/k9dvd.cpp:271
+#: src/core/k9dvd.cpp:281
 msgid "Ukrainian"
 msgstr "Ukrainian"
 
-#: src/core/k9dvd.cpp:271
+#: src/core/k9dvd.cpp:281
 msgid "Urdu"
 msgstr "Urdu"
 
-#: src/core/k9dvd.cpp:271
+#: src/core/k9dvd.cpp:281
 msgid "Uzbek"
 msgstr "Uzbek"
 
-#: src/core/k9dvd.cpp:271
+#: src/core/k9dvd.cpp:281
 msgid "Vietnamese"
 msgstr "Vietnamese"
 
-#: src/core/k9dvd.cpp:272
+#: src/core/k9dvd.cpp:282
 msgid "Volapuk"
 msgstr "Volapuk"
 
-#: src/core/k9dvd.cpp:272
+#: src/core/k9dvd.cpp:282
 msgid "Wolof"
 msgstr "Wolof"
 
-#: src/core/k9dvd.cpp:272
+#: src/core/k9dvd.cpp:282
 msgid "Xhosa"
 msgstr "Xhosa"
 
-#: src/core/k9dvd.cpp:272
+#: src/core/k9dvd.cpp:282
 msgid "Yoruba"
 msgstr "Yoruba"
 
-#: src/core/k9dvd.cpp:272
+#: src/core/k9dvd.cpp:282
 msgid "Zhuang"
 msgstr "Zhuang"
 
-#: src/core/k9dvd.cpp:273
+#: src/core/k9dvd.cpp:283
 msgid "Chinese"
 msgstr "Chinese"
 
-#: src/core/k9dvd.cpp:273
+#: src/core/k9dvd.cpp:283
 msgid "Zulu"
 msgstr "Zulu"
 
-#: src/core/k9dvd.cpp:273 src/core/k9dvd.cpp:285 src/core/k9dvd.cpp:507
+#: src/core/k9dvd.cpp:283 src/core/k9dvd.cpp:295 src/core/k9dvd.cpp:541
 msgid "Unknown"
 msgstr "Unknown"
 
-#: src/core/k9dvd.cpp:375
+#: src/core/k9dvd.cpp:401 src/core/k9dvd.cpp:435
 msgid "Can't open disc %1!\n"
 msgstr "ディスク %1 を開けません！\n"
 
-#: src/core/k9dvd.cpp:387
+#: src/core/k9dvd.cpp:413
 msgid "Can't open main ifo!\n"
 msgstr "主 ifo を開けません！\n"
 
-#: src/core/k9dvd.cpp:429 src/core/k9dvd.cpp:719
+#. i18n("Title %1").arg(indexedCount);
+#. TODO:PTZ161210 txt=i18n("Title %1").arg(numTitle); experiement
+#: src/core/k9dvd.cpp:461 src/core/k9dvd.cpp:753
 msgid "Title %1"
 msgstr "タイトル %1"
 
-#: src/core/k9dvd.cpp:772
+#: src/core/k9dvd.cpp:806
 msgid "reading title"
 msgstr "タイトルを読み込んでいます"
 
-#: src/core/k9dvd.cpp:889
+#: src/core/k9dvd.cpp:923
 msgid "Error opening vobs for title %1\n"
 msgstr "タイトル %1 の vobs 読み込み中にエラー\n"
 
-#: src/core/k9dvd.cpp:900
+#: src/core/k9dvd.cpp:934
 msgid "ERROR reading block %1\n"
 msgstr "ブロック %1 読み込み中にエラー\n"
 
-#: src/core/k9dvdprogress.cpp:30
+#: src/core/k9dvdprogress.cpp:37 src/core/k9dvdprogress.cpp:39
 msgid "DVD Analyze"
 msgstr "DVD 解析"
 
-#: src/core/k9process.cpp:141 src/core/k9tools.cpp:75 src/core/k9tools.cpp:80
-#: src/import/k9menu.cpp:162
+#: src/core/k9process.cpp:141 src/core/k9tools.cpp:94 src/import/k9menu.cpp:148
 msgid "Error starting program %1"
 msgstr "プログラム %1 開始中にエラー"
 
-#: src/core/k9process.cpp:141 src/core/k9tools.cpp:75 src/core/k9tools.cpp:80
-#: src/core/k9tools.cpp:104 src/import/k9menu.cpp:162
+#: src/core/k9process.cpp:141 src/core/k9tools.cpp:94 src/core/k9tools.cpp:118
+#: src/import/k9menu.cpp:148
 msgid "Running program"
 msgstr "プログラムを実行しています"
 
-#: src/core/k9tools.cpp:95
+#: src/core/k9tools.cpp:109
 msgid "Enter the root password"
 msgstr "管理者パスワードを入力して下さい"
 
-#: src/core/k9tools.cpp:104
+#: src/core/k9tools.cpp:118
 msgid "The root password is not valid"
 msgstr "管理者パスワードが正しくありません"
 
-#: src/devices/k9cddrive.cpp:213
+#: src/devices/k9cddrive.cpp:218
 msgid ""
 "The root password is needed to change the read ahead property of the dvd "
 "drive"
@@ -1222,314 +1242,296 @@ msgstr ""
 "DVD ドライブの Read Ahead プロパティを変更するために、管理者パスワードが必要"
 "です"
 
-#: src/import/k9avidecode.cpp:52 src/import/k9avidecode.cpp:55
-#: src/import/k9avidecode.cpp:59 src/import/k9avidecode.cpp:78
-#: src/vamps/k9ffmpeg.cpp:33 src/vamps/k9ffmpeg.cpp:37
-#: src/vamps/k9ffmpeg.cpp:46
+#: src/import/k9avidecode.cpp:63 src/import/k9avidecode.cpp:66
+#: src/import/k9avidecode.cpp:76 src/import/k9avidecode.cpp:111
+#: src/vamps/k9ffmpeg.cpp:41
 msgid "Cannot open the library %1"
 msgstr "ライブラリ %1 を開けません"
 
-#: src/import/k9avidecode.cpp:135
+#: src/import/k9avidecode.cpp:70 src/vamps/k9ffmpeg.cpp:33
+#: src/vamps/k9ffmpeg.cpp:37 src/vamps/k9ffmpeg.cpp:46
+#, fuzzy
+msgid "Cannot open then library %1"
+msgstr "ライブラリ %1 を開けません"
+
+#: src/import/k9avidecode.cpp:188
 msgid "Couldn't open the file %1"
 msgstr "ファイル %1 を開けません"
 
-#: src/import/k9avidecode.cpp:140
+#: src/import/k9avidecode.cpp:199
 msgid "Couldn't find stream information"
 msgstr "ストリーム情報を見つけられませんでした"
 
-#: src/import/k9avidecode.cpp:153
+#: src/import/k9avidecode.cpp:212
 msgid "The file doesn't contain any video stream"
 msgstr "このファイルはどの映像ストリームも含んでいません"
 
-#: src/import/k9avidecode.cpp:164
+#: src/import/k9avidecode.cpp:223
 msgid "Unsupported codec"
 msgstr "対応していないコーデック"
 
-#: src/import/k9avidecode.cpp:169
-msgid "Couldn't open the codec"
+#: src/import/k9avidecode.cpp:234
+#, fuzzy
+msgid "Could'nt open the codec"
 msgstr "コーデックを開けませんでした"
 
-#: src/import/k9avidecode.cpp:180
+#: src/import/k9avidecode.cpp:245
 msgid "Unable to allocate memory for frames"
 msgstr "フレームに対するメモリを割り当てられませんでした"
 
-#: src/import/k9import.cpp:38
+#: src/import/k9import.cpp:44 src/import/k9import.cpp:46
 msgid "import"
 msgstr "インポートする"
 
-#: src/import/k9import.cpp:70 src/import/k9menuedit.cpp:325
+#: src/import/k9import.cpp:79 src/import/k9menuedit.cpp:342
 msgid "Root Menu"
 msgstr "ルートメニュー"
 
-#: src/import/k9import.cpp:88 src/main/k9main.cpp:436
+#: src/import/k9import.cpp:97 src/main/k9main.cpp:460
 msgid "ISO Image"
 msgstr "ISO イメージ"
 
-#: src/import/k9import.cpp:89
+#: src/import/k9import.cpp:98
 msgid "Folder"
 msgstr "フォルダ"
 
-#: src/import/k9import.cpp:240 src/import/k9import.cpp:255
+#: src/import/k9import.cpp:249 src/import/k9import.cpp:264
 msgid "remove"
 msgstr "削除"
 
-#: src/import/k9import.cpp:243
+#: src/import/k9import.cpp:252
 msgid "add chapter"
 msgstr "チャプターを追加"
 
-#: src/import/k9importfiles.cpp:73 src/main/k9copy.cpp:252
+#: src/import/k9importfiles.cpp:102 src/main/k9copy.cpp:304
+#: src/main/k9copy.cpp:306
 msgid "DVD Author"
 msgstr "DVD オーサリング"
 
-#: src/import/k9importfiles.cpp:95
+#: src/import/k9importfiles.cpp:124
 msgid "Add Title"
 msgstr "タイトルを追加"
 
-#: src/import/k9importfiles.cpp:103
+#: src/import/k9importfiles.cpp:132
 msgid "Chapter properties"
 msgstr "チャプタープロパティ"
 
-#: src/import/k9importfiles.cpp:116
+#: src/import/k9importfiles.cpp:145
 msgid "Edit menu"
 msgstr "メニューを編集"
 
-#: src/import/k9importfiles.cpp:157
+#: src/import/k9importfiles.cpp:187 src/import/k9importfiles.cpp:191
 msgid "Create DVD"
 msgstr "DVD を作成"
 
-#: src/import/k9importfiles.cpp:158 src/main/k9settings.cpp:37
+#: src/import/k9importfiles.cpp:188 src/import/k9importfiles.cpp:192
+#: src/main/k9settings.cpp:55
 msgid "DVD Backup"
 msgstr "DVD バックアップ"
 
-#: src/import/k9importfiles.cpp:162 src/main/k9copy.cpp:257
-msgid "&File"
-msgstr "ファイル(&F)"
-
-#: src/import/k9importfiles.cpp:169 src/main/k9copy.cpp:265
-msgid "A&ctions"
-msgstr "アクション(&C)"
-
-#: src/import/k9importfiles.cpp:170 src/main/k9copy.cpp:266
-msgid "&Options"
-msgstr "オプション(&O)"
-
-#: src/import/k9importfiles.cpp:172 src/main/k9copy.cpp:273
-msgid "&Quit"
-msgstr "終了(&Q)"
-
-#: src/import/k9menuedit.cpp:284
+#: src/import/k9menuedit.cpp:301
 msgid "Title %1 Menu"
 msgstr "タイトル %1 メニュー"
 
-#: src/import/k9menuedit.cpp:293 src/import/k9menuedit.cpp:330
+#: src/import/k9menuedit.cpp:310 src/import/k9menuedit.cpp:347
 msgid "Play Menu"
 msgstr "メニューを再生"
 
-#: src/import/k9menuedit.cpp:295
+#: src/import/k9menuedit.cpp:312
 msgid "Play Title"
 msgstr "タイトルを再生"
 
-#: src/import/k9menuedit.cpp:301
+#: src/import/k9menuedit.cpp:318
 msgid "Play Root Menu"
 msgstr "ルートメニューを再生"
 
-#: src/import/k9menuedit.cpp:303
+#: src/import/k9menuedit.cpp:320
 msgid "Play Title Menu"
 msgstr "タイトルメニューを再生"
 
-#: src/import/k9menuedit.cpp:308 src/import/k9menuedit.cpp:334
+#: src/import/k9menuedit.cpp:325 src/import/k9menuedit.cpp:351
 msgid "Play Title %1"
 msgstr "タイトル %1 を再生"
 
-#: src/import/k9newdvd.cpp:99
+#: src/import/k9newdvd.cpp:107
 msgid "Creating root menu"
 msgstr "ルートメニューを作成しています"
 
-#: src/import/k9newdvd.cpp:144
+#: src/import/k9newdvd.cpp:152
 msgid "The dvd authoring was canceled"
 msgstr "DVD オーサリングをキャンセルしました"
 
-#: src/import/k9newdvd.cpp:170
+#: src/import/k9newdvd.cpp:178
 msgid "Creating menu for title %1"
 msgstr "タイトル %1 に対するメニューを作成しています"
 
-#: src/import/k9newdvd.cpp:445
+#. i18n("filename") + " : " + m_aviDecode.getFileName();
+#: src/import/k9newdvd.cpp:465
 msgid "fps"
 msgstr "fps"
 
-#: src/import/k9newdvd.cpp:482 src/import/k9newtitle.cpp:110
+#: src/import/k9newdvd.cpp:502 src/import/k9newtitle.cpp:129
 msgid "title %1"
 msgstr "タイトル %1"
 
-#: src/import/k9newtitle.cpp:102
+#: src/import/k9newtitle.cpp:121
 msgid "Add title"
 msgstr "タイトルを追加"
 
-#: src/main/k9copy.cpp:81 src/main/k9main.cpp:415 src/main/k9main.cpp:539
-#: src/main/k9main.cpp:1185 src/main/k9main.cpp:1194 src/main/k9main.cpp:1204
+#: src/main/k9copy.cpp:94 src/main/k9main.cpp:439 src/main/k9main.cpp:564
+#: src/main/k9main.cpp:1210 src/main/k9main.cpp:1219 src/main/k9main.cpp:1229
 msgid "Ready"
 msgstr ""
 
-#: src/main/k9copy.cpp:132
+#: src/main/k9copy.cpp:170
 msgid "Shrink Factor"
 msgstr ""
 
-#: src/main/k9copy.cpp:143
+#: src/main/k9copy.cpp:181
 msgid "MPEG4 Encoding Options"
 msgstr "MPEG4 エンコーディングオプション"
 
-#: src/main/k9copy.cpp:166
+#: src/main/k9copy.cpp:205
 msgid "DVD playback options"
 msgstr "DVD 再生オプション"
 
-#: src/main/k9copy.cpp:175
+#: src/main/k9copy.cpp:214
 msgid "Selection"
 msgstr "選択"
 
-#: src/main/k9copy.cpp:195 src/main/k9settings.cpp:52
-#: src/mplayer/k9mplayer.cpp:156 src/mplayer/k9xine.cpp:142
+#: src/main/k9copy.cpp:234 src/main/k9settings.cpp:80
+#: src/mplayer/k9mplayer.cpp:177 src/mplayer/k9xine.cpp:163
 msgid "Preview"
 msgstr "プレビュー"
 
-#: src/main/k9copy.cpp:240
+#: src/main/k9copy.cpp:280 src/main/k9copy.cpp:282
 msgid "Copy"
 msgstr "コピー"
 
-#: src/main/k9copy.cpp:244
+#: src/main/k9copy.cpp:288 src/main/k9copy.cpp:290
 msgid "Eject"
 msgstr "取り出し"
 
-#: src/main/k9copy.cpp:248
+#: src/main/k9copy.cpp:296 src/main/k9copy.cpp:298
 msgid "Wizard"
 msgstr "ウィザード"
 
-#: src/main/k9copy.cpp:267
-msgid "&Help"
-msgstr "ヘルプ(&H)"
+#: src/main/k9copy.cpp:328 src/main/k9copy.cpp:330
+msgid "Use Gtk Style"
+msgstr ""
 
-#: src/main/k9copy.cpp:268
-msgid "&Open"
-msgstr "開く(&O)"
-
-#: src/main/k9copy.cpp:288
-msgid "Style"
-msgstr "スタイル"
-
-#: src/main/k9copy.cpp:306
-msgid "About backlite"
-msgstr "backlite について"
-
-#: src/main/k9cropselect.cpp:47
+#: src/main/k9cropselect.cpp:53 src/main/k9cropselect.cpp:55
 msgid "Crop selection"
 msgstr ""
 
-#: src/main/k9ffmpegcmdgen.cpp:130
+#: src/main/k9ffmpegcmdgen.cpp:144
 msgid "ffmpeg command generator"
 msgstr ""
 
-#: src/main/k9langselect.cpp:89
+#: src/main/k9langselect.cpp:98
 msgid "Audio"
 msgstr "音声"
 
-#: src/main/k9langselect.cpp:100
+#: src/main/k9langselect.cpp:109
 msgid "Subtitles"
 msgstr "字幕"
 
-#: src/main/k9main.cpp:491
+#: src/main/k9main.cpp:515
 msgid "Open DVD"
 msgstr "DVD を開く"
 
-#: src/main/k9main.cpp:514
+#: src/main/k9main.cpp:538
 msgid "Titleset %1"
 msgstr "タイトル %1"
 
-#: src/main/k9main.cpp:584
+#: src/main/k9main.cpp:609
 msgid "chapters"
 msgstr "チャプター"
 
-#: src/main/k9main.cpp:668
+#: src/main/k9main.cpp:693
 msgid "video %1 "
 msgstr "映像 %1 "
 
-#: src/main/k9main.cpp:681
+#: src/main/k9main.cpp:706
 msgid "audio %1 "
 msgstr "音声 %1 "
 
-#: src/main/k9main.cpp:705
+#: src/main/k9main.cpp:730
 msgid "subpicture %1 "
 msgstr "字幕 %1 "
 
-#: src/main/k9main.cpp:1359
+#: src/main/k9main.cpp:1392
 msgid "Open ISO Image"
 msgstr "ISO イメージを開く"
 
-#: src/main/k9mencodercmdgen.cpp:60
+#: src/main/k9mencodercmdgen.cpp:65 src/main/k9mencodercmdgen.cpp:67
 msgid "MEncoder options"
 msgstr "MEncoder オプション"
 
-#: src/main/k9mencodercmdgen.cpp:78
+#: src/main/k9mencodercmdgen.cpp:86
 msgid "Audio Codec"
 msgstr "音声コーデック"
 
-#: src/main/k9mencodercmdgen.cpp:94
+#: src/main/k9mencodercmdgen.cpp:102
 msgid "Video Codec"
 msgstr "映像コーデック"
 
-#: src/main/k9mencodercmdgen.cpp:113
+#: src/main/k9mencodercmdgen.cpp:121
 msgid "Filters"
 msgstr "フィルター"
 
-#: src/main/k9mp4title.cpp:41 src/main/k9mp4title.cpp:176
+#: src/main/k9mp4title.cpp:44 src/main/k9mp4title.cpp:189
 #: src/main/k9titlefactor.cpp:110
 msgid "Select a Title in the treeview..."
 msgstr "上のツリービューからタイトルを選択して下さい"
 
-#: src/main/k9mp4title.cpp:72
+#: src/main/k9mp4title.cpp:76 src/main/k9mp4title.cpp:79
 msgid "Crop detection"
 msgstr ""
 
-#: src/main/k9playbackoptions.cpp:130
+#: src/main/k9playbackoptions.cpp:135
 msgid "none"
 msgstr ""
 
-#: src/main/k9prefmencoder.cpp:171 src/main/k9prefmencoder.cpp:181
-#: src/main/k9prefmencoder.cpp:201 src/main/k9prefmencoder.cpp:209
+#: src/main/k9prefmencoder.cpp:176 src/main/k9prefmencoder.cpp:186
+#: src/main/k9prefmencoder.cpp:206 src/main/k9prefmencoder.cpp:214
 msgid "new profile"
 msgstr "新しいプロファイル"
 
-#: src/main/k9settings.cpp:36
+#: src/main/k9settings.cpp:54
 msgid "DVD"
 msgstr "DVD"
 
-#: src/main/k9settings.cpp:41
+#: src/main/k9settings.cpp:63
 msgid "Encoders"
 msgstr "エンコーダ"
 
-#: src/main/k9settings.cpp:42
+#: src/main/k9settings.cpp:64
 msgid "MPEG-4 Codecs"
 msgstr "MPEG-4 コーデック"
 
-#: src/main/k9settings.cpp:46
+#: src/main/k9settings.cpp:71
 msgid "MPEG-4"
 msgstr "MPEG-4"
 
-#: src/main/k9settings.cpp:53
+#: src/main/k9settings.cpp:81
 msgid "Title preview"
 msgstr "タイトルプレビュー"
 
-#: src/main/k9settings.cpp:62
+#: src/main/k9settings.cpp:98
 msgid "Paths"
 msgstr "パス"
 
-#: src/main/k9settings.cpp:63
+#: src/main/k9settings.cpp:99
 msgid "Default paths"
 msgstr "デフォルトパス"
 
-#: src/main/k9settings.cpp:68 src/main/kconfigdlg.cpp:35
+#: src/main/k9settings.cpp:108 src/main/kconfigdlg.cpp:49
+#: src/main/kconfigdlg.cpp:51
 msgid "Devices"
 msgstr "デバイス"
 
-#: src/main/k9settings.cpp:69
+#: src/main/k9settings.cpp:109
 msgid "Devices not detected by k9copy"
 msgstr "k9copy によってデバイスが検出されていません"
 
@@ -1537,1022 +1539,1072 @@ msgstr "k9copy によってデバイスが検出されていません"
 msgid "Shrink Factor for %1"
 msgstr ""
 
-#: src/main/kviewmpeg2.cpp:82
+#: src/main/kviewmpeg2.cpp:88 src/main/kviewmpeg2.cpp:90
 msgid "Title Preview"
 msgstr "タイトルプレビュー"
 
-#: src/player/k9play.cpp:80
+#: src/player/k9play.cpp:90
 msgid "MPEG-4 Encoding cancelled"
 msgstr "MPEG-4エンコーディングをキャンセルしました"
 
-#: src/player/k9play.cpp:341
+#: src/player/k9play.cpp:361
 msgid "Error opening the DVD"
 msgstr "DVD 読み込み中にエラー"
 
-#: src/player/k9play.cpp:348
+#: src/player/k9play.cpp:369
 msgid "Error on dvdnav_set_readahead_flag: %1"
 msgstr "dvdnav_set_readahead_flag 上のエラー：%1"
 
-#: src/player/k9play.cpp:357
+#: src/player/k9play.cpp:395
 msgid "Error on setting languages: %1"
 msgstr "設定中言語上のエラー：%1"
 
-#: src/player/k9play.cpp:365
+#: src/player/k9play.cpp:404
 msgid "Error on dvdnav_set_PGC_positioning_flag: %1"
 msgstr "dvdnav_set_PGC_positioning_flag 上のエラー：%1"
 
-#: src/player/k9play.cpp:399
+#: src/player/k9play.cpp:439
 msgid "Error getting next block: %1"
 msgstr "次のブロックを取得中にエラー：%1"
 
-#: src/player/main.cpp:35 src/xine/main.cpp:34
+#: src/player/main.cpp:51 src/xine/main.cpp:47
 msgid "A KDE 4 Application"
 msgstr "KDE 4 アプリケーション"
 
-#: src/player/main.cpp:41 src/xine/main.cpp:41
-msgid "(C) 2007 Jean-Michel"
-msgstr "(C) 2007 Jean-Michel"
+#: src/player/main.cpp:62 src/xine/main.cpp:56 src/xine/main.cpp:66
+msgid "<p>(C) 2014 Pauline123 </p><p>(C) 2007 Jean-Michel</p>"
+msgstr ""
 
-#: src/player/main.cpp:42 src/xine/main.cpp:42
+#: src/player/main.cpp:72
+msgid "<p> (C) 2014 Pauline123 </p><p>(C) 2007 Jean-Michel</p>"
+msgstr ""
+
+#: src/player/main.cpp:75 src/xine/main.cpp:69
 msgid "Jean-Michel"
 msgstr "Jean-Michel"
 
-#: src/player/main.cpp:51
+#: src/player/main.cpp:96 src/player/main.cpp:120
+msgid "no gui"
+msgstr ""
+
+#: src/player/main.cpp:100 src/player/main.cpp:124
 msgid "play title to stdout"
 msgstr "標準出力（stdout）にタイトルを再生する"
 
-#: src/player/main.cpp:52
+#: src/player/main.cpp:101 src/player/main.cpp:125
 msgid "start sector"
 msgstr "開始セクタ"
 
-#: src/player/main.cpp:53
+#: src/player/main.cpp:102 src/player/main.cpp:126
 msgid "end sector"
 msgstr "終了セクタ"
 
-#: src/player/main.cpp:54
+#: src/player/main.cpp:103 src/player/main.cpp:127
 msgid "list of audio streams"
 msgstr "音声ストリームのリスト"
 
-#: src/player/main.cpp:55
+#: src/player/main.cpp:104 src/player/main.cpp:128
 msgid "list of spu streams"
 msgstr ""
 
-#: src/player/main.cpp:56
+#: src/player/main.cpp:105 src/player/main.cpp:129
 msgid "shrink factor"
 msgstr ""
 
-#: src/player/main.cpp:57
+#: src/player/main.cpp:106 src/player/main.cpp:130
 msgid "shrink factor forced"
 msgstr ""
 
-#: src/player/main.cpp:58
+#: src/player/main.cpp:107 src/player/main.cpp:131
 msgid "size of the cell to be copied"
 msgstr ""
 
-#: src/player/main.cpp:59
+#: src/player/main.cpp:108 src/player/main.cpp:132
 msgid "total size of selected titles"
 msgstr "選択されたタイトルの総容量"
 
-#: src/player/main.cpp:60
+#: src/player/main.cpp:109 src/player/main.cpp:133
 msgid "size of the chapters being copied"
 msgstr ""
 
-#: src/player/main.cpp:61
+#: src/player/main.cpp:110 src/player/main.cpp:134
 msgid "selected chapters"
 msgstr "選択されたチャプター"
 
-#: src/player/main.cpp:62
+#: src/player/main.cpp:111 src/player/main.cpp:135
 msgid "new dvd size"
 msgstr "新しい DVD の容量"
 
-#: src/player/main.cpp:63
+#: src/player/main.cpp:112 src/player/main.cpp:136
 msgid "selected chapter"
 msgstr "選択されたチャプター"
 
-#: src/player/main.cpp:64
+#: src/player/main.cpp:113 src/player/main.cpp:137
 msgid "cell number in selected chapter"
 msgstr ""
 
-#: src/player/main.cpp:65
+#: src/player/main.cpp:114 src/player/main.cpp:138
 msgid "status file name"
 msgstr ""
 
-#: src/player/main.cpp:66
+#: src/player/main.cpp:115 src/player/main.cpp:139
 msgid "initialize status file"
 msgstr ""
 
-#: src/player/main.cpp:67
+#: src/player/main.cpp:116 src/player/main.cpp:140
 msgid "continue playing from last sector"
 msgstr ""
 
-#: src/player/main.cpp:68
+#: src/player/main.cpp:117 src/player/main.cpp:141
 msgid "don't save status at end"
 msgstr ""
 
-#: src/player/main.cpp:69
+#: src/player/main.cpp:118 src/player/main.cpp:142
 msgid "save cell in a temporary file before encoding"
 msgstr ""
 
-#: src/xine/main.cpp:50
+#: src/xine/main.cpp:84 src/xine/main.cpp:90
 msgid "wid"
 msgstr "wid"
 
-#: src/xine/main.cpp:51
+#: src/xine/main.cpp:85 src/xine/main.cpp:91
 msgid "vo"
 msgstr "vo"
 
-#: src/xine/main.cpp:52
+#: src/xine/main.cpp:86 src/xine/main.cpp:92
 msgid "ao"
 msgstr "ao"
 
-msgid "Form"
-msgstr "フォーム"
+#~ msgid "(C) 2009 Jean-Michel PETIT"
+#~ msgstr "(C) 2009 Jean-Michel PETIT"
 
-msgid " QGroupBox { border: none }"
-msgstr "QGroupBox { border: none }"
+#~ msgid "Save iso image"
+#~ msgstr "isoイメージを保存"
 
-msgid "to Disc"
-msgstr "ディスクへ"
+#~ msgid "Open ISO image"
+#~ msgstr "isoイメージを開く"
 
-msgid "to Folder"
-msgstr "フォルダへ"
+#~ msgid "Stop"
+#~ msgstr "停止"
 
-msgid "to Iso image"
-msgstr "ISO イメージへ"
+#~ msgid "Cancel"
+#~ msgstr "キャンセル"
 
-msgid "Rip and encode DVD"
-msgstr "DVD をリッピング（エンコーディングあり）"
+#~ msgid "&File"
+#~ msgstr "ファイル(&F)"
 
-msgid "Rip DVD without encoding"
-msgstr "DVD をリッピング（エンコーディングなし）"
+#~ msgid "A&ctions"
+#~ msgstr "アクション(&C)"
 
-msgid "Extract audio"
-msgstr "音声を抽出する"
+#~ msgid "&Options"
+#~ msgstr "オプション(&O)"
 
-msgid "Copy original menus"
-msgstr "オリジナルメニューをコピー"
+#~ msgid "&Quit"
+#~ msgstr "終了(&Q)"
 
-msgid "Don't copy menus."
-msgstr "メニューをコピーしない"
+#~ msgid "&Help"
+#~ msgstr "ヘルプ(&H)"
 
-msgid "Encoding options for title "
-msgstr "タイトルのエンコーディングオプション"
+#~ msgid "&Open"
+#~ msgstr "開く(&O)"
 
-msgid "Select options for title"
-msgstr "タイトルのオプションを選択"
+#~ msgid "Style"
+#~ msgstr "スタイル"
 
-msgid "DVD Drive"
-msgstr "DVD ドライブ"
+#~ msgid "About backlite"
+#~ msgstr "backlite について"
 
-msgid "Selected titles"
-msgstr "選択されたタイトル"
+#~ msgid "(C) 2007 Jean-Michel"
+#~ msgstr "(C) 2007 Jean-Michel"
 
-msgid "size"
-msgstr "容量"
+#~ msgid "Form"
+#~ msgstr "フォーム"
 
-msgid "Length"
-msgstr "長さ"
+#~ msgid " QGroupBox { border: none }"
+#~ msgstr "QGroupBox { border: none }"
 
-msgid "<p align=\"left\"><b>DVD Backup</b></p>"
-msgstr "<p align=\"left\"><b>DVD バックアップ</b></p>"
+#~ msgid "to Disc"
+#~ msgstr "ディスクへ"
 
-msgid "Elapsed Time"
-msgstr "経過時間"
+#~ msgid "to Folder"
+#~ msgstr "フォルダへ"
 
-msgid "--:--:-- / --:--:--"
-msgstr "--:--:-- / --:--:--"
+#~ msgid "to Iso image"
+#~ msgstr "ISO イメージへ"
 
-msgid "0.0"
-msgstr "0.0"
+#~ msgid "Rip and encode DVD"
+#~ msgstr "DVD をリッピング（エンコーディングあり）"
 
-msgid "Output"
-msgstr "出力"
+#~ msgid "Rip DVD without encoding"
+#~ msgstr "DVD をリッピング（エンコーディングなし）"
 
-msgid "--:--:--"
-msgstr "--:--:--"
+#~ msgid "Extract audio"
+#~ msgstr "音声を抽出する"
 
-msgid ""
-"*.avi\n"
-"*.mpeg\n"
-"*.mpg\n"
-"*.*"
-msgstr ""
-"*.avi\n"
-"*.mpeg\n"
-"*.mpg\n"
-"*.*"
+#~ msgid "Copy original menus"
+#~ msgstr "オリジナルメニューをコピー"
 
-msgid "start"
-msgstr "開始"
+#~ msgid "Don't copy menus."
+#~ msgstr "メニューをコピーしない"
 
-msgid "HH:mm:ss"
-msgstr "時:分:秒"
+#~ msgid "Encoding options for title "
+#~ msgstr "タイトルのエンコーディングオプション"
 
-msgid "set Current Frame"
-msgstr "現在フレームを設定する"
+#~ msgid "Select options for title"
+#~ msgstr "タイトルのオプションを選択"
 
-msgid "end"
-msgstr "終了"
+#~ msgid "DVD Drive"
+#~ msgstr "DVD ドライブ"
 
-msgid "set Title button"
-msgstr "タイトルボタンを設定する"
+#~ msgid "Selected titles"
+#~ msgstr "選択されたタイトル"
 
-msgid "device"
-msgstr "デバイス"
+#~ msgid "size"
+#~ msgstr "容量"
 
-msgid "label"
-msgstr "ラベル"
+#~ msgid "Length"
+#~ msgstr "長さ"
 
-msgid "Input"
-msgstr "入力"
+#~ msgid "<p align=\"left\"><b>DVD Backup</b></p>"
+#~ msgstr "<p align=\"left\"><b>DVD バックアップ</b></p>"
 
-msgid "Add"
-msgstr "追加"
+#~ msgid "Elapsed Time"
+#~ msgstr "経過時間"
 
-msgid "Remove"
-msgstr "削除"
+#~ msgid "--:--:-- / --:--:--"
+#~ msgstr "--:--:-- / --:--:--"
 
-msgid "Set the video bitrate in bit/s (default = 200 kb/s)"
-msgstr "映像ビットレート (bit/s) を設定する（標準 = 200 kb/s）"
+#~ msgid "0.0"
+#~ msgstr "0.0"
 
-msgid "b"
-msgstr "b"
+#~ msgid "Output"
+#~ msgstr "出力"
 
-msgid "$VIDBRk"
-msgstr "$VIDBRk"
+#~ msgid "--:--:--"
+#~ msgstr "--:--:--"
 
-msgid "k"
-msgstr "k"
+#~ msgid ""
+#~ "*.avi\n"
+#~ "*.mpeg\n"
+#~ "*.mpg\n"
+#~ "*.*"
+#~ msgstr ""
+#~ "*.avi\n"
+#~ "*.mpeg\n"
+#~ "*.mpg\n"
+#~ "*.*"
 
-msgid ""
-"Set frame size. The format is `wxh' (ffserver default = 160x128, ffmpeg "
-"default = same as source)"
-msgstr ""
-"フレームサイズを設定します。この形式は `wxh' です。(ffserver 標準 = "
-"160x128, ffmpeg 標準 = 元と同じ)"
+#~ msgid "start"
+#~ msgstr "開始"
 
-msgid "$WIDTHx$HEIGHT"
-msgstr "$WIDTHx$HEIGHT"
+#~ msgid "HH:mm:ss"
+#~ msgstr "時:分:秒"
 
-msgid "sqcif"
-msgstr "sqcif"
+#~ msgid "set Current Frame"
+#~ msgstr "現在フレームを設定する"
 
-msgid "qcif"
-msgstr "qcif"
+#~ msgid "end"
+#~ msgstr "終了"
 
-msgid "cif"
-msgstr "cif"
+#~ msgid "set Title button"
+#~ msgstr "タイトルボタンを設定する"
 
-msgid "4cif"
-msgstr "4cif"
+#~ msgid "device"
+#~ msgstr "デバイス"
 
-msgid "qqvga"
-msgstr "qqvga"
+#~ msgid "label"
+#~ msgstr "ラベル"
 
-msgid "qvga"
-msgstr "qvga"
+#~ msgid "Input"
+#~ msgstr "入力"
 
-msgid "vga"
-msgstr "vga"
+#~ msgid "Add"
+#~ msgstr "追加"
 
-msgid "svga"
-msgstr "svga"
+#~ msgid "Remove"
+#~ msgstr "削除"
 
-msgid "xga"
-msgstr "xga"
+#~ msgid "Set the video bitrate in bit/s (default = 200 kb/s)"
+#~ msgstr "映像ビットレート (bit/s) を設定する（標準 = 200 kb/s）"
 
-msgid "uxga"
-msgstr "uxga"
+#~ msgid "b"
+#~ msgstr "b"
 
-msgid "qxga"
-msgstr "qxga"
+#~ msgid "$VIDBRk"
+#~ msgstr "$VIDBRk"
 
-msgid "sxga"
-msgstr "sxga"
+#~ msgid "k"
+#~ msgstr "k"
 
-msgid "qsxga"
-msgstr "qsxga"
+#~ msgid ""
+#~ "Set frame size. The format is `wxh' (ffserver default = 160x128, ffmpeg "
+#~ "default = same as source)"
+#~ msgstr ""
+#~ "フレームサイズを設定します。この形式は `wxh' です。(ffserver 標準 = "
+#~ "160x128, ffmpeg 標準 = 元と同じ)"
 
-msgid "hsxga"
-msgstr "hsxga"
+#~ msgid "$WIDTHx$HEIGHT"
+#~ msgstr "$WIDTHx$HEIGHT"
 
-msgid "wvga"
-msgstr "wvga"
+#~ msgid "sqcif"
+#~ msgstr "sqcif"
 
-msgid "wsxga"
-msgstr "wsxga"
+#~ msgid "qcif"
+#~ msgstr "qcif"
 
-msgid "wuxga"
-msgstr "wuxga"
+#~ msgid "cif"
+#~ msgstr "cif"
 
-msgid "woxga"
-msgstr "woxga"
+#~ msgid "4cif"
+#~ msgstr "4cif"
 
-msgid "wqsxga"
-msgstr "wqsxga"
+#~ msgid "qqvga"
+#~ msgstr "qqvga"
 
-msgid "wquxga"
-msgstr "wquxga"
+#~ msgid "qvga"
+#~ msgstr "qvga"
 
-msgid "whuxga"
-msgstr "whuxga"
+#~ msgid "vga"
+#~ msgstr "vga"
 
-msgid "cga"
-msgstr "cga"
+#~ msgid "svga"
+#~ msgstr "svga"
 
-msgid "ega"
-msgstr "ega"
+#~ msgid "xga"
+#~ msgstr "xga"
 
-msgid "hd480"
-msgstr "hd480"
+#~ msgid "uxga"
+#~ msgstr "uxga"
 
-msgid "hd720"
-msgstr "hd720"
+#~ msgid "qxga"
+#~ msgstr "qxga"
 
-msgid "hd1080"
-msgstr "hd1080"
+#~ msgid "sxga"
+#~ msgstr "sxga"
 
-msgid "Set aspect ratio (4:3, 16:9 or 1.3333, 1.7777)"
-msgstr "アスペクト比を設定する (4:3, 16:9 または 1.3333, 1.7777)"
+#~ msgid "qsxga"
+#~ msgstr "qsxga"
 
-msgid "aspect"
-msgstr "アスペクト"
+#~ msgid "hsxga"
+#~ msgstr "hsxga"
 
-msgid "$ASPECT"
-msgstr "$ASPECT"
+#~ msgid "wvga"
+#~ msgstr "wvga"
 
-msgid "4:3"
-msgstr "4:3"
+#~ msgid "wsxga"
+#~ msgstr "wsxga"
 
-msgid "16:9"
-msgstr "16:9"
+#~ msgid "wuxga"
+#~ msgstr "wuxga"
 
-msgid "$CROPTOP"
-msgstr "$CROPTOP"
+#~ msgid "woxga"
+#~ msgstr "woxga"
 
-msgid "$CROPBOTTOM"
-msgstr "$CROPBOTTOM"
+#~ msgid "wqsxga"
+#~ msgstr "wqsxga"
 
-msgid "$CROPLEFT"
-msgstr "$CROPLEFT"
+#~ msgid "wquxga"
+#~ msgstr "wquxga"
 
-msgid "$CROPRIGHT"
-msgstr "$CROPRIGHT"
+#~ msgid "whuxga"
+#~ msgstr "whuxga"
 
-msgid "Set video bitrate tolerance (in bit/s)"
-msgstr "映像ビットレート許容誤差を設定する (bit/s)"
+#~ msgid "cga"
+#~ msgstr "cga"
 
-msgid "Set max video bitrate (in bit/s)"
-msgstr "最大映像ビットレートを設定する (bit/s)"
+#~ msgid "ega"
+#~ msgstr "ega"
 
-msgid "maxrate"
-msgstr "最大レート"
+#~ msgid "hd480"
+#~ msgstr "hd480"
 
-msgid "Set min video bitrate (in bit/s)"
-msgstr "最小映像ビットレートを設定する (bit/s)"
+#~ msgid "hd720"
+#~ msgstr "hd720"
 
-msgid "minrate"
-msgstr "最小レート"
+#~ msgid "hd1080"
+#~ msgstr "hd1080"
 
-msgid "sameq"
-msgstr "sameq"
+#~ msgid "Set aspect ratio (4:3, 16:9 or 1.3333, 1.7777)"
+#~ msgstr "アスペクト比を設定する (4:3, 16:9 または 1.3333, 1.7777)"
 
-msgid "pass"
-msgstr "pass"
+#~ msgid "aspect"
+#~ msgstr "アスペクト"
 
-msgid "$PASS"
-msgstr "$PASS"
+#~ msgid "$ASPECT"
+#~ msgstr "$ASPECT"
 
-msgid "$PASSLOGFILE"
-msgstr "$PASSLOGFILE"
+#~ msgid "4:3"
+#~ msgstr "4:3"
 
-msgid "FFMpeg Video options "
-msgstr "FFMpeg 映像オプション"
+#~ msgid "16:9"
+#~ msgstr "16:9"
 
-msgid "Set the audio sampling frequency (default = 44100 Hz)"
-msgstr "音声サンプリングレートを設定する (標準 = 44100 Hz)"
+#~ msgid "$CROPTOP"
+#~ msgstr "$CROPTOP"
 
-msgid "ar"
-msgstr "ar"
+#~ msgid "$CROPBOTTOM"
+#~ msgstr "$CROPBOTTOM"
 
-msgid "Set the audio bitrate in bit/s (default = 64k)"
-msgstr "音声ビットレートを設定する (default = 64k)"
+#~ msgid "$CROPLEFT"
+#~ msgstr "$CROPLEFT"
 
-msgid "ab"
-msgstr "ab"
+#~ msgid "$CROPRIGHT"
+#~ msgstr "$CROPRIGHT"
 
-msgid "$AUDBRk"
-msgstr "$AUDBRk"
+#~ msgid "Set video bitrate tolerance (in bit/s)"
+#~ msgstr "映像ビットレート許容誤差を設定する (bit/s)"
 
-msgid "Set the number of audio channels (default = 1)"
-msgstr "音声チャンネル数を設定する (標準 = 1)"
+#~ msgid "Set max video bitrate (in bit/s)"
+#~ msgstr "最大映像ビットレートを設定する (bit/s)"
 
-msgid "ac"
-msgstr "ac"
+#~ msgid "maxrate"
+#~ msgstr "最大レート"
 
-msgid "acodec"
-msgstr "acodec"
+#~ msgid "Set min video bitrate (in bit/s)"
+#~ msgstr "最小映像ビットレートを設定する (bit/s)"
 
-msgid "FFMpeg Audio options"
-msgstr "FFMpeg 音声オプション"
+#~ msgid "minrate"
+#~ msgstr "最小レート"
 
-msgid "..."
-msgstr "..."
+#~ msgid "sameq"
+#~ msgstr "sameq"
 
-msgid "Video files"
-msgstr "映像ファイル"
+#~ msgid "pass"
+#~ msgstr "pass"
 
-msgid "PAL"
-msgstr "PAL"
+#~ msgid "$PASS"
+#~ msgstr "$PASS"
 
-msgid "NTSC"
-msgstr "NTSC"
+#~ msgid "$PASSLOGFILE"
+#~ msgstr "$PASSLOGFILE"
 
-msgid "MPEG-4 encoding"
-msgstr "MPEG-4 エンコーディング"
+#~ msgid "FFMpeg Video options "
+#~ msgstr "FFMpeg 映像オプション"
 
-msgid "Audio extraction"
-msgstr "音声抽出"
+#~ msgid "Set the audio sampling frequency (default = 44100 Hz)"
+#~ msgstr "音声サンプリングレートを設定する (標準 = 44100 Hz)"
 
-msgid "MPEG-2 extraction"
-msgstr "MPEG-2 抽出"
+#~ msgid "ar"
+#~ msgstr "ar"
 
-msgid "@"
-msgstr "@"
+#~ msgid "Set the audio bitrate in bit/s (default = 64k)"
+#~ msgstr "音声ビットレートを設定する (default = 64k)"
 
-msgid "X"
-msgstr "X"
+#~ msgid "ab"
+#~ msgstr "ab"
 
-msgid "Size"
-msgstr "容量"
+#~ msgid "$AUDBRk"
+#~ msgstr "$AUDBRk"
 
-msgid "Title"
-msgstr "タイトル"
+#~ msgid "Set the number of audio channels (default = 1)"
+#~ msgstr "音声チャンネル数を設定する (標準 = 1)"
 
-msgid "dbl-click DVD title to edit"
-msgstr "編集するために DVD タイトルをダブルクリックして下さい"
+#~ msgid "ac"
+#~ msgstr "ac"
 
-msgid "Languages"
-msgstr "言語"
+#~ msgid "acodec"
+#~ msgstr "acodec"
 
-msgid "1"
-msgstr "1"
+#~ msgid "FFMpeg Audio options"
+#~ msgstr "FFMpeg 音声オプション"
 
-msgid "Edit Menu"
-msgstr "メニューを編集"
+#~ msgid "..."
+#~ msgstr "..."
 
-msgid "Text"
-msgstr "テキスト"
+#~ msgid "Video files"
+#~ msgstr "映像ファイル"
 
-msgid "Background picture"
-msgstr "背景画像"
+#~ msgid "PAL"
+#~ msgstr "PAL"
 
-msgid "&Add to Costom Colors"
-msgstr "カスタムカラーを追加"
+#~ msgid "NTSC"
+#~ msgstr "NTSC"
 
-msgid "Select Color"
-msgstr "色を選択して下さい"
+#~ msgid "MPEG-4 encoding"
+#~ msgstr "MPEG-4 エンコーディング"
 
-msgid "Font"
-msgstr "フォント"
+#~ msgid "Audio extraction"
+#~ msgstr "音声抽出"
 
-msgid "Select Font"
-msgstr "フォントを選択して下さい"
+#~ msgid "MPEG-2 extraction"
+#~ msgstr "MPEG-2 抽出"
 
-msgid "Font: "
-msgstr "フォント："
+#~ msgid "@"
+#~ msgstr "@"
 
-msgid "Font style:"
-msgstr "スタイル："
+#~ msgid "X"
+#~ msgstr "X"
 
-msgid "Size: "
-msgstr "サイズ："
+#~ msgid "Size"
+#~ msgstr "容量"
 
-msgid "Bottom"
-msgstr "下"
+#~ msgid "Title"
+#~ msgstr "タイトル"
 
-msgid "Right"
-msgstr "右"
+#~ msgid "dbl-click DVD title to edit"
+#~ msgstr "編集するために DVD タイトルをダブルクリックして下さい"
 
-msgid "At start"
-msgstr "開始点"
+#~ msgid "Languages"
+#~ msgstr "言語"
 
-msgid "Play menu"
-msgstr "メニューを再生"
+#~ msgid "1"
+#~ msgstr "1"
 
-msgid "Play title 1"
-msgstr "タイトル 1 を再生"
+#~ msgid "Edit Menu"
+#~ msgstr "メニューを編集"
 
-msgid "At End"
-msgstr "終了点"
+#~ msgid "Text"
+#~ msgstr "テキスト"
 
-msgid "Play root menu"
-msgstr "ルートメニューを再生"
+#~ msgid "Background picture"
+#~ msgstr "背景画像"
 
-msgid "Play title menu"
-msgstr "タイトルメニューを再生"
+#~ msgid "&Add to Costom Colors"
+#~ msgstr "カスタムカラーを追加"
 
-msgid "Status"
-msgstr "状態"
+#~ msgid "Select Color"
+#~ msgstr "色を選択して下さい"
 
-msgid "Bitrate"
-msgstr "ビットレート"
+#~ msgid "Font"
+#~ msgstr "フォント"
 
-msgid "Subpicture"
-msgstr "字幕"
+#~ msgid "Select Font"
+#~ msgstr "フォントを選択して下さい"
 
-msgid "-"
-msgstr "-"
+#~ msgid "Font: "
+#~ msgstr "フォント："
 
-msgid "+"
-msgstr "+"
+#~ msgid "Font style:"
+#~ msgstr "スタイル："
 
-msgid "Video file"
-msgstr "映像ファイル"
+#~ msgid "Size: "
+#~ msgstr "サイズ："
 
-msgid "number of chapters"
-msgstr "チャプター数"
+#~ msgid "Bottom"
+#~ msgstr "下"
 
-msgid "chapter length"
-msgstr "チャプターの長さ"
+#~ msgid "Right"
+#~ msgstr "右"
 
-msgid "Do not reencode"
-msgstr "再エンコードをしない"
+#~ msgid "At start"
+#~ msgstr "開始点"
 
-msgid "&Keep original menus"
-msgstr "オリジナルのメニューを保つ(&K)"
+#~ msgid "Play menu"
+#~ msgstr "メニューを再生"
 
-msgid "Selected Titles"
-msgstr "選択されたタイトル"
+#~ msgid "Play title 1"
+#~ msgstr "タイトル 1 を再生"
 
-msgid "Default language"
-msgstr "標準言語"
+#~ msgid "At End"
+#~ msgstr "終了点"
 
-msgid "Subtitle"
-msgstr "字幕"
+#~ msgid "Play root menu"
+#~ msgstr "ルートメニューを再生"
 
-msgid "Authoring options"
-msgstr "オーサリングオプション"
+#~ msgid "Play title menu"
+#~ msgstr "タイトルメニューを再生"
 
-msgid "AC3"
-msgstr "AC3"
+#~ msgid "Status"
+#~ msgstr "状態"
 
-msgid "MP2"
-msgstr "MP2"
+#~ msgid "Bitrate"
+#~ msgstr "ビットレート"
 
-msgid "128"
-msgstr "128"
+#~ msgid "Subpicture"
+#~ msgstr "字幕"
 
-msgid "160"
-msgstr "160"
+#~ msgid "-"
+#~ msgstr "-"
 
-msgid "192"
-msgstr "192"
+#~ msgid "+"
+#~ msgstr "+"
 
-msgid "224"
-msgstr "224"
+#~ msgid "Video file"
+#~ msgstr "映像ファイル"
 
-msgid "256"
-msgstr "256"
+#~ msgid "number of chapters"
+#~ msgstr "チャプター数"
 
-msgid "320"
-msgstr "320"
+#~ msgid "chapter length"
+#~ msgstr "チャプターの長さ"
 
-msgid "384"
-msgstr "384"
+#~ msgid "Do not reencode"
+#~ msgstr "再エンコードをしない"
 
-msgid "448"
-msgstr "448"
+#~ msgid "&Keep original menus"
+#~ msgstr "オリジナルのメニューを保つ(&K)"
 
-msgid "Format"
-msgstr "フォーマット"
+#~ msgid "Selected Titles"
+#~ msgstr "選択されたタイトル"
 
-msgid "Buttons"
-msgstr "ボタン"
+#~ msgid "Default language"
+#~ msgstr "標準言語"
 
-msgid "Width"
-msgstr "幅"
+#~ msgid "Subtitle"
+#~ msgstr "字幕"
 
-msgid "Height"
-msgstr "高さ"
+#~ msgid "Authoring options"
+#~ msgstr "オーサリングオプション"
 
-msgid "Hilite color"
-msgstr "ハイライトカラー"
+#~ msgid "AC3"
+#~ msgstr "AC3"
 
-msgid "Text color"
-msgstr "テキストカラー"
+#~ msgid "MP2"
+#~ msgstr "MP2"
 
-msgid "default output directory for DVD backups"
-msgstr "DVD バックアップの標準出力ディレクトリ"
+#~ msgid "128"
+#~ msgstr "128"
 
-msgid "default output directory for MPEG-4 backups"
-msgstr "MPEG-4 バックアップの標準出力ディレクトリ"
+#~ msgid "160"
+#~ msgstr "160"
 
-msgid "MPEG-2"
-msgstr "MPEG-2"
+#~ msgid "192"
+#~ msgstr "192"
 
-msgid "default output directory for MPEG-1/MPEG-2 backups"
-msgstr "MPEG-1/MPEG-2 バックアップの標準出力ディレクトリ"
+#~ msgid "224"
+#~ msgstr "224"
 
-msgid "ISO Images"
-msgstr "ISO イメージ"
+#~ msgid "256"
+#~ msgstr "256"
 
-msgid "default output directory for ISO image backups"
-msgstr "ISO イメージバックアップの標準出力ディレクトリ"
+#~ msgid "320"
+#~ msgstr "320"
 
-msgid "Audio files"
-msgstr "音声ファイル"
+#~ msgid "384"
+#~ msgstr "384"
 
-msgid "Programs"
-msgstr "プログラム"
+#~ msgid "448"
+#~ msgstr "448"
 
-msgid "MEncoder"
-msgstr "MEncoder"
+#~ msgid "Format"
+#~ msgstr "フォーマット"
 
-msgid "MPlayer"
-msgstr "MPlayer"
+#~ msgid "Buttons"
+#~ msgstr "ボタン"
 
-msgid "k3b"
-msgstr "k3b"
+#~ msgid "Width"
+#~ msgstr "幅"
 
-msgid "dvdauthor"
-msgstr "dvdauthor"
+#~ msgid "Height"
+#~ msgstr "高さ"
 
-msgid "ffmpeg"
-msgstr "ffmpeg"
+#~ msgid "Hilite color"
+#~ msgstr "ハイライトカラー"
 
-msgid "wodim"
-msgstr "wodim"
+#~ msgid "Text color"
+#~ msgstr "テキストカラー"
 
-msgid "genisoimage"
-msgstr "genisoimage"
+#~ msgid "default output directory for DVD backups"
+#~ msgstr "DVD バックアップの標準出力ディレクトリ"
 
-msgid "prefDVD"
-msgstr "prefDVD"
+#~ msgid "default output directory for MPEG-4 backups"
+#~ msgstr "MPEG-4 バックアップの標準出力ディレクトリ"
 
-msgid "Output directory"
-msgstr "出力ディレクトリ"
+#~ msgid "MPEG-2"
+#~ msgstr "MPEG-2"
 
-msgid "Clear output directory on exit"
-msgstr "終了時に出力ディレクトリを消去"
+#~ msgid "default output directory for MPEG-1/MPEG-2 backups"
+#~ msgstr "MPEG-1/MPEG-2 バックアップの標準出力ディレクトリ"
 
-msgid "Alt+Y"
-msgstr "Alt+Y"
+#~ msgid "ISO Images"
+#~ msgstr "ISO イメージ"
 
-msgid "DVD size"
-msgstr "DVD の容量"
+#~ msgid "default output directory for ISO image backups"
+#~ msgstr "ISO イメージバックアップの標準出力ディレクトリ"
 
-msgid "one file/chapter (MPEG extraction)"
-msgstr "1 つのファイル/チャプター（MPEG 抽出）"
+#~ msgid "Audio files"
+#~ msgstr "音声ファイル"
 
-msgid "Alt+D"
-msgstr "Alt+D"
+#~ msgid "Programs"
+#~ msgstr "プログラム"
 
-msgid "use dvdAuthor for copy without menus"
-msgstr "DVDAuthor を使う（メニュー無しのコピー）"
+#~ msgid "MEncoder"
+#~ msgstr "MEncoder"
 
-msgid "Enable prohibited user operations"
-msgstr "Prohibited User Operation (PUO) を有効にする"
+#~ msgid "MPlayer"
+#~ msgstr "MPlayer"
 
-msgid "Performances"
-msgstr "パフォーマンス"
+#~ msgid "k3b"
+#~ msgstr "k3b"
 
-msgid "Quick scan"
-msgstr "クイックスキャン"
+#~ msgid "dvdauthor"
+#~ msgstr "dvdauthor"
 
-msgid "Alt+Q"
-msgstr "Alt+Q"
+#~ msgid "ffmpeg"
+#~ msgstr "ffmpeg"
 
-msgid "skip bad sectors (slow)"
-msgstr "不良セクタをスキップする（低速）"
+#~ msgid "wodim"
+#~ msgstr "wodim"
 
-msgid "skip bad sectors (faster)"
-msgstr "不良セクタをスキップする（高速）"
+#~ msgid "genisoimage"
+#~ msgstr "genisoimage"
 
-msgid ""
-"this option can improve reading of DVD having bad sectors.\n"
-"It will require root privileges when opening the DVD."
-msgstr ""
-"このオプションは不良セクタを持つ DVD の読み込みを改善できます。\n"
-"DVD の読み込み時に管理者権限を必要とします。"
+#~ msgid "prefDVD"
+#~ msgstr "prefDVD"
 
-msgid "Prefered languages"
-msgstr "優先言語"
+#~ msgid "Output directory"
+#~ msgstr "出力ディレクトリ"
 
-msgid "Burning"
-msgstr "書き込み"
+#~ msgid "Clear output directory on exit"
+#~ msgstr "終了時に出力ディレクトリを消去"
 
-msgid "Burn with k3b"
-msgstr "k3b で書き込む"
+#~ msgid "Alt+Y"
+#~ msgstr "Alt+Y"
 
-msgid "Alt+B"
-msgstr "Alt+B"
+#~ msgid "DVD size"
+#~ msgstr "DVD の容量"
 
-msgid "Auto burn"
-msgstr "自動書き込み"
+#~ msgid "one file/chapter (MPEG extraction)"
+#~ msgstr "1 つのファイル/チャプター（MPEG 抽出）"
 
-msgid "Alt+T"
-msgstr "Alt+T"
+#~ msgid "Alt+D"
+#~ msgstr "Alt+D"
 
-msgid "Form1"
-msgstr "Form1"
+#~ msgid "use dvdAuthor for copy without menus"
+#~ msgstr "DVDAuthor を使う（メニュー無しのコピー）"
 
-msgid "Available variables"
-msgstr "利用可能な変数"
+#~ msgid "Enable prohibited user operations"
+#~ msgstr "Prohibited User Operation (PUO) を有効にする"
 
-msgid ""
-"pass number\n"
-"video width\n"
-"video height\n"
-"video bitrate\n"
-"audio bitrate\n"
-"aspect ratio"
-msgstr ""
-"パス番号\n"
-"映像の縦\n"
-"映像の横\n"
-"映像ビットレート\n"
-"音声ビットレート\n"
-"アスペクト比"
+#~ msgid "Performances"
+#~ msgstr "パフォーマンス"
 
-msgid ""
-"left crop coord\n"
-"top crop coord\n"
-"size of right crop\n"
-"size of bottom crop\n"
-"crop width\n"
-"crop height"
-msgstr ""
-"左端切り取り量\n"
-"上端切り取り量\n"
-"右端切り取り量\n"
-"下端切り取り量\n"
-"切り取り幅\n"
-"切り取り高さ"
+#~ msgid "Quick scan"
+#~ msgstr "クイックスキャン"
 
-msgid "&Reset"
-msgstr "リセット(&R)"
+#~ msgid "Alt+Q"
+#~ msgstr "Alt+Q"
 
-msgid "mencoder"
-msgstr "mencoder"
+#~ msgid "skip bad sectors (slow)"
+#~ msgstr "不良セクタをスキップする（低速）"
 
-msgid "fourcc"
-msgstr "fourcc"
+#~ msgid "skip bad sectors (faster)"
+#~ msgstr "不良セクタをスキップする（高速）"
 
-msgid "one pass"
-msgstr "シングルパス"
+#~ msgid ""
+#~ "this option can improve reading of DVD having bad sectors.\n"
+#~ "It will require root privileges when opening the DVD."
+#~ msgstr ""
+#~ "このオプションは不良セクタを持つ DVD の読み込みを改善できます。\n"
+#~ "DVD の読み込み時に管理者権限を必要とします。"
 
-msgid "first pass"
-msgstr "第 1 パス"
+#~ msgid "Prefered languages"
+#~ msgstr "優先言語"
 
-msgid "second pass"
-msgstr "第 2 パス"
+#~ msgid "Burning"
+#~ msgstr "書き込み"
 
-msgid "Video codecs"
-msgstr "映像コーデック"
+#~ msgid "Burn with k3b"
+#~ msgstr "k3b で書き込む"
 
-msgid "options"
-msgstr "オプション"
+#~ msgid "Alt+B"
+#~ msgstr "Alt+B"
 
-msgid "extension"
-msgstr "拡張"
+#~ msgid "Auto burn"
+#~ msgstr "自動書き込み"
 
-msgid "Audio codecs"
-msgstr "映像コーデック"
+#~ msgid "Alt+T"
+#~ msgstr "Alt+T"
 
-msgid "Encoder"
-msgstr "エンコーダー"
+#~ msgid "Form1"
+#~ msgstr "Form1"
 
-msgid "Codec"
-msgstr "コーデック"
+#~ msgid "Available variables"
+#~ msgstr "利用可能な変数"
 
-msgid "XviD"
-msgstr "XviD"
+#~ msgid ""
+#~ "pass number\n"
+#~ "video width\n"
+#~ "video height\n"
+#~ "video bitrate\n"
+#~ "audio bitrate\n"
+#~ "aspect ratio"
+#~ msgstr ""
+#~ "パス番号\n"
+#~ "映像の縦\n"
+#~ "映像の横\n"
+#~ "映像ビットレート\n"
+#~ "音声ビットレート\n"
+#~ "アスペクト比"
 
-msgid "lavc MPEG4"
-msgstr "lavc MPEG4"
+#~ msgid ""
+#~ "left crop coord\n"
+#~ "top crop coord\n"
+#~ "size of right crop\n"
+#~ "size of bottom crop\n"
+#~ "crop width\n"
+#~ "crop height"
+#~ msgstr ""
+#~ "左端切り取り量\n"
+#~ "上端切り取り量\n"
+#~ "右端切り取り量\n"
+#~ "下端切り取り量\n"
+#~ "切り取り幅\n"
+#~ "切り取り高さ"
 
-msgid "x264"
-msgstr "x264"
+#~ msgid "&Reset"
+#~ msgstr "リセット(&R)"
 
-msgid "2 pass"
-msgstr "2 pass"
+#~ msgid "mencoder"
+#~ msgstr "mencoder"
 
-msgid "Alt+2"
-msgstr "Alt+2"
+#~ msgid "fourcc"
+#~ msgstr "fourcc"
 
-msgid "720"
-msgstr "720"
+#~ msgid "one pass"
+#~ msgstr "シングルパス"
 
-msgid "&keep aspect ratio"
-msgstr "アスペクト比を保つ"
+#~ msgid "first pass"
+#~ msgstr "第 1 パス"
 
-msgid "File size"
-msgstr "ファイルの容量"
+#~ msgid "second pass"
+#~ msgstr "第 2 パス"
 
-msgid "Alt+S"
-msgstr "Alt+S"
+#~ msgid "Video codecs"
+#~ msgstr "映像コーデック"
 
-msgid " MB"
-msgstr " MB"
+#~ msgid "options"
+#~ msgstr "オプション"
 
-msgid "00000; "
-msgstr "00000; "
+#~ msgid "extension"
+#~ msgstr "拡張"
 
-msgid "Cropping"
-msgstr "切り抜き"
+#~ msgid "Audio codecs"
+#~ msgstr "映像コーデック"
 
-msgid "Top"
-msgstr "上"
+#~ msgid "Encoder"
+#~ msgstr "エンコーダー"
 
-msgid "Left"
-msgstr "左"
+#~ msgid "Codec"
+#~ msgstr "コーデック"
 
-msgid "detect"
-msgstr "検出"
+#~ msgid "XviD"
+#~ msgstr "XviD"
 
-msgid "Video"
-msgstr "映像"
+#~ msgid "lavc MPEG4"
+#~ msgstr "lavc MPEG4"
 
-msgid "mp3"
-msgstr "mp3"
+#~ msgid "x264"
+#~ msgstr "x264"
 
-msgid "faac"
-msgstr "faac"
+#~ msgid "2 pass"
+#~ msgstr "2 pass"
 
-msgid "mp2"
-msgstr "mp2"
+#~ msgid "Alt+2"
+#~ msgstr "Alt+2"
 
-msgid "ac3"
-msgstr "ac3"
+#~ msgid "720"
+#~ msgstr "720"
 
-msgid "adpcm ima"
-msgstr "adpcm ima"
+#~ msgid "&keep aspect ratio"
+#~ msgstr "アスペクト比を保つ"
 
-msgid "Gain"
-msgstr "歪み"
+#~ msgid "File size"
+#~ msgstr "ファイルの容量"
 
-msgid "&Internal Player"
-msgstr "内部プレイヤー(&I)"
+#~ msgid "Alt+S"
+#~ msgstr "Alt+S"
 
-msgid "Alt+I"
-msgstr "Alt+I"
+#~ msgid " MB"
+#~ msgstr " MB"
 
-msgid "Alt+M"
-msgstr "Alt+M"
+#~ msgid "00000; "
+#~ msgstr "00000; "
 
-msgid "Xine Player"
-msgstr "Xine Player"
+#~ msgid "Cropping"
+#~ msgstr "切り抜き"
 
-msgid "Phonon"
-msgstr "Phonon"
+#~ msgid "Top"
+#~ msgstr "上"
 
-msgid "Video output"
-msgstr "映像出力"
+#~ msgid "Left"
+#~ msgstr "左"
 
-msgid "Audio output"
-msgstr "音声出力"
+#~ msgid "detect"
+#~ msgstr "検出"
 
-msgid "X11"
-msgstr "X11"
+#~ msgid "Video"
+#~ msgstr "映像"
 
-msgid "Xv"
-msgstr "Xv"
+#~ msgid "mp3"
+#~ msgstr "mp3"
 
-msgid "OpenGL"
-msgstr "OpenGL"
+#~ msgid "faac"
+#~ msgstr "faac"
 
-msgid "SDL"
-msgstr "SDL"
+#~ msgid "mp2"
+#~ msgstr "mp2"
 
-msgid "ALSA"
-msgstr "ALSA"
+#~ msgid "ac3"
+#~ msgstr "ac3"
 
-msgid "OSS"
-msgstr "OSS"
+#~ msgid "adpcm ima"
+#~ msgstr "adpcm ima"
 
-msgid "MPlayer options"
-msgstr "MPlayer オプション"
+#~ msgid "Gain"
+#~ msgstr "歪み"
 
-msgid "Xine player options"
-msgstr "Xine player オプション"
+#~ msgid "&Internal Player"
+#~ msgstr "内部プレイヤー(&I)"
 
-msgid "Process List"
-msgstr "プロセスリスト"
+#~ msgid "Alt+I"
+#~ msgstr "Alt+I"
 
-msgid "Processes"
-msgstr "プロセス"
+#~ msgid "Alt+M"
+#~ msgstr "Alt+M"
 
-msgid "Progression"
-msgstr "進歩"
+#~ msgid "Xine Player"
+#~ msgstr "Xine Player"
 
-msgid "&Cancel"
-msgstr "キャンセル(&C)"
+#~ msgid "Phonon"
+#~ msgstr "Phonon"
 
-msgid "&Apply"
-msgstr "適応(&A)"
+#~ msgid "Video output"
+#~ msgstr "映像出力"
 
-msgid "Alt+C"
-msgstr "Alt+C"
+#~ msgid "Audio output"
+#~ msgstr "音声出力"
 
-msgid "k9Copy"
-msgstr "k9Copy"
+#~ msgid "X11"
+#~ msgstr "X11"
 
-msgid "--"
-msgstr "--"
+#~ msgid "Xv"
+#~ msgstr "Xv"
 
-msgid "0.00"
-msgstr "0.00"
+#~ msgid "OpenGL"
+#~ msgstr "OpenGL"
 
-msgid "k9Copy - Title Preview"
-msgstr "k9Copy - タイトルプレビュー"
+#~ msgid "SDL"
+#~ msgstr "SDL"
 
-msgid "Crop"
-msgstr "切り取り"
+#~ msgid "ALSA"
+#~ msgstr "ALSA"
 
-msgid "Actions ToolBar"
-msgstr "アクションツールバー"
+#~ msgid "OSS"
+#~ msgstr "OSS"
 
-msgid "Show &Toolbar"
-msgstr "ツールバーを表示(&T)"
+#~ msgid "MPlayer options"
+#~ msgstr "MPlayer オプション"
 
-msgid "Show St&atusbar"
-msgstr "ステータスバーを表示(&A)"
+#~ msgid "Xine player options"
+#~ msgstr "Xine player オプション"
 
-msgid "Configure S&hortcuts..."
-msgstr "ショートカットの設定(&H)"
+#~ msgid "Process List"
+#~ msgstr "プロセスリスト"
 
-msgid "Configure Shortcuts"
-msgstr "ショートカットの設定"
+#~ msgid "Processes"
+#~ msgstr "プロセス"
 
-msgid "Configure Tool&bar... "
-msgstr "ツールバーの設定(&B)"
+#~ msgid "Progression"
+#~ msgstr "進歩"
 
-msgid "Configure Toolbars"
-msgstr "ツールバーの設定"
+#~ msgid "&Cancel"
+#~ msgstr "キャンセル(&C)"
 
-msgid "A&vailable actions:"
-msgstr "利用可能なアクション："
+#~ msgid "&Apply"
+#~ msgstr "適応(&A)"
 
-msgid "Curr&ent actions:"
-msgstr "現在のアクション："
+#~ msgid "Alt+C"
+#~ msgstr "Alt+C"
 
-msgid "--- separator ---"
-msgstr "--- 区切り線 ---"
+#~ msgid "k9Copy"
+#~ msgstr "k9Copy"
 
-msgid "&Defaults"
-msgstr "初期設定に戻す(&D)"
+#~ msgid "--"
+#~ msgstr "--"
 
-msgid "Change &Icon..."
-msgstr "アイコンを変更(&I)"
+#~ msgid "0.00"
+#~ msgstr "0.00"
 
-msgid "Change Te&xt..."
-msgstr "テキストを変更(&X)"
+#~ msgid "k9Copy - Title Preview"
+#~ msgstr "k9Copy - タイトルプレビュー"
 
-msgid "S&earch: "
-msgstr "検索(&E)："
+#~ msgid "Crop"
+#~ msgstr "切り取り"
 
-msgid "Action"
-msgstr "アクション"
+#~ msgid "Actions ToolBar"
+#~ msgstr "アクションツールバー"
 
-msgid "Shortcut"
-msgstr "ショートカット"
+#~ msgid "Show &Toolbar"
+#~ msgstr "ツールバーを表示(&T)"
 
-msgid "&Details >>"
-msgstr "詳細 >>"
+#~ msgid "Show St&atusbar"
+#~ msgstr "ステータスバーを表示(&A)"
 
-msgid "&Details <<"
-msgstr "詳細 <<"
+#~ msgid "Configure S&hortcuts..."
+#~ msgstr "ショートカットの設定(&H)"
 
-msgid "Reset to Defaults"
-msgstr "初期設定に戻す"
+#~ msgid "Configure Shortcuts"
+#~ msgstr "ショートカットの設定"
 
-msgid "Print"
-msgstr "印刷"
+#~ msgid "Configure Tool&bar... "
+#~ msgstr "ツールバーの設定(&B)"
 
-msgid "&Configure k9copy...  "
-msgstr "k9copy の設定(&C)"
+#~ msgid "Configure Toolbars"
+#~ msgstr "ツールバーの設定"
 
-msgid "Configure k9copy"
-msgstr "設定"
+#~ msgid "A&vailable actions:"
+#~ msgstr "利用可能なアクション："
 
-msgid "&Settings"
-msgstr "設定(&S)"
+#~ msgid "Curr&ent actions:"
+#~ msgstr "現在のアクション："
 
-msgid "k9copy &Handbook"
-msgstr "k9copy ハンドブック(&H)"
+#~ msgid "--- separator ---"
+#~ msgstr "--- 区切り線 ---"
 
-msgid "Next "
-msgstr "進む"
+#~ msgid "&Defaults"
+#~ msgstr "初期設定に戻す(&D)"
 
-msgid "&Back "
-msgstr "戻る(&B)"
+#~ msgid "Change &Icon..."
+#~ msgstr "アイコンを変更(&I)"
 
-msgid "Finish"
-msgstr "完了"
+#~ msgid "Change Te&xt..."
+#~ msgstr "テキストを変更(&X)"
 
-msgid "Open"
-msgstr "開く"
+#~ msgid "S&earch: "
+#~ msgstr "検索(&E)："
 
-msgid "&Open..."
-msgstr "開く(&O)"
+#~ msgid "Action"
+#~ msgstr "アクション"
+
+#~ msgid "Shortcut"
+#~ msgstr "ショートカット"
+
+#~ msgid "&Details >>"
+#~ msgstr "詳細 >>"
+
+#~ msgid "&Details <<"
+#~ msgstr "詳細 <<"
+
+#~ msgid "Reset to Defaults"
+#~ msgstr "初期設定に戻す"
+
+#~ msgid "Print"
+#~ msgstr "印刷"
+
+#~ msgid "&Configure k9copy...  "
+#~ msgstr "k9copy の設定(&C)"
+
+#~ msgid "Configure k9copy"
+#~ msgstr "設定"
+
+#~ msgid "&Settings"
+#~ msgstr "設定(&S)"
+
+#~ msgid "k9copy &Handbook"
+#~ msgstr "k9copy ハンドブック(&H)"
+
+#~ msgid "Next "
+#~ msgstr "進む"
+
+#~ msgid "&Back "
+#~ msgstr "戻る(&B)"
+
+#~ msgid "Finish"
+#~ msgstr "完了"
+
+#~ msgid "Open"
+#~ msgstr "開く"
+
+#~ msgid "&Open..."
+#~ msgstr "開く(&O)"

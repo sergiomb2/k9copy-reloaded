@@ -57,7 +57,7 @@
                 <cstring>lProcess</cstring>
             </property>
         </widget>
-        <widget class="KPushButton" row="1" column="1">
+        <widget class="QPushButton" row="1" column="1">
             <property name="name">
                 <cstring>bCancel</cstring>
             </property>
@@ -111,6 +111,6 @@
 </slots>
 <layoutdefaults spacing="6" margin="11"/>
 <includehints>
-    <includehint>kpushbutton.h</includehint>
+    <includehint>qpushbutton.h</includehint>
 </includehints>
 </UI>

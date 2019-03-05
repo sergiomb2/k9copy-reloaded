@@ -9,11 +9,31 @@
 // Copyright: See COPYING file that comes with this distribution
 //
 //
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+//TODO:PTZ161103 screewy-dooby __USE_XOPEN2K8 features
+#include <time.h>
+#if ! defined(__timespec_defined)
+# define __timespec_defined	1
+# include <bits/types.h>	/* This defines __time_t for us.  */
+struct timespec
+{
+    __time_t tv_sec;		/* Seconds.  */
+    __syscall_slong_t tv_nsec;	/* Nanoseconds.  */
+};
+#endif
+
+#include <sys/stat.h>
+
 #include "k9plaympeg2.h"
 #include "kdecmpeg2.h"
 #include "dvdnav/dvdnav.h" //PM DVDNAV
 
 #include <qapplication.h>
+
 
 k9PlayMPEG2::k9PlayMPEG2()
 {

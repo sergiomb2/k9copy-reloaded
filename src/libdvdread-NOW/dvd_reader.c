@@ -22,8 +22,20 @@
 
 #include "config.h"
 #include <sys/types.h>      /* off_t */
+#include <time.h>       /* For the timing of dvdcss_title crack. */
+//TODO:PTZ161103 screewy-dooby __USE_XOPEN2K8 features
+//#include <time.h>
+#if ! defined(__timespec_defined)
+# define __timespec_defined	1
+# include <bits/types.h>	/* This defines __time_t for us.  */
+struct timespec
+{
+    __time_t tv_sec;		/* Seconds.  */
+    __syscall_slong_t tv_nsec;	/* Nanoseconds.  */
+};
+#endif
+
 #include <sys/stat.h>       /* stat */
-#include <sys/time.h>       /* For the timing of dvdcss_title crack. */
 #include <fcntl.h>          /* open */
 #include <stdlib.h>         /* free */
 #include <stdio.h>          /* fprintf */
@@ -33,6 +45,10 @@
 #include <limits.h>         /* PATH_MAX */
 #include <dirent.h>         /* opendir, readdir */
 #include <ctype.h>          /* isalpha */
+
+// TODO:PTZ161108 use clock_gettime instead ?
+#include <sys/time.h> //for gettimeofday and timeval
+
 
 /* misc win32 helpers */
 #ifdef WIN32
@@ -177,6 +193,7 @@ static int initAllCSSKeys( dvd_reader_t *dvd )
   fprintf( stderr, "libdvdread: Attempting to retrieve all CSS keys\n" );
   fprintf( stderr, "libdvdread: This can take a _long_ time, "
            "please be patient\n\n" );
+
   gettimeofday(&all_s, NULL);
 
   for( title = 0; title < 100; title++ ) {

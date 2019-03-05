@@ -24,7 +24,7 @@
 #include <string.h>
 #include <getopt.h>
 #include <pthread.h>
-#include <sys/stat.h>
+//#include <sys/stat.h>
 #include <qmutex.h>
 #include <qwaitcondition.h>
 #include "k9dvdbackupinterface.h"

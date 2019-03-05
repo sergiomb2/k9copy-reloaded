@@ -125,8 +125,8 @@ private:
     void updateMainIfo();
     void updatePgci_ut(ifo_handle_t *_hifo);
     void update4Menu(ifo_handle_t *_hifo);
-    void setDummyPack(uchar *_buffer);
-    void setDummyNavPack(uchar *_buffer,uint32_t _sector);
+    void setDummyPack(uchar *_buf, size_t _l );
+    void setDummyNavPack(uchar *_buf,uint32_t _sector, size_t _l);
     uint32_t copyMenu2(int _vts);
     k9CellList vmgCells;
 

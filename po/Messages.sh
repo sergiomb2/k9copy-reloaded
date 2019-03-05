@@ -43,7 +43,8 @@ echo "Done merging translations"
  
 echo "Cleaning up"
 cd ${WDIR}
-rm rcfiles.list
-rm infiles.list
-rm rc.cpp
+#rm rcfiles.list
+#rm infiles.list
+#rm rc.cpp
+mv -v rc.cpp rc.cpp_
 echo "Done"

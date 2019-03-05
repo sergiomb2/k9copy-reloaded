@@ -20,11 +20,40 @@
 #include "k9cell.h"
 #include "k9dvdtitleset.h"
 
+void k9VobuList::append(k9Vobu * _vobu) {
+    QMutexLocker locker(&mutex);
+    QList<k9Vobu *>::append(_vobu);
+}
+
+int k9VobuList::count() {
+    QMutexLocker locker(&mutex);
+    return QList<k9Vobu *>::count();
+}
+
+k9Vobu * k9VobuList::at(int _i) {
+    QMutexLocker locker(&mutex);
+    return this->QList<k9Vobu *>::at(_i);
+}
+
+k9Vobu * k9VobuList::first() {
+    QMutexLocker locker(&mutex);
+    return QList<k9Vobu *>::first();
+}
+
+k9Vobu * k9VobuList::last() {
+    QMutexLocker locker(&mutex);
+    return QList<k9Vobu *>::last();
+}
+
+
+
+
 bool k9VobuList::compareItems (const k9Vobu *item1,const k9Vobu *item2 ) {
     return(item1->oldSector < item2->oldSector);
 }
 
 void k9VobuList::clearList() {
+    QMutexLocker locker(&mutex);
     //   while (!isEmpty()) delete takeFirst();
     qDeleteAll(*this);
     clear();
@@ -48,14 +77,11 @@ k9Vobu * k9VobuList::findVobu(uint32_t sector) {
 }
 
 k9Vobu * k9VobuList::findVobu(uint32_t sector, uint32_t start, uint32_t end) {
-
     long lstart=start;
     long lend=end;
-
-
     while (lstart <=lend) {
         long  m =(lstart+lend)/2;
-        k9Vobu *v = (k9Vobu *)at(m);
+        k9Vobu *v = (k9Vobu *)at(m);       
         if ( v->oldSector == sector) {
             return v;
         } else if (  v->oldSector >sector) {
@@ -68,11 +94,11 @@ k9Vobu * k9VobuList::findVobu(uint32_t sector, uint32_t start, uint32_t end) {
 }
 
 uint32_t k9Cell::getnewSize() {
-    uint32_t size=0;
+    uint32_t size = 0;
     //for (k9Vobu * vobu=vobus.first();vobu;vobu=vobus.next())
-    for (int i=0; i<vobus.count();i++) {
-        k9Vobu *vobu=vobus.at(i);
-        size+=vobu->size;
+    for (int i=0; i < vobus.count(); i++) {
+        k9Vobu *vobu = vobus.at(i);
+        size += vobu->size;
     }
     return size;
 }
@@ -127,9 +153,15 @@ streamType_t k9Cell::identifyStream( uchar *buffer,int *packetType ) {
 
 
 
-int k9Cell::isNavPack (uchar *_ptr) {
+bool k9Cell::isNavPack (uchar *ptr, long _len) {
     uint32_t start_code;
-    uchar *ptr=_ptr;
+    //uchar *ptr=_ptr;
+    if(_len < 0x403) {
+        qDebug("ignoring this NavPack::short buffer@0x%x [0x%x < 0x403]"
+                   , ptr, (unsigned int)_len
+                   );
+        return 0;
+    }
     if ((ptr [0]!=0) || (ptr [1] !=0) || (ptr [2] != 0x01) || (ptr [3] != 0xba))
         return 0;
 
@@ -171,8 +203,9 @@ int k9Cell::isNavPack (uchar *_ptr) {
 
 k9Cell::k9Cell() {
 //    vobus.setAutoDelete(true);
-    numVobu=0;
-
+    //m_mutex.lock();
+    numVobu=0; //// TODO: PTZ161108 tied to vobus.size()
+    //m_mutex.unlock();   
     vts=0;
     pgc=0;
     vob=0;
@@ -274,36 +307,70 @@ k9Vobu * k9Cell::addVobu(uint32_t _sector) {
     vobus.append(vobu);
     return vobu;
 }
+//Thread 6 (Thread 0x7fb5e77ae700 (LWP 21807)):
+//[KCrash Handler]
+//#6  __GI_raise (sig=sig@entry=6) at ../sysdeps/unix/sysv/linux/raise.c:58
+//#7  0x00007fb60cb7140a in __GI_abort () at abort.c:89
+//#8  0x00007fb60d80bdd1 in qt_message_fatal (context=..., message=<synthetic pointer>) at global/qlogging.cpp:1648
+//#9  QMessageLogger::fatal (this=this@entry=0x7fb5e77ad4f0, msg=msg@entry=0x7fb60dac1630 "ASSERT failure in %s: \"%s\", file %s, line %d") at global/qlogging.cpp:790
+//#10 0x00007fb60d807191 in qt_assert_x (where=<optimized out>, what=<optimized out>, file=<optimized out>, line=<optimized out>) at global/qglobal.cpp:3007
+//vobus.size < i=62   <====// TODO: PTZ161108
+//#//11 0x0000561a4f15f9ed in QList<k9Vobu*>::at (this=0x561a50ddf270, i=62) at /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h:531
+//#12 0x0000561a4f15f207 in k9Cell::addNewVobus
+//(this=0x561a50ddf270, _buffer=0x7fb5d83e89d0 "", _len=2048, _position=23495, _vobNum=0, _vobPos=48117760)
+//at /usr/src/k9copy-code/k9copy/src/core/k9cell.cpp:291
+//#13 0x0000561a4f18ce11 in k9DVDBackup::getOutput (this=0x561a501c4720, _buf=0x7fb5d82051d0 "", _buflen=2113536) at /usr/src/k9copy-code/k9copy/src/backup/k9dvdbackup.cpp:430
+//#/14 0x0000561a4f1b6810 in k9bgUpdate::run (this=0x561a502fc5c0) at /usr/src/k9copy-code/k9copy/src/vamps/k9vamps.cpp:1180
+//#15 0x00007fb60d824d78 in QThreadPrivate::start (arg=0x561a502fc5c0) at thread/qthread_unix.cpp:341
+//#16 0x00007fb6135fc464 in start_thread (arg=0x7fb5e77ae700) at pthread_create.c:333
+//#17 0x00007fb60cc259df in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:105
 
 
-void k9Cell::addNewVobus(char *_buffer,uint32_t _len,uint32_t _position,int _vobNum,long _vobPos) {
-    uint32_t start= _position ;//lastSector - _len ;
+void k9Cell::addNewVobus(char *_buffer, uint32_t _len, uint32_t _position, int _vobNum, long _vobPos) {
+    uint32_t start = _position;//lastSector - _len ;
     k9Vobu *vobu;
-    for (uint32_t i= 0 ; i<_len ;i+=DVD_BLOCK_LEN) {
-        if (isNavPack((uchar*)_buffer+i)) {
-            vobu=(k9Vobu*)vobus.at(numVobu);
-            vobu->newSector=i/DVD_BLOCK_LEN  +start;
+    bool _bad_vobu = false;
+    
+    for (uint32_t i = 0 ; i < _len; i += DVD_BLOCK_LEN) {
+        if (isNavPack((uchar*)_buffer + i, _len - i)) {
+            //PTZ161107                 ///remapOffset : sector not found
+            if(numVobu >= vobus.size()) {
+                qDebug("error"
+                       "::NavPack detected but no vobus[#%d] stacked"
+                       "::remains %d DVD_BLOCKS_LEN"
+                       "::keeping requested VOBU #%d"
+                       , numVobu
+                       , (_len - i) / DVD_BLOCK_LEN
+                       , _vobNum
+                       );
+                _bad_vobu = true;
+                vobu = addVobu(lastSector);
+            } else {
+                vobu = vobus.at(numVobu);
+            }
             numVobu++;
-            vobu->vobNum=_vobNum;
-            vobu->vobPos=_vobPos;
+            
+            vobu->newSector = i / DVD_BLOCK_LEN + start;
+            vobu->vobNum = _vobNum;
+            vobu->vobPos = _vobPos;
             //QString c;
             //c.sprintf("vobu : %d  old: %d  new :%d",numVobu-1,vobu->oldSector,vobu->newSector);
             //qDebug (c.latin1());
-
+            //qDebug("vobu : %d  old: %d  new :%d", numVobu-1, vobu->oldSector, vobu->newSector);
         } else {
-            streamType_t st;
-            int packetType,id;
-            st=k9Cell::identifyStream((uchar*)_buffer+i,&packetType);
-            vobu=(k9Vobu*)vobus.at(numVobu-1);
+            int packetType, id;
+            streamType_t st = k9Cell::identifyStream((uchar*)_buffer + i, &packetType);
+            vobu = vobus.at(numVobu - 1);
+                        
             switch (st) {
             case stAudio:
-                id=k9Cell::getStreamID(packetType);
+                id = k9Cell::getStreamID(packetType);
                 if (vobu->firstAudio[id]==-1) {
                     vobu->firstAudio[id]= ((i/ DVD_BLOCK_LEN) + start) - vobu->newSector;
                 }
                 break;
             case stSubpicture:
-                id=k9Cell::getStreamID(packetType);
+                id = k9Cell::getStreamID(packetType);
                 if ((id >=0) && (id<32)) {
                     if (vobu->firstSubp[id]==-1) {
                         vobu->firstSubp[id]= ((i / DVD_BLOCK_LEN)+start) - vobu->newSector;
@@ -311,20 +378,19 @@ void k9Cell::addNewVobus(char *_buffer,uint32_t _len,uint32_t _position,int _vob
                 }
                 break;
             case stVideo:
-                addRefStream(vobu,(uchar*)_buffer+i,(i/DVD_BLOCK_LEN  +start) - vobu->newSector);
+                addRefStream(vobu, (uchar*)_buffer+i, (i / DVD_BLOCK_LEN + start) - vobu->newSector);
                 if (vobu->firstVideo==-1) {
-                    vobu->firstVideo =  ((i / DVD_BLOCK_LEN)+start) - vobu->newSector;
+                    vobu->firstVideo =  ((i / DVD_BLOCK_LEN) + start) - vobu->newSector;
                 }
                 //TO REMOVE                nbVideoNew++;
                 break;
-	     default:
+            default:
 		break;
             }
-
         }
-        vobu->size= _position-vobu->newSector;
+        vobu->size = _position - vobu->newSector;
         // �v�ifier
-        lastSector=_position;
+        lastSector = _position;
     }
 
 }

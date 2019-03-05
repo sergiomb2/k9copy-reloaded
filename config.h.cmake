@@ -63,6 +63,7 @@
 /* Define to 1 if you have the <unistd.h> header file. */
 #cmakedefine HAVE_UNISTD_H
 
+#cmakedefine HAVE_TIME_H
 
 /* Big endian CPU - SPARC or PowerPC */
 #cmakedefine WORDS_BIGENDIAN

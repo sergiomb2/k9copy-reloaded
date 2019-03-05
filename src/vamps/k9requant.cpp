@@ -70,7 +70,7 @@ static const double max_alt_table = 0.0;
 
 #ifndef USE_FD
 #include <unistd.h>
-#include <fcntl.h>
+//#include <fcntl.h>
 #endif
 
 // quant table

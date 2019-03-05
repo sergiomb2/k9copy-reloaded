@@ -47,7 +47,7 @@ public:
 protected:
  void closeEvent( QCloseEvent* ce );
 private:
-  Ui::DVDProgress Ui_DVDProgress;
+ Ui::DVDProgress Ui_DVDProgress;
 };
 
 #endif

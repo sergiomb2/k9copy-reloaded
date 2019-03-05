@@ -594,7 +594,7 @@
              </spacer>
             </item>
             <item>
-             <widget class="KPushButton" name="bCropDetect">
+             <widget class="QPushButton" name="bCropDetect">
               <property name="sizePolicy">
                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                 <horstretch>0</horstretch>

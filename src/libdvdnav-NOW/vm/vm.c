@@ -25,6 +25,11 @@
 #include "config.h"
 #endif
 
+//#include <sys/timespec.h>
+//#define __USE_XOPEN2K
+#define __need_timespec
+//#include <time.h>
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -32,10 +37,22 @@
 #include <inttypes.h>
 #include <limits.h>
 #include <assert.h>
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <sys/time.h>
+//#include <sys/types.h>
+
+//TODO:PTZ161103 screewy-dooby __USE_XOPEN2K8 features
+#include <time.h>
+#if ! defined(__timespec_defined)
+# define __timespec_defined	1
+# include <bits/types.h>	/* This defines __time_t for us.  */
+struct timespec
+{
+    __time_t tv_sec;		/* Seconds.  */
+    __syscall_slong_t tv_nsec;	/* Nanoseconds.  */
+};
+#endif
+
 #include <fcntl.h>
+//#include <sys/stat.h>
 
 #include <dvdread/nav_types.h>
 #include <dvdread/ifo_types.h>

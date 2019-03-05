@@ -306,7 +306,9 @@ void k9ExecCopy::createMkv(k9DVDTitle *_title,const QString &_filename,QMultiMap
 
 #if QT_VERSION >= 0x050000
     m_progressDialog=new QProgressDialog(k9Dialogs::getMainWidget() );
-    m_progressDialog->setCancelButton(false);
+    //// TODO: PTZ161103    //QPushButton *button
+    //m_progressDialog->setCancelButton(false);
+    m_progressDialog->setCancelButton(Q_NULLPTR);
 
 #else
     m_progressDialog=new KProgressDialog(k9Dialogs::getMainWidget() );

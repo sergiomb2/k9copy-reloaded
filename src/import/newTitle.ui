@@ -86,7 +86,7 @@
     </spacer>
    </item>
    <item row="2" column="2">
-    <widget class="KPushButton" name="bAdd">
+    <widget class="QPushButton" name="bAdd">
      <property name="enabled">
       <bool>false</bool>
      </property>
@@ -211,13 +211,13 @@
    <header>kurlrequester.h</header>
   </customwidget>
   <customwidget>
-   <class>KPushButton</class>
-   <extends>KPushButton</extends>
-   <header>kpushbutton.h</header>
+   <class>QPushButton</class>
+   <extends>QPushButton</extends>
+   <header>qpushbutton.h</header>
   </customwidget>
  </customwidgets>
  <includes>
-  <include location="local">kpushbutton.h</include>
+  <include location="local">qpushbutton.h</include>
   <include location="local">kurlrequester.h</include>
  </includes>
  <resources/>
