@@ -11,6 +11,8 @@
 //
 #include "k9fifo.h"
 #include <QDir>
+#include <errno.h>
+#include <KDebug>
 
 uint64_t k9MemoryFifo::count() {
 	return m_count;
@@ -134,12 +136,19 @@ void k9FileFifo::enqueue (uchar *_buffer, uint32_t _size) {
      m_wait.wait(&m_mutex);
    }
    m_wfile->seek(m_fstart);
-   m_wfile->write((const char*)_buffer,_size);
+   int rc=m_wfile->write((const char*)_buffer,_size) ;
+   if (rc != (int) _size) {
+	kFatal() << QString("error writing to tempfile (%1)").arg(strerror (errno));
+	abort();
+   }
    m_fstart=m_wfile->pos();
    if (m_fstart > MAX_FILE_SIZE) {
         m_wfile=new QTemporaryFile(QDir::cleanPath(m_output +"/k9b"));
         m_wfile->setAutoRemove(true);
-	m_wfile->open();
+	if(m_wfile->open() == false) {
+		kFatal() << QString("error creating tempfile in %1 (%1)").arg(QDir::cleanPath(m_output +"/k9b"), strerror (errno));
+		abort();
+	}
 	m_queue.enqueue(m_wfile);
   	m_fstart=0;
    }
@@ -190,12 +199,17 @@ void k9FileFifo::clear() {
 	if (m_rfile) {
           m_rfile->close();
           delete m_rfile;
+	  m_rfile=NULL;
         }
 	qDeleteAll(m_queue);
+
 
 	m_fstart=m_fend=0;
         m_rfile=new QTemporaryFile(QDir::cleanPath(m_output +"/k9b"));
         m_rfile->setAutoRemove(true);
-	m_rfile->open();
+	if(m_rfile->open() == false) {
+		kFatal() << QString("error creating tempfile in %1 (%1)").arg(QDir::cleanPath(m_output +"/k9b"), strerror (errno));
+		abort();
+	}
 	m_start=m_end=0;
 }

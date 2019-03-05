@@ -48,7 +48,7 @@ static bool isMainThread();
 const QString  k9Tools::getTempPath() {
 QString sPath;
 
-sPath=QString("%1/%2/").arg(QDir::tempPath() + '/' + "k9copy/");
+sPath=QString("%1/%2/").arg(QDir::tempPath(),"k9copy/");
 
 return sPath;
 }
