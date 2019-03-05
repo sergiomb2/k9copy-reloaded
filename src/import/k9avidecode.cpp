@@ -26,7 +26,6 @@ static int sws_flags = SWS_BICUBIC;
 void av_free_packet_internal(AVPacket *pkt)
 {
     if (pkt) {
-        if (pkt->destruct) pkt->destruct(pkt);
         pkt->data = NULL; pkt->size = 0;
     }
 }
@@ -238,14 +237,14 @@ bool k9AviDecode::open(const QString & _fileName) {
 
     int numBytes;
 // Determine required buffer size and allocate buffer
-    numBytes=avpicture_get_size(PIX_FMT_RGB24, m_CodecCtx->width,
+    numBytes=avpicture_get_size(AV_PIX_FMT_RGB24, m_CodecCtx->width,
                                 m_CodecCtx->height);
     m_buffer=(uint8_t *)av_malloc(numBytes*sizeof(uint8_t));
 
 // Assign appropriate parts of buffer to image planes in pFrameRGB
 // Note that pFrameRGB is an AVFrame, but AVFrame is a superset
 // of AVPicture
-    avpicture_fill((AVPicture *)m_FrameRGB, m_buffer, PIX_FMT_RGB24,
+    avpicture_fill((AVPicture *)m_FrameRGB, m_buffer, AV_PIX_FMT_RGB24,
                    m_CodecCtx->width, m_CodecCtx->height);
 
  
@@ -317,13 +316,13 @@ void k9AviDecode::readFrame(double _seconds) {
                     bFound=true;
 #ifndef HAVE_SWSCALE
                   // Convert the image from its native format to RGB
-                    img_convert((AVPicture *)m_FrameRGB, PIX_FMT_RGB24,
+                    img_convert((AVPicture *)m_FrameRGB, AV_PIX_FMT_RGB24,
                                 (AVPicture*)m_Frame, m_CodecCtx->pix_fmt,
                                 m_CodecCtx->width, m_CodecCtx->height);
                     SaveFrame(m_FrameRGB, m_CodecCtx->width,
                               m_CodecCtx->height);
 #else
-		    toRGB_convert_ctx=sws_getContext(m_CodecCtx->width, m_CodecCtx->height, m_CodecCtx->pix_fmt, m_CodecCtx->width, m_CodecCtx->height, PIX_FMT_RGB24, sws_flags,NULL,NULL,NULL);
+		    toRGB_convert_ctx=sws_getContext(m_CodecCtx->width, m_CodecCtx->height, m_CodecCtx->pix_fmt, m_CodecCtx->width, m_CodecCtx->height, AV_PIX_FMT_RGB24, sws_flags,NULL,NULL,NULL);
         		   sws_scale(toRGB_convert_ctx, m_Frame->data, m_Frame->linesize, 0, m_CodecCtx->height, m_FrameRGB->data,m_FrameRGB->linesize);
                     // convert frame to QImage
                     SaveFrame(m_FrameRGB, m_CodecCtx->width,
