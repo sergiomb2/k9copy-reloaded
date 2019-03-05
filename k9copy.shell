@@ -1,0 +1,4 @@
+#!/bin/sh
+# created by cmake, don't edit, changes will be lost
+
+LD_LIBRARY_PATH=/home/emulator/Desktop/k9copy-project/TESTBED_KDE4/lib/./:/usr/local/lib64:/usr/lib64/kde4/devel:/usr/lib64${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH} "/home/emulator/Desktop/k9copy-project/TESTBED_KDE4/k9copy" "$@"
