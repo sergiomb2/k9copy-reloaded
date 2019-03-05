@@ -17,9 +17,17 @@ ELSE(NOT GETTEXT_MSGFMT_EXECUTABLE)
                 GET_FILENAME_COMPONENT(_lang ${_poFile} NAME_WE)
                 SET(_gmoFile ${CMAKE_CURRENT_BINARY_DIR}/${_lang}.gmo)
                 ADD_CUSTOM_COMMAND(TARGET translations
-                        COMMAND ${GETTEXT_MSGFMT_EXECUTABLE} --check -o ${_gmoFile} ${_poFile}
+                        COMMAND ${GETTEXT_MSGFMT_EXECUTABLE} --verbose --check -o ${_gmoFile} ${_poFile}
                         DEPENDS ${_poFile})
                 INSTALL(FILES ${_gmoFile} DESTINATION ${LOCALE_INSTALL_DIR}/${_lang}/LC_MESSAGES/ RENAME ${catalogname}.mo)
         ENDFOREACH(_poFile ${PO_FILES})
  
 ENDIF(NOT GETTEXT_MSGFMT_EXECUTABLE)
+
+FIND_PROGRAM(GETTEXT_MSGMERGE_EXECUTABLE msgmerge)
+ 
+FIND_PROGRAM(GETTEXT_X_EXECUTABLE xgettext)
+
+
+##TODO:PTZ161214 here to regenerate .po's with Messages.sh
+## certainly tricky because one needs to keep the acquired in '#~' comments.

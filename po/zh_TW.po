@@ -8,2411 +8,2102 @@ msgstr ""
 "Project-Id-Version: zh_TW\n"
 "Report-Msgid-Bugs-To: http://sourceforge.net/tracker/?"
 "group_id=50231&atid=459007\n"
-"POT-Creation-Date: 2007-12-22 09:01+0100\n"
+"POT-Creation-Date: 2016-12-14 09:03+0000\n"
 "PO-Revision-Date: 2007-10-24 19:43+0800\n"
 "Last-Translator: 洪任諭 <pcman.tw@gmail.com>\n"
 "Language-Team: Traditional Chinese <LL@li.org>\n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Language: Chinese\n"
 "X-Poedit-Country: TAIWAN\n"
 
-#: lib/backup/k9dvdauthor.cpp:148 lib/backup/k9dvdauthor.cpp:395
-msgid "'%1' not selected"
-msgstr "'%1' 未被選取"
-
-#: lib/backup/k9dvdauthor.cpp:149 lib/backup/k9dvdauthor.cpp:396
-#: lib/backup/k9dvdauthor.cpp:419 lib/backup/k9dvdauthor.cpp:473
-#: lib/backup/k9dvdauthor.cpp:482 lib/backup/k9dvdauthor.cpp:485
-#: lib/core/k9burndvd.cpp:242 lib/core/k9burndvd.cpp:326
-#: lib/import/k9newdvd.cpp:123
-msgid "authoring"
-msgstr "編寫(authoring)"
-
-#: lib/backup/k9dvdauthor.cpp:419 lib/backup/k9mp4enc.cpp:107
-#: lib/core/k9burndvd.cpp:230 lib/core/k9burndvd.cpp:314
-#: lib/mplayer/k9mplayer.cpp:99
-msgid "Unable to run %1"
-msgstr "無法執行 %1"
-
-#: lib/backup/k9dvdauthor.cpp:432 lib/backup/k9dvdauthor.cpp:513
-#: lib/backup/k9dvdauthor.cpp:551 lib/import/k9newdvd.cpp:144
-msgid "Authoring"
-msgstr "編寫 (Authoring)"
-
-#. i18n: file ./lib/backup/backupdlg.ui line 41
-#: lib/backup/k9dvdauthor.cpp:433 po/rc.cpp:12 ui_backupdlg.h:239 rc.cpp:12
-#, no-c-format
-msgid "Backup progression"
-msgstr "備份進度"
-
-#: lib/backup/k9dvdauthor.cpp:473
-msgid "Dvdauthor error :\n"
-msgstr "Dvdauthor 錯誤 :\n"
-
-#: lib/backup/k9dvdauthor.cpp:482
-msgid "Authoring cancelled"
-msgstr "取消編寫 (Authoring)"
-
-#: lib/backup/k9dvdauthor.cpp:485 lib/import/k9newdvd.cpp:137
-msgid "An error occured while running DVDAuthor:\n"
-msgstr "執行 DVDAuthor 時發生錯誤:\n"
-
-#: lib/backup/k9dvdauthor.cpp:552
-msgid "Fixing VOBUS"
-msgstr "修正 VOBUS"
-
-#: lib/backup/k9dvdbackup.cpp:152 lib/backup/k9dvdbackup.cpp:166
-#: lib/backup/k9dvdbackup.cpp:518 lib/backup/k9dvdbackup.cpp:604
-msgid "DVD backup cancelled"
-msgstr "DVD 備份取消"
-
-#: lib/backup/k9dvdbackup.cpp:179
-msgid "unable to open VIDEO_TS.IFO"
-msgstr "無法開啟 VIDEO_TS.IFO"
-
-#: lib/backup/k9dvdbackup.cpp:201 lib/backup/k9dvdbackup.cpp:384
-#: lib/backup/k9dvdbackup.cpp:449
-msgid "Unable to open file "
-msgstr "無法開啟檔案"
-
-#: lib/backup/k9dvdbackup.cpp:280
-msgid "Unable to open titleset %1"
-msgstr "無法開啟標題組 %1"
-
-#: lib/backup/k9dvdbackup.cpp:286 lib/backup/k9dvdbackup.cpp:576
-msgid "Extracting titleset %1"
-msgstr "正在抽取標題組 %1"
-
-#: lib/backup/k9dvdbackup.cpp:456
-msgid "Unable to open menu for titleset %1"
-msgstr "無法開啟標題組 %1 的選單"
-
-#: lib/backup/k9dvdbackup.cpp:482
-msgid "Extracting menu for titleset %1"
-msgstr "正在抽取標題組 %1 的選單"
-
-#: lib/backup/k9dvdbackup.cpp:568
-msgid "Unable to open ifo file for titleset %1"
-msgstr "無法開啟標題組 %1 的 ifo 檔"
-
-#: lib/backup/k9dvdbackup.cpp:580 lib/backup/k9dvdbackup.cpp:1701
-msgid "Unable to open DVD"
-msgstr "無法開啟 DVD"
-
-#: lib/backup/k9dvdbackup.cpp:590
-msgid "Unable to open vobs for titleset %1"
-msgstr "無法開啟標題組 %1 的 vobs"
-
-#: lib/backup/k9dvdbackup.cpp:1388
-msgid "Updating vob %1"
-msgstr "更新 vob %1"
-
-#: lib/backup/k9dvdbackup.cpp:1405
-msgid "DVD backup canceled"
-msgstr "DVD 備份取消"
-
-#: lib/backup/k9mp4enc.cpp:107 lib/backup/k9mp4enc.cpp:325
-msgid "Encoding error"
-msgstr "編碼錯誤"
-
-#: lib/backup/k9mp4enc.cpp:163 lib/main/k9main.cpp:1160
-msgid "Save file to disk"
-msgstr "儲存檔案到磁碟"
-
-#: lib/backup/k9mp4enc.cpp:172 lib/backup/k9mp4enc.cpp:363
-#: lib/main/k9main.cpp:565 lib/main/k9main.cpp:679 lib/main/k9main.cpp:695
-#: lib/main/k9mp4title.cpp:50 lib/main/k9prefdvd.cpp:36
-#: lib/main/k9prefmpeg4.cpp:35
-msgid "MB"
-msgstr "MB"
-
-#: lib/backup/k9mp4enc.cpp:244 lib/backup/k9mp4enc.cpp:246
-#: lib/import/k9newdvd.cpp:252
-msgid "Encoding %1"
-msgstr "正在編碼 %1"
-
-#: lib/backup/k9mp4enc.cpp:244
-msgid "pass %1"
-msgstr "階段 %1"
-
-#: lib/backup/k9mp4enc.cpp:322
-msgid "MPEG-4 Encoding cancelled"
-msgstr "MPEG-4 編碼取消"
-
-#: lib/backup/k9mp4enc.cpp:322 lib/main/k9main.cpp:1146
-#: lib/main/k9settings.cpp:44
-msgid "MPEG-4 Encoding"
-msgstr "MPEG-4 編碼"
-
-#: lib/backup/k9mp4enc.cpp:325
-msgid "Error while running mencoder :"
-msgstr "執行 mencoder 時發生錯誤:"
-
-#. i18n: file ./lib/main/k9mainwsov.ui line 76
-#. i18n: file ./lib/main/k9mainw.ui line 173
-#. i18n: file ./lib/main/k9mainwsov.ui line 76
-#. i18n: file ./lib/main/k9mainw.ui line 173
-#: lib/core/k9burndvd.cpp:175 lib/core/k9burndvd.cpp:283
-#: lib/import/k9import.cpp:209 lib/main/k9main.cpp:1353
-#: lib/main/k9playbackoptions.cpp:147 po/rc.cpp:250 po/rc.cpp:291
-#: ui_k9mainw.h:190 rc.cpp:250 rc.cpp:291
-#, no-c-format
-msgid "default"
-msgstr "預設"
-
-#: lib/core/k9burndvd.cpp:185 lib/core/k9burndvd.cpp:260
-msgid "Burning DVD"
-msgstr "燒錄 DVD"
-
-#: lib/core/k9burndvd.cpp:197 lib/core/k9burndvd.cpp:289
-#: lib/import/k9import.cpp:181 lib/main/k9main.cpp:379
-msgid "Save image to disk"
-msgstr "儲存映像檔到磁碟"
-
-#: lib/core/k9burndvd.cpp:220 lib/core/k9burndvd.cpp:307
-msgid "Insert a recordable DVD"
-msgstr "插入可寫入的 DVD"
-
-#: lib/core/k9burndvd.cpp:220 lib/core/k9burndvd.cpp:230
-#: lib/core/k9burndvd.cpp:235 lib/core/k9burndvd.cpp:308
-#: lib/core/k9burndvd.cpp:314 lib/core/k9burndvd.cpp:319
-msgid "DVD burning"
-msgstr "DVD 燒錄"
-
-#: lib/core/k9burndvd.cpp:230 lib/core/k9burndvd.cpp:314
-msgid "Error burning DVD :\n"
-msgstr "燒錄 DVD 發生錯誤:\n"
-
-#: lib/core/k9burndvd.cpp:235 lib/core/k9burndvd.cpp:319
-msgid "DVD Burning finished"
-msgstr "DVD 燒錄完成"
-
-#: lib/core/k9burndvd.cpp:241 lib/core/k9burndvd.cpp:325
-msgid "An error occured while Burning DVD: %1"
-msgstr "燒錄 DVD 時發生了一個錯誤: %1"
-
-#: lib/core/k9burndvd.cpp:241 lib/core/k9burndvd.cpp:325
-msgid "Insert an other DVD"
-msgstr "插入另一片 DVD"
-
-#: lib/core/k9burndvd.cpp:354
-msgid "Current write speed :%1 x"
-msgstr "目前寫入速度: %1 x"
-
-#: lib/core/k9dvd.cpp:133
-msgid "for visually impaired"
-msgstr "給視覺障礙者"
-
-#: lib/core/k9dvd.cpp:134
-msgid "director's comments"
-msgstr "導演講評"
-
-#: lib/core/k9dvd.cpp:135
-msgid "alternate director's comments"
-msgstr "可替換的導演講評"
-
-#: lib/core/k9dvd.cpp:139
-msgid "Large"
-msgstr "大"
-
-#: lib/core/k9dvd.cpp:140
-msgid "Children"
-msgstr "兒童"
-
-#: lib/core/k9dvd.cpp:141 lib/core/k9dvd.cpp:147 lib/core/k9dvd.cpp:148
-#: lib/core/k9dvd.cpp:149
-msgid "reserved"
-msgstr "保留"
-
-#: lib/core/k9dvd.cpp:142
-msgid "Normal captions"
-msgstr "正常標題"
-
-#: lib/core/k9dvd.cpp:143
-msgid "Large captions"
-msgstr "大型標題"
-
-#: lib/core/k9dvd.cpp:144
-msgid "Children captions"
-msgstr "兒童標題"
-
-#: lib/core/k9dvd.cpp:146
-msgid "Forced"
-msgstr "強制"
-
-#: lib/core/k9dvd.cpp:150
-msgid "Director's comments"
-msgstr "導演講評"
-
-#: lib/core/k9dvd.cpp:151
-msgid "Large director's comments"
-msgstr "導演講評 (大)"
-
-#: lib/core/k9dvd.cpp:152
-msgid "Director's comments for children"
-msgstr "給兒童的導演講評"
-
-#: lib/core/k9dvd.cpp:202
-msgid "Couldn't open %1 for title\n"
-msgstr "無法開啟標題的 %1\n"
-
-#: lib/core/k9dvd.cpp:204 lib/core/k9dvd.cpp:212 lib/core/k9dvd.cpp:220
-#: lib/core/k9dvd.cpp:381 lib/main/k9main.cpp:536
-msgid "unknown"
-msgstr "未知"
-
-#: lib/core/k9dvd.cpp:210
-msgid "Couldn't seek in %1 for title\n"
-msgstr "無法在標題的 %1 內搜尋\n"
-
-#: lib/core/k9dvd.cpp:237
-msgid "Not Specified"
-msgstr "未指定"
-
-#: lib/core/k9dvd.cpp:237
-msgid "Afar"
-msgstr "Afar"
-
-#: lib/core/k9dvd.cpp:237
-msgid "Abkhazian"
-msgstr "阿布哈西亞語"
-
-#: lib/core/k9dvd.cpp:237
-msgid "Afrikaans"
-msgstr "南非荷蘭語"
-
-#: lib/core/k9dvd.cpp:237
-msgid "Amharic"
-msgstr "衣索比亞語"
-
-#: lib/core/k9dvd.cpp:238
-msgid "Arabic"
-msgstr "阿拉伯語"
-
-#: lib/core/k9dvd.cpp:238
-msgid "Assamese"
-msgstr "阿薩姆語"
-
-#: lib/core/k9dvd.cpp:238
-msgid "Aymara"
-msgstr "Aymara"
-
-#: lib/core/k9dvd.cpp:238
-msgid "Azerbaijani"
-msgstr "亞塞拜然語"
-
-#: lib/core/k9dvd.cpp:238
-msgid "Bashkir"
-msgstr "Bashkir"
-
-#: lib/core/k9dvd.cpp:239
-msgid "Byelorussian"
-msgstr "白俄羅斯語"
-
-#: lib/core/k9dvd.cpp:239
-msgid "Bulgarian"
-msgstr "保加利亞語"
-
-#: lib/core/k9dvd.cpp:239
-msgid "Bihari"
-msgstr "印度比哈爾邦(Bihar)語"
-
-#: lib/core/k9dvd.cpp:239
-msgid "Bislama"
-msgstr "Bislama"
-
-#: lib/core/k9dvd.cpp:239
-msgid "Bengali; Bangla"
-msgstr "孟加拉語"
-
-#: lib/core/k9dvd.cpp:240
-msgid "Tibetan"
-msgstr "西藏語"
-
-#: lib/core/k9dvd.cpp:240
-msgid "Breton"
-msgstr "Breton"
-
-#: lib/core/k9dvd.cpp:240
-msgid "Catalan"
-msgstr "(西班牙)嘉泰羅尼亞語"
-
-#: lib/core/k9dvd.cpp:240
-msgid "Corsican"
-msgstr "Corsican"
-
-#: lib/core/k9dvd.cpp:240
-msgid "Czech"
-msgstr "捷克語"
-
-#: lib/core/k9dvd.cpp:241
-msgid "Welsh"
-msgstr "威爾斯語"
-
-#: lib/core/k9dvd.cpp:241
-msgid "Dansk"
-msgstr "Dansk"
-
-#: lib/core/k9dvd.cpp:241
-msgid "Deutsch"
-msgstr "德語"
-
-#: lib/core/k9dvd.cpp:241
-msgid "Bhutani"
-msgstr "Bhutani"
-
-#: lib/core/k9dvd.cpp:241
-msgid "Greek"
-msgstr "希臘語"
-
-#: lib/core/k9dvd.cpp:241
-msgid "English"
-msgstr "英語"
-
-#: lib/core/k9dvd.cpp:242
-msgid "Esperanto"
-msgstr "世界語(Esperanto)"
-
-#: lib/core/k9dvd.cpp:242
-msgid "Espanol"
-msgstr "Espanol"
-
-#: lib/core/k9dvd.cpp:242
-msgid "Estonian"
-msgstr "愛沙尼亞語"
-
-#: lib/core/k9dvd.cpp:242
-msgid "Basque"
-msgstr "巴斯克語"
-
-#: lib/core/k9dvd.cpp:242
-msgid "Persian"
-msgstr "波斯語"
-
-#: lib/core/k9dvd.cpp:243
-msgid "Suomi"
-msgstr "Suomi"
-
-#: lib/core/k9dvd.cpp:243
-msgid "Fiji"
-msgstr "斐濟語"
-
-#: lib/core/k9dvd.cpp:243
-msgid "Faroese"
-msgstr "法羅群語"
-
-#: lib/core/k9dvd.cpp:243
-msgid "Francais"
-msgstr "法語"
-
-#: lib/core/k9dvd.cpp:243
-msgid "Frisian"
-msgstr "弗利然語"
-
-#: lib/core/k9dvd.cpp:243
-msgid "Gaelic"
-msgstr "蓋爾語"
-
-#: lib/core/k9dvd.cpp:244
-msgid "Scots Gaelic"
-msgstr "蘇格蘭蓋爾語"
-
-#: lib/core/k9dvd.cpp:244
-msgid "Galician"
-msgstr "加里西亞語"
-
-#: lib/core/k9dvd.cpp:244
-msgid "Guarani"
-msgstr "Guarani"
-
-#: lib/core/k9dvd.cpp:244
-msgid "Gujarati"
-msgstr "Gujarati"
-
-#: lib/core/k9dvd.cpp:244
-msgid "Hausa"
-msgstr "豪薩語(Hausa)"
-
-#: lib/core/k9dvd.cpp:245 lib/core/k9dvd.cpp:247
-msgid "Hebrew"
-msgstr "希伯來語"
-
-#: lib/core/k9dvd.cpp:245
-msgid "Hindi"
-msgstr "北印度語"
-
-#: lib/core/k9dvd.cpp:245
-msgid "Hrvatski"
-msgstr "Hrvatski"
-
-#: lib/core/k9dvd.cpp:245
-msgid "Magyar"
-msgstr "Magyar"
-
-#: lib/core/k9dvd.cpp:245
-msgid "Armenian"
-msgstr "亞美尼亞語"
-
-#: lib/core/k9dvd.cpp:246
-msgid "Interlingua"
-msgstr "Interlingua"
-
-#: lib/core/k9dvd.cpp:246
-msgid "Indonesian"
-msgstr "印尼語"
-
-#: lib/core/k9dvd.cpp:246
-msgid "Interlingue"
-msgstr "Interlingue"
-
-#: lib/core/k9dvd.cpp:246
-msgid "Inupiak"
-msgstr "Inupiak"
-
-#: lib/core/k9dvd.cpp:247
-msgid "Islenska"
-msgstr "Islenska"
-
-#: lib/core/k9dvd.cpp:247
-msgid "Italiano"
-msgstr "義大利語"
-
-#: lib/core/k9dvd.cpp:247
-msgid "Inuktitut"
-msgstr "Inuktitut"
-
-#: lib/core/k9dvd.cpp:247
-msgid "Japanese"
-msgstr "日語"
-
-#: lib/core/k9dvd.cpp:248 lib/core/k9dvd.cpp:263
-msgid "Yiddish"
-msgstr "意第緒語"
-
-#: lib/core/k9dvd.cpp:248
-msgid "Javanese"
-msgstr "爪哇語"
-
-#: lib/core/k9dvd.cpp:248
-msgid "Georgian"
-msgstr "Georgian"
-
-#: lib/core/k9dvd.cpp:248
-msgid "Kazakh"
-msgstr "哈薩克語"
-
-#: lib/core/k9dvd.cpp:248
-msgid "Greenlandic"
-msgstr "Greenlandic"
-
-#: lib/core/k9dvd.cpp:249
-msgid "Cambodian"
-msgstr "柬埔寨語"
-
-#: lib/core/k9dvd.cpp:249
-msgid "Kannada"
-msgstr "(印度)坎那達語"
-
-#: lib/core/k9dvd.cpp:249
-msgid "Korean"
-msgstr "韓語"
-
-#: lib/core/k9dvd.cpp:249
-msgid "Kashmiri"
-msgstr "喀什米爾語"
-
-#: lib/core/k9dvd.cpp:249
-msgid "Kurdish"
-msgstr "庫德語"
-
-#: lib/core/k9dvd.cpp:250
-msgid "Kirghiz"
-msgstr "吉爾吉斯語"
-
-#: lib/core/k9dvd.cpp:250
-msgid "Latin"
-msgstr "拉丁語"
-
-#: lib/core/k9dvd.cpp:250
-msgid "Lingala"
-msgstr "Lingala"
-
-#: lib/core/k9dvd.cpp:250
-msgid "Laothian"
-msgstr "Laothian"
-
-#: lib/core/k9dvd.cpp:250
-msgid "Lithuanian"
-msgstr "立陶宛語"
-
-#: lib/core/k9dvd.cpp:251
-msgid "Latvian, Lettish"
-msgstr "拉脫維亞語"
-
-#: lib/core/k9dvd.cpp:251
-msgid "Malagasy"
-msgstr "馬拉加西語"
-
-#: lib/core/k9dvd.cpp:251
-msgid "Maori"
-msgstr "毛利語"
-
-#: lib/core/k9dvd.cpp:251
-msgid "Macedonian"
-msgstr "馬其頓語"
-
-#: lib/core/k9dvd.cpp:251
-msgid "Malayalam"
-msgstr "馬來亞拉姆語"
-
-#: lib/core/k9dvd.cpp:252
-msgid "Mongolian"
-msgstr "蒙古語"
-
-#: lib/core/k9dvd.cpp:252
-msgid "Moldavian"
-msgstr "Moldavian"
-
-#: lib/core/k9dvd.cpp:252
-msgid "Marathi"
-msgstr "馬拉地語"
-
-#: lib/core/k9dvd.cpp:252
-msgid "Malay"
-msgstr "馬來語"
-
-#: lib/core/k9dvd.cpp:252
-msgid "Maltese"
-msgstr "馬爾他語"
-
-#: lib/core/k9dvd.cpp:253
-msgid "Burmese"
-msgstr "緬甸語"
-
-#: lib/core/k9dvd.cpp:253
-msgid "Nauru"
-msgstr "諾魯語"
-
-#: lib/core/k9dvd.cpp:253
-msgid "Nepali"
-msgstr "尼泊爾語"
-
-#: lib/core/k9dvd.cpp:253
-msgid "Nederlands"
-msgstr "荷蘭語"
-
-#: lib/core/k9dvd.cpp:253
-msgid "Norsk"
-msgstr "挪威語"
-
-#: lib/core/k9dvd.cpp:253
-msgid "Occitan"
-msgstr "Occitan"
-
-#: lib/core/k9dvd.cpp:254
-msgid "Oromo"
-msgstr "Oromo"
-
-#: lib/core/k9dvd.cpp:254
-msgid "Oriya"
-msgstr "Oriya"
-
-#: lib/core/k9dvd.cpp:254
-msgid "Punjabi"
-msgstr "旁遮普語"
-
-#: lib/core/k9dvd.cpp:254
-msgid "Polish"
-msgstr "波蘭語"
-
-#: lib/core/k9dvd.cpp:254
-msgid "Pashto, Pushto"
-msgstr "(阿富汗)帕施圖語"
-
-#: lib/core/k9dvd.cpp:255
-msgid "Portugues"
-msgstr "葡萄牙語"
-
-#: lib/core/k9dvd.cpp:255
-msgid "Quechua"
-msgstr "(南非)蓋楚瓦語"
-
-#: lib/core/k9dvd.cpp:255
-msgid "Rhaeto-Romance"
-msgstr "Rhaeto-Romance"
-
-#: lib/core/k9dvd.cpp:255
-msgid "Kirundi"
-msgstr "Kirundi"
-
-#: lib/core/k9dvd.cpp:255
-msgid "Romanian"
-msgstr "羅馬尼亞語"
-
-#: lib/core/k9dvd.cpp:256
-msgid "Russian"
-msgstr "俄語"
-
-#: lib/core/k9dvd.cpp:256
-msgid "Kinyarwanda"
-msgstr "Kinyarwanda"
-
-#: lib/core/k9dvd.cpp:256
-msgid "Sanskrit"
-msgstr "梵語"
-
-#: lib/core/k9dvd.cpp:256
-msgid "Sindhi"
-msgstr "Sindhi"
-
-#: lib/core/k9dvd.cpp:256
-msgid "Sangho"
-msgstr "Sangho"
-
-#: lib/core/k9dvd.cpp:257
-msgid "Serbo-Croatian"
-msgstr "Serbo-Croatian"
-
-#: lib/core/k9dvd.cpp:257
-msgid "Sinhalese"
-msgstr "錫蘭語"
-
-#: lib/core/k9dvd.cpp:257
-msgid "Slovak"
-msgstr "斯洛伐克語"
-
-#: lib/core/k9dvd.cpp:257
-msgid "Slovenian"
-msgstr "斯洛維尼亞語"
-
-#: lib/core/k9dvd.cpp:257
-msgid "Samoan"
-msgstr "薩摩牙語"
-
-#: lib/core/k9dvd.cpp:258
-msgid "Shona"
-msgstr "Shona"
-
-#: lib/core/k9dvd.cpp:258
-msgid "Somali"
-msgstr "索馬利語"
-
-#: lib/core/k9dvd.cpp:258
-msgid "Albanian"
-msgstr "阿爾巴尼亞語"
-
-#: lib/core/k9dvd.cpp:258
-msgid "Serbian"
-msgstr "塞爾維亞語"
-
-#: lib/core/k9dvd.cpp:258
-msgid "Siswati"
-msgstr "Siswati"
-
-#: lib/core/k9dvd.cpp:259
-msgid "Sesotho"
-msgstr "Sesotho"
-
-#: lib/core/k9dvd.cpp:259
-msgid "Sundanese"
-msgstr "Sundanese"
-
-#: lib/core/k9dvd.cpp:259
-msgid "Svenska"
-msgstr "Svenska"
-
-#: lib/core/k9dvd.cpp:259
-msgid "Swahili"
-msgstr "斯華西里語"
-
-#: lib/core/k9dvd.cpp:259
-msgid "Tamil"
-msgstr "坦米爾語"
-
-#: lib/core/k9dvd.cpp:260
-msgid "Telugu"
-msgstr "Telugu"
-
-#: lib/core/k9dvd.cpp:260
-msgid "Tajik"
-msgstr "塔吉克語"
-
-#: lib/core/k9dvd.cpp:260
-msgid "Thai"
-msgstr "泰語"
-
-#: lib/core/k9dvd.cpp:260
-msgid "Tigrinya"
-msgstr "提格利尼亞語"
-
-#: lib/core/k9dvd.cpp:260
-msgid "Turkmen"
-msgstr "土庫曼語"
-
-#: lib/core/k9dvd.cpp:260
-msgid "Tagalog"
-msgstr "塔加拉族語"
-
-#: lib/core/k9dvd.cpp:261
-msgid "Setswana"
-msgstr "Setswana"
-
-#: lib/core/k9dvd.cpp:261
-msgid "Tonga"
-msgstr "東加語"
-
-#: lib/core/k9dvd.cpp:261
-msgid "Turkish"
-msgstr "土耳其語"
-
-#: lib/core/k9dvd.cpp:261
-msgid "Tsonga"
-msgstr "Tsonga"
-
-#: lib/core/k9dvd.cpp:261
-msgid "Tatar"
-msgstr "韃靼語"
-
-#: lib/core/k9dvd.cpp:261
-msgid "Twi"
-msgstr "契維語"
-
-#: lib/core/k9dvd.cpp:262
-msgid "Uighur"
-msgstr "維吾爾語"
-
-#: lib/core/k9dvd.cpp:262
-msgid "Ukrainian"
-msgstr "烏克蘭語"
-
-#: lib/core/k9dvd.cpp:262
-msgid "Urdu"
-msgstr "烏都語"
-
-#: lib/core/k9dvd.cpp:262
-msgid "Uzbek"
-msgstr "烏茲別克語"
-
-#: lib/core/k9dvd.cpp:262
-msgid "Vietnamese"
-msgstr "越南語"
-
-#: lib/core/k9dvd.cpp:263
-msgid "Volapuk"
-msgstr "沃拉普克語"
-
-#: lib/core/k9dvd.cpp:263
-msgid "Wolof"
-msgstr "Wolof"
-
-#: lib/core/k9dvd.cpp:263
-msgid "Xhosa"
-msgstr "科薩語"
-
-#: lib/core/k9dvd.cpp:263
-msgid "Yoruba"
-msgstr "優魯巴語"
-
-#: lib/core/k9dvd.cpp:263
-msgid "Zhuang"
-msgstr "瑤族語"
-
-#: lib/core/k9dvd.cpp:264
-msgid "Chinese"
-msgstr "中文"
-
-#: lib/core/k9dvd.cpp:264
-msgid "Zulu"
-msgstr "祖魯語"
-
-#: lib/core/k9dvd.cpp:264 lib/core/k9dvd.cpp:265 lib/core/k9dvd.cpp:488
-msgid "Unknown"
-msgstr "未知"
-
-#: lib/core/k9dvd.cpp:355
-msgid "Can't open disc %1!\n"
-msgstr "無法開啟碟片 %1!\n"
-
-#: lib/core/k9dvd.cpp:367
-msgid "Can't open main ifo!\n"
-msgstr "無法開啟主要 ifo!\n"
-
-#: lib/core/k9dvd.cpp:409 lib/core/k9dvd.cpp:706
-msgid "Title %1"
-msgstr "標題 %1"
-
-#: lib/core/k9dvd.cpp:757
-msgid "reading title"
-msgstr "讀取標題"
-
-#: lib/core/k9dvd.cpp:874
-msgid "Error opening vobs for title %1\n"
-msgstr "開啟標題 %1 的 vobs 時發生錯誤\n"
-
-#: lib/core/k9dvd.cpp:885
-msgid "ERROR reading block %1\n"
-msgstr "讀取區塊 %1 時發生錯誤\n"
-
-#: lib/import/k9avidecode.cpp:31 lib/import/k9avidecode.cpp:35
-msgid "Cannot open the library %1"
-msgstr "無法開啟涵式庫 %1"
-
-#: lib/import/k9avidecode.cpp:88
-msgid "Couldn't open the file %1"
-msgstr "無法開啟檔案 %1"
-
-#: lib/import/k9avidecode.cpp:93
-msgid "Couldn't find stream information"
-msgstr "無法找到串流資訊"
-
-#: lib/import/k9avidecode.cpp:106
-msgid "The file doesn't contain any video stream"
-msgstr "這個檔案並不包含任何視訊串流"
-
-#: lib/import/k9avidecode.cpp:117
-msgid "Unsupported codec"
-msgstr "不支援的解碼器"
-
-#: lib/import/k9avidecode.cpp:122
-msgid "Couldn't open the codec"
-msgstr "無法開啟解碼器"
-
-#: lib/import/k9avidecode.cpp:133
-msgid "Unable to allocate memory for frames"
-msgstr "無法配置 frames 所需的所有記憶體"
-
-#. i18n: file ./lib/import/menuEdit.ui line 171
-#: lib/import/k9import.cpp:50 lib/import/k9menuedit.cpp:298 po/rc.cpp:151
-#: ui_menuEdit.h:216 rc.cpp:151
-#, no-c-format
-msgid "Root Menu"
-msgstr "最上層選單"
-
-#: lib/import/k9import.cpp:68 lib/main/k9main.cpp:474 lib/main/k9main.cpp:1253
-msgid "ISO Image"
-msgstr "ISO 映像檔"
-
-#: lib/import/k9import.cpp:69 lib/main/k9main.cpp:1254
-msgid "Folder"
-msgstr "目錄"
-
-#: lib/import/k9importfiles.cpp:86
-msgid "Add Title"
+#: main.cpp:55
+#, fuzzy
+msgid "A DVD Backup software for KDE"
+msgstr "KDE 下的 DVD 備份工具"
+
+#: main.cpp:64
+#, fuzzy
+msgid "K9copy"
+msgstr "k9copy"
+
+#: main.cpp:67
+msgid ""
+"<p>Copyright (C) 2014 Pauline123</p><p>(C) 2004-2011 Jean-Michel PETIT</p>"
 msgstr ""
 
-#. i18n: file ./lib/import/chapterEdit.ui line 20
-#: lib/import/k9importfiles.cpp:94 po/rc.cpp:72 ui_chapterEdit.h:217 rc.cpp:72
-#, no-c-format
-msgid "Chapter properties"
-msgstr "章節屬性"
-
-#: lib/import/k9importfiles.cpp:105
-msgid "Edit menu"
-msgstr "編輯選單"
-
-#: lib/import/k9importfiles.cpp:148
-msgid "Create DVD"
-msgstr "建立 DVD"
-
-#: lib/import/k9importfiles.cpp:152 lib/main/k9settings.cpp:34
-msgid "DVD Backup"
-msgstr "DVD 備份"
-
-#: lib/import/k9importfiles.cpp:190 lib/main/k9copy.cpp:333
-msgid "Settings"
-msgstr "設定"
-
-#: lib/import/k9menuedit.cpp:254
-msgid "Title %1 Menu"
-msgstr "標題 %1 選單"
-
-#: lib/import/k9menuedit.cpp:263 lib/import/k9menuedit.cpp:303
-msgid "Play Menu"
-msgstr "播放選單"
-
-#: lib/import/k9menuedit.cpp:265
-msgid "Play Title"
-msgstr "播放標題"
-
-#: lib/import/k9menuedit.cpp:271
-msgid "Play Root Menu"
-msgstr "播放最上層選單"
-
-#: lib/import/k9menuedit.cpp:273
-msgid "Play Title Menu"
-msgstr "播放標題選單"
-
-#: lib/import/k9menuedit.cpp:281 lib/import/k9menuedit.cpp:309
-msgid "Play Title %1"
-msgstr "播放標題 %1"
-
-#: lib/import/k9newdvd.cpp:95
-msgid "Creating root menu"
-msgstr "建立最上層選單"
-
-#: lib/import/k9newdvd.cpp:135
-msgid "The dvd authoring was canceled"
-msgstr "DVD 編寫 (Authoring) 已被取消"
-
-#: lib/import/k9newdvd.cpp:163
-msgid "Creating menu for title %1"
-msgstr "正在建立標題 %1 的選單"
-
-#. i18n: file ./lib/backup/mp4dlg.ui line 133
-#: lib/import/k9newdvd.cpp:350 po/rc.cpp:33 ui_mp4dlg.h:219 rc.cpp:33
-#, no-c-format
-msgid "fps"
-msgstr "fps"
-
-#: lib/import/k9newdvd.cpp:387 lib/import/k9newtitle.cpp:66
-msgid "title %1"
-msgstr "標題 %1"
-
-#. i18n: file ./lib/import/newTitle.ui line 13
-#: lib/import/k9newtitle.cpp:58 po/rc.cpp:175 ui_newTitle.h:183 rc.cpp:175
-#, no-c-format
-msgid "Add title"
-msgstr "新增標題"
-
-#: lib/import/k9newtitle.cpp:119 lib/import/k9newtitle.cpp:141
-#: lib/main/k9main.cpp:629 lib/main/k9main.cpp:646
-msgid "chapter %1"
-msgstr "章節 %1"
-
-#: lib/main/k9copy.cpp:109
-msgid "Shrink Factor"
-msgstr "壓縮係數"
-
-#: lib/main/k9copy.cpp:119
-msgid "MPEG4 Encoding Options"
-msgstr "MPEG4 編碼選項"
-
-#. i18n: file ./lib/main/playbackoptionsw.ui line 13
-#: lib/main/k9copy.cpp:140 po/rc.cpp:318 ui_playbackoptionsw.h:225 rc.cpp:318
-#, no-c-format
-msgid "DVD playback options"
-msgstr "DVD 播放選項"
-
-#. i18n: file ./lib/main/langselectw.ui line 13
-#: lib/main/k9copy.cpp:148 po/rc.cpp:306 ui_langselectw.h:60 rc.cpp:306
-#, no-c-format
-msgid "Selection"
-msgstr "選擇"
-
-#. i18n: file ./lib/mplayer/mplayer.ui line 16
-#: lib/main/k9copy.cpp:160 lib/main/k9settings.cpp:49
-#: lib/mplayer/k9mplayer.cpp:99 po/rc.cpp:623 ui_mplayer.h:241 rc.cpp:623
-#, no-c-format
-msgid "Preview"
-msgstr "預覽"
-
-#: lib/main/k9copy.cpp:224
-msgid "Play title"
-msgstr "播放標題"
-
-#: lib/main/k9copy.cpp:230
-msgid "Copy"
+#: main.cpp:70 src/player/main.cpp:65 src/xine/main.cpp:59
+msgid "<p>Please report bugs to:</p>"
 msgstr ""
 
-#: lib/main/k9copy.cpp:236
-msgid "Create MPEG-4"
-msgstr "建立 MPEG-4"
-
-#: lib/main/k9copy.cpp:245
-msgid "Eject"
-msgstr "退出"
-
-#: lib/main/k9copy.cpp:253
-msgid "DVD Author"
-msgstr "DVD 編寫 (Author)"
-
-#. i18n: file ./lib/main/playbackoptionsw.ui line 297
-#. i18n: file ./lib/main/prefAuthor.ui line 19
-#. i18n: file ./lib/main/prefMPEG4.ui line 397
-#. i18n: file ./lib/mplayer/mplayer.ui line 25
-#. i18n: file ./lib/main/playbackoptionsw.ui line 297
-#. i18n: file ./lib/main/prefAuthor.ui line 19
-#. i18n: file ./lib/main/prefMPEG4.ui line 397
-#. i18n: file ./lib/mplayer/mplayer.ui line 25
-#: lib/main/k9langselect.cpp:89 po/rc.cpp:336 po/rc.cpp:342 po/rc.cpp:527
-#: po/rc.cpp:626 ui_mplayer.h:242 ui_playbackoptionsw.h:233
-#: ui_prefAuthor.h:190 ui_prefMPEG4.h:395 rc.cpp:336 rc.cpp:342 rc.cpp:527
-#: rc.cpp:626
-#, no-c-format
-msgid "Audio"
-msgstr "音訊"
-
-#: lib/main/k9langselect.cpp:100
-msgid "Subtitles"
-msgstr "字幕"
-
-#: lib/main/k9main.cpp:368 lib/main/k9main.cpp:1146
-msgid "DVD is not opened"
-msgstr "DVD 尚未開啟"
-
-#: lib/main/k9main.cpp:368
-msgid "DVD Copy"
-msgstr "複製 DVD"
-
-#: lib/main/k9main.cpp:395
-msgid "Backup in progress"
-msgstr "備份正在進行中"
-
-#: lib/main/k9main.cpp:450 lib/main/k9main.cpp:586 lib/main/k9main.cpp:1197
-msgid "Ready"
-msgstr "就緒"
-
-#: lib/main/k9main.cpp:533
-msgid "Open DVD"
-msgstr "開啟 DVD"
-
-#: lib/main/k9main.cpp:559
-msgid "Titleset %1"
-msgstr "標題組 %1"
-
-#: lib/main/k9main.cpp:621
-msgid "chapters"
-msgstr "章節"
-
-#: lib/main/k9main.cpp:633 lib/main/k9main.cpp:649 lib/main/k9main.cpp:713
-#: lib/main/k9main.cpp:734
-msgid "%1 MB"
-msgstr "%1 MB"
-
-#: lib/main/k9main.cpp:691
-msgid "video %1 "
-msgstr "視訊 %1 "
-
-#: lib/main/k9main.cpp:702
-msgid "audio %1 "
-msgstr "音訊 %1 "
-
-#: lib/main/k9main.cpp:725
-msgid "subpicture %1 "
-msgstr "字幕 %1 "
-
-#: lib/main/k9main.cpp:1154
-msgid "Transcoding title : %1"
-msgstr "正在轉碼的標題 : %1"
-
-#: lib/main/k9main.cpp:1373
-msgid "Open ISO Image"
-msgstr "開啟 ISO 映像檔"
-
-#: lib/main/k9main.cpp:1384
-msgid "Open DVD folder"
-msgstr "開啟 DVD 資料夾"
-
-#. i18n: file ./lib/main/mencoderCmdGen.ui line 13
-#: lib/main/k9mencodercmdgen.cpp:63 po/rc.cpp:312 ui_mencoderCmdGen.h:106
-#: rc.cpp:312
-#, no-c-format
-msgid "MEncoder options"
-msgstr "MEncoder 選項"
-
-#: lib/main/k9mencodercmdgen.cpp:78
-msgid "Audio Codec"
-msgstr "音訊編碼器(Codec)"
-
-#: lib/main/k9mencodercmdgen.cpp:94
-msgid "Video Codec"
-msgstr "視訊編碼器(Codec)"
-
-#: lib/main/k9mencodercmdgen.cpp:113
-msgid "Filters"
-msgstr "過濾器"
-
-#: lib/main/k9mp4title.cpp:37 lib/main/k9mp4title.cpp:110
-#: lib/main/k9titlefactor.cpp:100
-msgid "Select a Title in the treeview..."
-msgstr "在樹狀列表中選取一個標題..."
-
-#: lib/main/k9playbackoptions.cpp:149
-msgid "none"
-msgstr "無"
-
-#: lib/main/k9prefmencoder.cpp:110 lib/main/k9prefmencoder.cpp:114
-#: lib/main/k9prefmencoder.cpp:125 lib/main/k9prefmencoder.cpp:127
-msgid "new profile"
-msgstr "新建個人設定"
-
-#: lib/main/k9settings.cpp:28
-msgid "Devices"
-msgstr "裝置"
-
-#: lib/main/k9settings.cpp:29
-msgid "Devices not detected by k9copy"
-msgstr "k9copy 沒有偵測到的裝置"
-
-#: lib/main/k9settings.cpp:33
-msgid "DVD"
-msgstr "DVD"
-
-#: lib/main/k9settings.cpp:38
-msgid "MEncoder"
-msgstr "MEncoder"
-
-#: lib/main/k9settings.cpp:39
-msgid "MPEG-4 Codecs"
-msgstr "MPEG-4 編碼器"
-
-#: lib/main/k9settings.cpp:43
-msgid "MPEG-4"
-msgstr "MPEG-4"
-
-#: lib/main/k9settings.cpp:50
-msgid "Title preview"
-msgstr "預覽標題"
-
-#: lib/main/k9titlefactor.cpp:111
-msgid "Shrink Factor for %1"
-msgstr "%1 的壓縮係數"
-
-#: main.cpp:31
-msgid "A KDE 4 Application"
+#: main.cpp:71 main.cpp:86 src/player/main.cpp:66 src/player/main.cpp:74
+#: src/xine/main.cpp:60 src/xine/main.cpp:68
+msgid "Pauline123"
 msgstr ""
 
-#: main.cpp:37
+#: main.cpp:71 main.cpp:72 src/player/main.cpp:66 src/player/main.cpp:67
+#: src/xine/main.cpp:60 src/xine/main.cpp:61
+msgid "developer"
+msgstr ""
+
+#: main.cpp:72 main.cpp:87 src/player/main.cpp:67 src/xine/main.cpp:61
+msgid "Jean-Michel PETIT"
+msgstr ""
+
+#: main.cpp:79 src/player/main.cpp:60 src/player/main.cpp:71
+#: src/xine/main.cpp:54 src/xine/main.cpp:65
 msgid "k9copy"
 msgstr "k9copy"
 
-#: main.cpp:38
-msgid "(C) 2007 Jean-Michel"
+#: main.cpp:82
+msgid "<p>(C) 2014 Pauline123</p><p>(C) 2004-2011 Jean-Michel PETIT</p>"
 msgstr ""
 
-#: main.cpp:39
-msgid "Jean-Michel"
-msgstr ""
-
-#: main.cpp:40
+#: main.cpp:88 src/player/main.cpp:76 src/xine/main.cpp:70
 msgid "_: NAME OF TRANSLATORS\\nYour names"
 msgstr "洪任諭 (PCMan)"
 
-#: main.cpp:41
+#: main.cpp:89 src/player/main.cpp:77 src/xine/main.cpp:71
 msgid "_: EMAIL OF TRANSLATORS\\nYour emails"
 msgstr "pcman.tw@gmail.com"
 
-#. i18n: file ./lib/main/k9mainw.ui line 49
-#: main.cpp:45 po/rc.cpp:270 ui_k9mainw.h:181 rc.cpp:270
-#, no-c-format
+#: main.cpp:102 main.cpp:112 src/player/main.cpp:97 src/player/main.cpp:121
 msgid "input device"
 msgstr "輸入裝置"
 
-#: main.cpp:46
+#: main.cpp:103 main.cpp:113 src/player/main.cpp:98 src/player/main.cpp:122
 msgid "output device"
 msgstr "輸出裝置"
 
-#: main.cpp:47
+#: main.cpp:104 main.cpp:115
+msgid "the k9copy backup assistant"
+msgstr ""
+
+#: main.cpp:114 src/player/main.cpp:99 src/player/main.cpp:123
 msgid "title to play"
 msgstr "要播放的標題"
 
-#: main.cpp:48
-msgid "play title to stdout"
-msgstr "播放標題到標準輸出 (stdout)"
-
-#: main.cpp:49
-msgid "start sector"
-msgstr "開始區段"
-
-#: main.cpp:50
-msgid "end sector"
-msgstr "結束區段"
-
-#: main.cpp:51
-msgid "list of audio streams"
-msgstr "音訊串流列表"
-
-#: main.cpp:52
-msgid "list of spu streams"
-msgstr "spu 串流列表"
-
-#: main.cpp:53
-msgid "shrink factor"
-msgstr "壓縮係數"
-
-#: main.cpp:54
-msgid "shrink factor forced"
-msgstr "強制壓縮係數"
-
-#: main.cpp:55
-msgid "size of the cell to be copied"
-msgstr "要複製的 cell 大小"
-
-#: main.cpp:56
-msgid "total size of selected titles"
-msgstr "所有選取標題的大小總和"
-
-#: main.cpp:57
-msgid "size of the chapters being copied"
-msgstr "複製中章節的大小"
-
-#: main.cpp:58
-msgid "selected chapters"
-msgstr "選取的章節"
-
-#: main.cpp:59
-msgid "new dvd size"
-msgstr "新 DVD 大小"
-
-#: main.cpp:60
-msgid "selected chapter"
-msgstr "選取的章節"
-
-#: main.cpp:61
-msgid "cell number in selected chapter"
-msgstr "選取的章節內的 cell 數量"
-
-#: main.cpp:62
-msgid "status file name"
-msgstr "狀態檔名"
-
-#: main.cpp:63
-msgid "initialize status file"
-msgstr "初始化狀態檔"
-
-#: main.cpp:64
-msgid "continue playing from last sector"
-msgstr "從上一個區段繼續播放"
-
-#: main.cpp:65
-msgid "don't save status at end"
-msgstr "結束時不紀錄狀態"
-
-#: main.cpp:66
-msgid "save cell in a temporary file before encoding"
-msgstr "編碼前先將 cell 存到暫存檔案"
-
-#. i18n: file ./k9copyui.rc line 4
-#: po/rc.cpp:3 rc.cpp:3
-msgid "&File"
-msgstr ""
-
-#. i18n: file ./k9copyui.rc line 10
-#: po/rc.cpp:6 rc.cpp:6
-#, no-c-format
-msgid "A&ctions"
-msgstr "動作 (&A)"
-
-#. i18n: file ./k9copyui.rc line 24
-#: po/rc.cpp:9 rc.cpp:9
-#, no-c-format
-msgid "Actions ToolBar"
-msgstr "動作工具列"
-
-#. i18n: file ./lib/backup/backupdlg.ui line 80
-#: po/rc.cpp:15 ui_backupdlg.h:240 rc.cpp:15
-#, no-c-format
-msgid "<p align=\"left\"><b>DVD Backup</b></p>"
-msgstr "<p align=\"left\"><b>DVD 備份</b></p>"
-
-#. i18n: file ./lib/backup/backupdlg.ui line 106
-#: po/rc.cpp:18 ui_backupdlg.h:241 rc.cpp:18
-#, no-c-format
-msgid "Current step"
-msgstr " 目前步驟"
-
-#. i18n: file ./lib/backup/backupdlg.ui line 147
-#. i18n: file ./lib/backup/mp4dlg.ui line 146
-#. i18n: file ./lib/core/progress.ui line 221
-#. i18n: file ./lib/backup/backupdlg.ui line 147
-#. i18n: file ./lib/backup/mp4dlg.ui line 146
-#. i18n: file ./lib/core/progress.ui line 221
-#: po/rc.cpp:21 po/rc.cpp:36 po/rc.cpp:69 ui_backupdlg.h:242 ui_mp4dlg.h:220
-#: ui_progress.h:171 rc.cpp:21 rc.cpp:36 rc.cpp:69
-#, no-c-format
-msgid "Elapsed Time"
-msgstr "經過時間"
-
-#. i18n: file ./lib/backup/backupdlg.ui line 166
-#. i18n: file ./lib/import/chapterEdit.ui line 118
-#. i18n: file ./lib/import/import.ui line 97
-#. i18n: file ./lib/import/newTitle.ui line 197
-#. i18n: file ./lib/backup/backupdlg.ui line 166
-#. i18n: file ./lib/import/chapterEdit.ui line 118
-#. i18n: file ./lib/import/import.ui line 97
-#. i18n: file ./lib/import/newTitle.ui line 197
-#: po/rc.cpp:24 po/rc.cpp:75 po/rc.cpp:130 po/rc.cpp:193 ui_backupdlg.h:243
-#: ui_chapterEdit.h:218 ui_import.h:136 ui_newTitle.h:191 rc.cpp:24 rc.cpp:75
-#: rc.cpp:130 rc.cpp:193
-#, no-c-format
-msgid "--:--:--"
-msgstr "--:--:--"
-
-#. i18n: file ./lib/backup/mp4dlg.ui line 16
-#: po/rc.cpp:27 ui_mp4dlg.h:213 rc.cpp:27
-#, no-c-format
-msgid "transcoding"
-msgstr "轉碼"
-
-#. i18n: file ./lib/backup/mp4dlg.ui line 37
-#: po/rc.cpp:30 ui_mp4dlg.h:214 rc.cpp:30
-#, no-c-format
-msgid "Encoding"
-msgstr "編碼"
-
-#. i18n: file ./lib/backup/mp4dlg.ui line 159
-#. i18n: file ./lib/main/prefAuthor.ui line 68
-#. i18n: file ./lib/main/prefMPEG4.ui line 341
-#. i18n: file ./lib/main/prefMPEG4.ui line 448
-#. i18n: file ./lib/backup/mp4dlg.ui line 159
-#. i18n: file ./lib/main/prefAuthor.ui line 68
-#. i18n: file ./lib/main/prefMPEG4.ui line 341
-#. i18n: file ./lib/main/prefMPEG4.ui line 448
-#: po/rc.cpp:39 po/rc.cpp:363 po/rc.cpp:521 po/rc.cpp:548 ui_mp4dlg.h:221
-#: ui_prefAuthor.h:203 ui_prefMPEG4.h:380 ui_prefMPEG4.h:392 rc.cpp:39
-#: rc.cpp:363 rc.cpp:521 rc.cpp:548
-#, no-c-format
-msgid "Bitrate"
-msgstr "位元率(Bitrate)"
-
-#. i18n: file ./lib/backup/mp4dlg.ui line 172
-#. i18n: file ./lib/main/k9mainwsov.ui line 243
-#. i18n: file ./lib/main/k9mainw.ui line 218
-#. i18n: file ./lib/backup/mp4dlg.ui line 172
-#. i18n: file ./lib/main/k9mainwsov.ui line 243
-#. i18n: file ./lib/main/k9mainw.ui line 218
-#: po/rc.cpp:42 po/rc.cpp:262 po/rc.cpp:300 ui_k9mainw.h:194 ui_mp4dlg.h:222
-#: rc.cpp:42 rc.cpp:262 rc.cpp:300
-#, no-c-format
-msgid "Size"
-msgstr "大小"
-
-#. i18n: file ./lib/core/dvdprogress.ui line 35
-#: po/rc.cpp:45 ui_dvdprogress.h:114 rc.cpp:45
-#, no-c-format
-msgid "DVD Analyze"
-msgstr "分析 DVD"
-
-#. i18n: file ./lib/core/processList.ui line 16
-#. i18n: file ./lib/import/processList.ui line 13
-#. i18n: file ./lib/core/processList.ui line 16
-#. i18n: file ./lib/import/processList.ui line 13
-#: po/rc.cpp:48 po/rc.cpp:196 ui_processList.h:73 rc.cpp:48 rc.cpp:196
-#, no-c-format
-msgid "Process List"
-msgstr "處理列表"
-
-#. i18n: file ./lib/core/processList.ui line 25
-#. i18n: file ./lib/import/processList.ui line 25
-#. i18n: file ./lib/core/processList.ui line 25
-#. i18n: file ./lib/import/processList.ui line 25
-#: po/rc.cpp:51 po/rc.cpp:202 ui_processList.h:75 rc.cpp:51 rc.cpp:202
-#, no-c-format
-msgid "Processes"
-msgstr "處理"
-
-#. i18n: file ./lib/core/processList.ui line 36
-#. i18n: file ./lib/import/processList.ui line 30
-#. i18n: file ./lib/core/processList.ui line 36
-#. i18n: file ./lib/import/processList.ui line 30
-#: po/rc.cpp:54 po/rc.cpp:205 ui_processList.h:76 rc.cpp:54 rc.cpp:205
-#, no-c-format
-msgid "Elapsed"
-msgstr "經過時間"
-
-#. i18n: file ./lib/core/processList.ui line 47
-#. i18n: file ./lib/import/import.ui line 58
-#. i18n: file ./lib/import/processList.ui line 35
-#. i18n: file ./lib/main/k9mainw.ui line 80
-#. i18n: file ./lib/main/k9mainw.ui line 90
-#. i18n: file ./lib/core/processList.ui line 47
-#. i18n: file ./lib/import/import.ui line 58
-#. i18n: file ./lib/import/processList.ui line 35
-#. i18n: file ./lib/main/k9mainw.ui line 80
-#. i18n: file ./lib/main/k9mainw.ui line 90
-#: po/rc.cpp:57 po/rc.cpp:121 po/rc.cpp:208 po/rc.cpp:276 po/rc.cpp:282
-#: ui_import.h:130 ui_k9mainw.h:183 ui_k9mainw.h:185 ui_processList.h:77
-#: rc.cpp:57 rc.cpp:121 rc.cpp:208 rc.cpp:276 rc.cpp:282
-#, no-c-format
-msgid "..."
-msgstr "..."
-
-#. i18n: file ./lib/core/processList.ui line 73
-#. i18n: file ./lib/import/processList.ui line 49
-#. i18n: file ./lib/core/processList.ui line 73
-#. i18n: file ./lib/import/processList.ui line 49
-#: po/rc.cpp:60 po/rc.cpp:211 ui_processList.h:78 rc.cpp:60 rc.cpp:211
-#, no-c-format
-msgid "&Cancel"
-msgstr ""
-
-#. i18n: file ./lib/core/processList.ui line 76
-#. i18n: file ./lib/import/processList.ui line 52
-#. i18n: file ./lib/core/processList.ui line 76
-#. i18n: file ./lib/import/processList.ui line 52
-#: po/rc.cpp:63 po/rc.cpp:214 ui_processList.h:79 rc.cpp:63 rc.cpp:214
-#, no-c-format
-msgid "Alt+C"
-msgstr "Alt+C"
-
-#. i18n: file ./lib/core/progress.ui line 31
-#: po/rc.cpp:66 ui_progress.h:169 rc.cpp:66
-msgid "k9Copy"
-msgstr ""
-
-#. i18n: file ./lib/import/chapterEdit.ui line 130
-#: po/rc.cpp:78 ui_chapterEdit.h:219 rc.cpp:78
-#, no-c-format
-msgid "video"
-msgstr "視訊"
-
-#. i18n: file ./lib/import/chapterEdit.ui line 153
-#: po/rc.cpp:81 ui_chapterEdit.h:220 rc.cpp:81
-#, no-c-format
-msgid ""
-"*.avi\n"
-"*.mpeg"
-msgstr ""
-"*.avi\n"
-"*.mpeg"
-
-#. i18n: file ./lib/import/chapterEdit.ui line 160
-#: po/rc.cpp:85 ui_chapterEdit.h:222 rc.cpp:85
-#, no-c-format
-msgid "start"
-msgstr "開始"
-
-#. i18n: file ./lib/import/chapterEdit.ui line 176
-#. i18n: file ./lib/import/chapterEdit.ui line 251
-#. i18n: file ./lib/import/newTitle.ui line 56
-#. i18n: file ./lib/import/chapterEdit.ui line 176
-#. i18n: file ./lib/import/chapterEdit.ui line 251
-#. i18n: file ./lib/import/newTitle.ui line 56
-#: po/rc.cpp:88 po/rc.cpp:100 po/rc.cpp:178 ui_chapterEdit.h:223
-#: ui_chapterEdit.h:227 ui_newTitle.h:185 rc.cpp:88 rc.cpp:100 rc.cpp:178
-#, no-c-format
-msgid "HH:mm:ss"
-msgstr ""
-
-#. i18n: file ./lib/import/chapterEdit.ui line 189
-#. i18n: file ./lib/import/chapterEdit.ui line 264
-#. i18n: file ./lib/import/chapterEdit.ui line 189
-#. i18n: file ./lib/import/chapterEdit.ui line 264
-#: po/rc.cpp:91 po/rc.cpp:103 ui_chapterEdit.h:224 ui_chapterEdit.h:228
-#: rc.cpp:91 rc.cpp:103
-#, no-c-format
-msgid "set Current Frame"
-msgstr "設定目前 Frame"
-
-#. i18n: file ./lib/import/chapterEdit.ui line 212
-#. i18n: file ./lib/import/chapterEdit.ui line 271
-#. i18n: file ./lib/import/chapterEdit.ui line 212
-#. i18n: file ./lib/import/chapterEdit.ui line 271
-#: po/rc.cpp:94 po/rc.cpp:106 ui_chapterEdit.h:225 ui_chapterEdit.h:229
-#: rc.cpp:94 rc.cpp:106
-#, no-c-format
-msgid "break continuity"
-msgstr "破壞連續性"
-
-#. i18n: file ./lib/import/chapterEdit.ui line 235
-#: po/rc.cpp:97 ui_chapterEdit.h:226 rc.cpp:97
-#, no-c-format
-msgid "end"
-msgstr "結束"
-
-#. i18n: file ./lib/import/chapterEdit.ui line 300
-#: po/rc.cpp:109 ui_chapterEdit.h:230 rc.cpp:109
-#, no-c-format
-msgid "set Title button"
-msgstr "設定標題按鈕"
-
-#. i18n: file ./lib/import/import.ui line 13
-#: po/rc.cpp:112 ui_import.h:127 rc.cpp:112
-#, no-c-format
-msgid "import"
-msgstr "匯入"
-
-#. i18n: file ./lib/import/import.ui line 25
-#. i18n: file ./lib/main/configDlg.ui line 113
-#. i18n: file ./lib/import/import.ui line 25
-#. i18n: file ./lib/main/configDlg.ui line 113
-#: po/rc.cpp:115 po/rc.cpp:229 ui_configDlg.h:128 ui_import.h:128 rc.cpp:115
-#: rc.cpp:229
-#, no-c-format
-msgid "Output"
-msgstr "輸出"
-
-#. i18n: file ./lib/import/import.ui line 53
-#: po/rc.cpp:118 ui_import.h:129 rc.cpp:118
-#, no-c-format
-msgid "Video files"
-msgstr "視訊檔案"
-
-#. i18n: file ./lib/import/import.ui line 78
-#: po/rc.cpp:124 ui_import.h:133 rc.cpp:124
-#, no-c-format
-msgid "PAL"
-msgstr "PAL"
-
-#. i18n: file ./lib/import/import.ui line 83
-#: po/rc.cpp:127 ui_import.h:134 rc.cpp:127
-#, no-c-format
-msgid "NTSC"
-msgstr "NTSC"
-
-#. i18n: file ./lib/import/menuEdit.ui line 13
-#: po/rc.cpp:133 ui_menuEdit.h:204 rc.cpp:133
-#, no-c-format
-msgid "Edit Menu"
-msgstr "編輯選單"
-
-#. i18n: file ./lib/import/menuEdit.ui line 37
-#: po/rc.cpp:136 ui_menuEdit.h:205 rc.cpp:136
-#, no-c-format
-msgid "Text"
-msgstr "文字"
-
-#. i18n: file ./lib/import/menuEdit.ui line 53
-#: po/rc.cpp:139 ui_menuEdit.h:206 rc.cpp:139
-#, no-c-format
-msgid "Background picture"
-msgstr "背景圖片"
-
-#. i18n: file ./lib/import/menuEdit.ui line 85
-#. i18n: file ./lib/main/prefAuthor.ui line 175
-#. i18n: file ./lib/import/menuEdit.ui line 85
-#. i18n: file ./lib/main/prefAuthor.ui line 175
-#: po/rc.cpp:142 po/rc.cpp:375 ui_menuEdit.h:208 ui_prefAuthor.h:207
-#: rc.cpp:142 rc.cpp:375
-msgid "Font"
-msgstr ""
-
-#. i18n: file ./lib/import/menuEdit.ui line 99
-#: po/rc.cpp:145 ui_menuEdit.h:211 rc.cpp:145
-msgid "Bottom"
-msgstr ""
-
-#. i18n: file ./lib/import/menuEdit.ui line 104
-#: po/rc.cpp:148 ui_menuEdit.h:212 rc.cpp:148
-#, no-c-format
-msgid "Right"
-msgstr ""
-
-#. i18n: file ./lib/import/menuEdit.ui line 181
-#: po/rc.cpp:154 ui_menuEdit.h:217 rc.cpp:154
-#, no-c-format
-msgid "At start"
-msgstr "在開始處"
-
-#. i18n: file ./lib/import/menuEdit.ui line 192
-#: po/rc.cpp:157 ui_menuEdit.h:220 rc.cpp:157
-#, no-c-format
-msgid "Play menu"
-msgstr "播放選單"
-
-#. i18n: file ./lib/import/menuEdit.ui line 197
-#. i18n: file ./lib/import/menuEdit.ui line 226
-#. i18n: file ./lib/import/menuEdit.ui line 197
-#. i18n: file ./lib/import/menuEdit.ui line 226
-#: po/rc.cpp:160 po/rc.cpp:172 ui_menuEdit.h:221 ui_menuEdit.h:228 rc.cpp:160
-#: rc.cpp:172
-#, no-c-format
-msgid "Play title 1"
-msgstr "播放標題 1"
-
-#. i18n: file ./lib/import/menuEdit.ui line 205
-#: po/rc.cpp:163 ui_menuEdit.h:223 rc.cpp:163
-#, no-c-format
-msgid "At End"
-msgstr "在結尾處"
-
-#. i18n: file ./lib/import/menuEdit.ui line 216
-#: po/rc.cpp:166 ui_menuEdit.h:226 rc.cpp:166
-#, no-c-format
-msgid "Play root menu"
-msgstr "播放最上層選單"
-
-#. i18n: file ./lib/import/menuEdit.ui line 221
-#: po/rc.cpp:169 ui_menuEdit.h:227 rc.cpp:169
-#, no-c-format
-msgid "Play title menu"
-msgstr "播放標題選單"
-
-#. i18n: file ./lib/import/newTitle.ui line 63
-#: po/rc.cpp:181 ui_newTitle.h:186 rc.cpp:181
-#, no-c-format
-msgid "number of chapters"
-msgstr "章節數量"
-
-#. i18n: file ./lib/import/newTitle.ui line 73
-#: po/rc.cpp:184 ui_newTitle.h:187 rc.cpp:184
-#, no-c-format
-msgid "chapter length"
-msgstr "章節長度"
-
-#. i18n: file ./lib/import/newTitle.ui line 140
-#. i18n: file ./lib/main/configDlg.ui line 129
-#. i18n: file ./lib/import/newTitle.ui line 140
-#. i18n: file ./lib/main/configDlg.ui line 129
-#: po/rc.cpp:187 po/rc.cpp:232 ui_configDlg.h:130 ui_newTitle.h:188 rc.cpp:187
-#: rc.cpp:232
-#, no-c-format
-msgid "Add"
-msgstr ""
-
-#. i18n: file ./lib/import/newTitle.ui line 174
-#: po/rc.cpp:190 ui_newTitle.h:190 rc.cpp:190
-#, no-c-format
-msgid "Video file"
-msgstr "視訊檔案"
-
-#. i18n: file ./lib/import/processList.ui line 20
-#: po/rc.cpp:199 ui_processList.h:74 rc.cpp:199
-msgid "Progression"
-msgstr ""
-
-#. i18n: file ./lib/main/configDlg.ui line 98
-#: po/rc.cpp:220 ui_configDlg.h:116 rc.cpp:220
-#, no-c-format
-msgid "device"
-msgstr "裝置"
-
-#. i18n: file ./lib/main/configDlg.ui line 103
-#. i18n: file ./lib/main/prefMencoder.ui line 108
-#. i18n: file ./lib/main/prefMencoder.ui line 360
-#. i18n: file ./lib/main/configDlg.ui line 103
-#. i18n: file ./lib/main/prefMencoder.ui line 108
-#. i18n: file ./lib/main/prefMencoder.ui line 360
-#: po/rc.cpp:223 po/rc.cpp:443 po/rc.cpp:461 ui_configDlg.h:120
-#: ui_prefMencoder.h:419 ui_prefMencoder.h:429 rc.cpp:223 rc.cpp:443
-#: rc.cpp:461
-#, no-c-format
-msgid "label"
-msgstr "標籤"
-
-#. i18n: file ./lib/main/configDlg.ui line 108
-#: po/rc.cpp:226 ui_configDlg.h:124 rc.cpp:226
-#, no-c-format
-msgid "Input"
-msgstr "輸入"
-
-#. i18n: file ./lib/main/configDlg.ui line 148
-#: po/rc.cpp:235 ui_configDlg.h:132 rc.cpp:235
-#, no-c-format
-msgid "Remove"
-msgstr ""
-
-#. i18n: file ./lib/main/k9mainwsov.ui line 16
-#. i18n: file ./lib/main/k9mainw.ui line 25
-#. i18n: file ./lib/main/k9mainwsov.ui line 16
-#. i18n: file ./lib/main/k9mainw.ui line 25
-#: po/rc.cpp:238 po/rc.cpp:267 ui_k9mainw.h:180 rc.cpp:238 rc.cpp:267
-#, no-c-format
-msgid "MainDlg"
-msgstr "MainDlg"
-
-#. i18n: file ./lib/main/k9mainwsov.ui line 38
-#. i18n: file ./lib/main/k9mainw.ui line 121
-#. i18n: file ./lib/main/k9mainwsov.ui line 38
-#. i18n: file ./lib/main/k9mainw.ui line 121
-#: po/rc.cpp:241 po/rc.cpp:285 ui_k9mainw.h:186 rc.cpp:241 rc.cpp:285
-#, no-c-format
-msgid "Output device "
-msgstr "輸出裝置"
-
-#. i18n: file ./lib/main/k9mainwsov.ui line 54
-#. i18n: file ./lib/main/k9mainw.ui line 153
-#. i18n: file ./lib/main/k9mainwsov.ui line 54
-#. i18n: file ./lib/main/k9mainw.ui line 153
-#: po/rc.cpp:244 po/rc.cpp:288 ui_k9mainw.h:187 rc.cpp:244 rc.cpp:288
-#, no-c-format
-msgid "@"
-msgstr "@"
-
-#. i18n: file ./lib/main/k9mainwsov.ui line 70
-#: po/rc.cpp:247 rc.cpp:247
-#, no-c-format
-msgid "Input device "
-msgstr "輸入裝置"
-
-#. i18n: file ./lib/main/k9mainwsov.ui line 145
-#. i18n: file ./lib/main/k9mainw.ui line 187
-#. i18n: file ./lib/main/prefMPEG4.ui line 266
-#. i18n: file ./lib/main/k9mainwsov.ui line 145
-#. i18n: file ./lib/main/k9mainw.ui line 187
-#. i18n: file ./lib/main/prefMPEG4.ui line 266
-#: po/rc.cpp:253 po/rc.cpp:294 po/rc.cpp:509 ui_k9mainw.h:192
-#: ui_prefMPEG4.h:375 rc.cpp:253 rc.cpp:294 rc.cpp:509
-#, no-c-format
-msgid "X"
-msgstr "X"
-
-#. i18n: file ./lib/main/k9mainwsov.ui line 165
-#: po/rc.cpp:256 rc.cpp:256
-#, no-c-format
-msgid "D&VD"
-msgstr "D&VD"
-
-#. i18n: file ./lib/main/k9mainwsov.ui line 232
-#. i18n: file ./lib/main/k9mainw.ui line 213
-#. i18n: file ./lib/main/k9mainwsov.ui line 232
-#. i18n: file ./lib/main/k9mainw.ui line 213
-#: po/rc.cpp:259 po/rc.cpp:297 ui_k9mainw.h:193 rc.cpp:259 rc.cpp:297
-#, no-c-format
-msgid "Title"
-msgstr "標題"
-
-#. i18n: file ./lib/main/k9mainw.ui line 77
-#: po/rc.cpp:273 ui_k9mainw.h:182 rc.cpp:273
-#, no-c-format
-msgid "Open a folder"
-msgstr "開啟一個資料夾"
-
-#. i18n: file ./lib/main/k9mainw.ui line 87
-#: po/rc.cpp:279 ui_k9mainw.h:184 rc.cpp:279
-#, no-c-format
-msgid "Open an iso image"
-msgstr "開啟一個iso映像檔"
-
-#. i18n: file ./lib/main/k9mainw.ui line 223
-#: po/rc.cpp:303 ui_k9mainw.h:195 rc.cpp:303
-#, no-c-format
-msgid "Content"
-msgstr "內容"
-
-#. i18n: file ./lib/main/langselectw.ui line 47
-#: po/rc.cpp:309 ui_langselectw.h:61 rc.cpp:309
-#, no-c-format
-msgid "Languages"
-msgstr "語言"
-
-#. i18n: file ./lib/main/mencoderCmdGen.ui line 23
-#: po/rc.cpp:315 ui_mencoderCmdGen.h:107 rc.cpp:315
-#, no-c-format
-msgid "1"
-msgstr ""
-
-#. i18n: file ./lib/main/playbackoptionsw.ui line 34
-#: po/rc.cpp:321 ui_playbackoptionsw.h:226 rc.cpp:321
-#, no-c-format
-msgid "&Keep original menus"
-msgstr "保留原有 DVD 選單 (&K)"
-
-#. i18n: file ./lib/main/playbackoptionsw.ui line 37
-#. i18n: file ./lib/main/prefMPEG4.ui line 171
-#. i18n: file ./lib/main/playbackoptionsw.ui line 37
-#. i18n: file ./lib/main/prefMPEG4.ui line 171
-#: po/rc.cpp:324 po/rc.cpp:506 ui_playbackoptionsw.h:227 ui_prefMPEG4.h:373
-#: rc.cpp:324 rc.cpp:506
-#, no-c-format
-msgid "Alt+K"
-msgstr "Alt+K"
-
-#. i18n: file ./lib/main/playbackoptionsw.ui line 184
-#: po/rc.cpp:327 ui_playbackoptionsw.h:230 rc.cpp:327
-#, no-c-format
-msgid "Selected Titles"
-msgstr "選取的標題"
-
-#. i18n: file ./lib/main/playbackoptionsw.ui line 245
-#: po/rc.cpp:330 ui_playbackoptionsw.h:231 rc.cpp:330
-#, no-c-format
-msgid "Default language"
-msgstr "預設語言"
-
-#. i18n: file ./lib/main/playbackoptionsw.ui line 271
-#: po/rc.cpp:333 ui_playbackoptionsw.h:232 rc.cpp:333
-#, no-c-format
-msgid "Subtitle"
-msgstr "字幕"
-
-#. i18n: file ./lib/main/prefAuthor.ui line 13
-#: po/rc.cpp:339 ui_prefAuthor.h:189 rc.cpp:339
-#, no-c-format
-msgid "Authoring options"
-msgstr "編寫 (Authoring) 選項"
-
-#. i18n: file ./lib/main/prefAuthor.ui line 26
-#: po/rc.cpp:345 ui_prefAuthor.h:193 rc.cpp:345
-#, no-c-format
-msgid "AC3"
-msgstr "AC3"
-
-#. i18n: file ./lib/main/prefAuthor.ui line 31
-#: po/rc.cpp:348 ui_prefAuthor.h:194 rc.cpp:348
-#, no-c-format
-msgid "MP2"
-msgstr "MP2"
-
-#. i18n: file ./lib/main/prefAuthor.ui line 40
-#: po/rc.cpp:351 ui_prefAuthor.h:198 rc.cpp:351
-#, no-c-format
-msgid "128"
-msgstr "128"
-
-#. i18n: file ./lib/main/prefAuthor.ui line 45
-#: po/rc.cpp:354 ui_prefAuthor.h:199 rc.cpp:354
-#, no-c-format
-msgid "192"
-msgstr "192"
-
-#. i18n: file ./lib/main/prefAuthor.ui line 50
-#: po/rc.cpp:357 ui_prefAuthor.h:200 rc.cpp:357
-#, no-c-format
-msgid "320"
-msgstr "320"
-
-#. i18n: file ./lib/main/prefAuthor.ui line 58
-#: po/rc.cpp:360 ui_prefAuthor.h:202 rc.cpp:360
-#, no-c-format
-msgid "Format"
-msgstr "格式"
-
-#. i18n: file ./lib/main/prefAuthor.ui line 113
-#: po/rc.cpp:366 ui_prefAuthor.h:204 rc.cpp:366
-#, no-c-format
-msgid "Buttons"
-msgstr "按鈕"
-
-#. i18n: file ./lib/main/prefAuthor.ui line 119
-#. i18n: file ./lib/main/prefMPEG4.ui line 111
-#. i18n: file ./lib/main/prefAuthor.ui line 119
-#. i18n: file ./lib/main/prefMPEG4.ui line 111
-#: po/rc.cpp:369 po/rc.cpp:494 ui_prefAuthor.h:205 ui_prefMPEG4.h:368
-#: rc.cpp:369 rc.cpp:494
-msgid "Width"
-msgstr ""
-
-#. i18n: file ./lib/main/prefAuthor.ui line 145
-#. i18n: file ./lib/main/prefMPEG4.ui line 121
-#. i18n: file ./lib/main/prefAuthor.ui line 145
-#. i18n: file ./lib/main/prefMPEG4.ui line 121
-#: po/rc.cpp:372 po/rc.cpp:497 ui_prefAuthor.h:206 ui_prefMPEG4.h:369
-#: rc.cpp:372 rc.cpp:497
-#, no-c-format
-msgid "Height"
-msgstr ""
-
-#. i18n: file ./lib/main/prefAuthor.ui line 182
-#: po/rc.cpp:378 ui_prefAuthor.h:208 rc.cpp:378
-#, no-c-format
-msgid "Hilite color"
-msgstr "高亮度色彩"
-
-#. i18n: file ./lib/main/prefAuthor.ui line 199
-#: po/rc.cpp:381 ui_prefAuthor.h:210 rc.cpp:381
-#, no-c-format
-msgid "Text color"
-msgstr "文字色彩"
-
-#. i18n: file ./lib/main/prefDVD.ui line 13
-#: po/rc.cpp:384 ui_prefDVD.h:138 rc.cpp:384
-#, no-c-format
-msgid "prefDVD"
-msgstr "prefDVD"
-
-#. i18n: file ./lib/main/prefDVD.ui line 25
-#: po/rc.cpp:387 ui_prefDVD.h:139 rc.cpp:387
-#, no-c-format
-msgid "Output directory"
-msgstr "輸出目錄"
-
-#. i18n: file ./lib/main/prefDVD.ui line 45
-#: po/rc.cpp:390 ui_prefDVD.h:140 rc.cpp:390
-#, no-c-format
-msgid "Burn with k3b"
-msgstr "使用 k3b 燒錄"
-
-#. i18n: file ./lib/main/prefDVD.ui line 48
-#. i18n: file ./lib/main/prefMPEG4.ui line 344
-#. i18n: file ./lib/main/prefDVD.ui line 48
-#. i18n: file ./lib/main/prefMPEG4.ui line 344
-#: po/rc.cpp:393 po/rc.cpp:524 ui_prefDVD.h:141 ui_prefMPEG4.h:381 rc.cpp:393
-#: rc.cpp:524
-#, no-c-format
-msgid "Alt+B"
-msgstr "Alt+B"
-
-#. i18n: file ./lib/main/prefDVD.ui line 61
-#: po/rc.cpp:396 ui_prefDVD.h:142 rc.cpp:396
-#, no-c-format
-msgid "Auto burn"
-msgstr "自動燒錄"
-
-#. i18n: file ./lib/main/prefDVD.ui line 64
-#: po/rc.cpp:399 ui_prefDVD.h:143 rc.cpp:399
-#, no-c-format
-msgid "Alt+T"
-msgstr "Alt+T"
-
-#. i18n: file ./lib/main/prefDVD.ui line 71
-#: po/rc.cpp:402 ui_prefDVD.h:144 rc.cpp:402
-#, no-c-format
-msgid "DVD size"
-msgstr "DVD 大小"
-
-#. i18n: file ./lib/main/prefDVD.ui line 106
-#: po/rc.cpp:405 ui_prefDVD.h:145 rc.cpp:405
-#, no-c-format
-msgid "Quick scan"
-msgstr "快速掃描"
-
-#. i18n: file ./lib/main/prefDVD.ui line 109
-#: po/rc.cpp:408 ui_prefDVD.h:146 rc.cpp:408
-#, no-c-format
-msgid "Alt+Q"
-msgstr "Alt+Q"
-
-#. i18n: file ./lib/main/prefDVD.ui line 132
-#: po/rc.cpp:411 ui_prefDVD.h:147 rc.cpp:411
-#, no-c-format
-msgid "use dvdAuthor for copy without menus"
-msgstr "使用 dvdAuthor 做不包含選單的複製"
-
-#. i18n: file ./lib/main/prefDVD.ui line 135
-#: po/rc.cpp:414 ui_prefDVD.h:148 rc.cpp:414
-#, no-c-format
-msgid "Alt+D"
-msgstr "Alt+D"
-
-#. i18n: file ./lib/main/prefDVD.ui line 142
-#: po/rc.cpp:417 ui_prefDVD.h:149 rc.cpp:417
-#, no-c-format
-msgid "Clear output directory on exit"
-msgstr "結束時清除輸出目錄"
-
-#. i18n: file ./lib/main/prefDVD.ui line 145
-#: po/rc.cpp:420 ui_prefDVD.h:150 rc.cpp:420
-#, no-c-format
-msgid "Alt+Y"
-msgstr "Alt+Y"
-
-#. i18n: file ./lib/main/prefMencoder.ui line 13
-#. i18n: file ./lib/main/prefMPEG4.ui line 13
-#. i18n: file ./lib/main/prefpreview.ui line 13
-#. i18n: file ./lib/main/prefMencoder.ui line 13
-#. i18n: file ./lib/main/prefMPEG4.ui line 13
-#. i18n: file ./lib/main/prefpreview.ui line 13
-#: po/rc.cpp:423 po/rc.cpp:470 po/rc.cpp:557 ui_prefMencoder.h:407
-#: ui_prefMPEG4.h:357 ui_prefpreview.h:206 rc.cpp:423 rc.cpp:470 rc.cpp:557
-#, no-c-format
-msgid "Form1"
-msgstr "Form1"
-
-#. i18n: file ./lib/main/prefMencoder.ui line 37
-#: po/rc.cpp:426 ui_prefMencoder.h:408 rc.cpp:426
-#, no-c-format
-msgid ""
-"$PASS\n"
-"$WIDTH\n"
-"$HEIGHT\n"
-"$VIDBR\n"
-"$AUDBR"
-msgstr ""
-"$PASS\n"
-"$WIDTH\n"
-"$HEIGHT\n"
-"$VIDBR\n"
-"$AUDBR"
-
-#. i18n: file ./lib/main/prefMencoder.ui line 57
-#: po/rc.cpp:433 ui_prefMencoder.h:413 rc.cpp:433
-#, no-c-format
-msgid ""
-"pass number\n"
-"video width\n"
-"video height\n"
-"video bitrate\n"
-"audio bitrate"
-msgstr ""
-"階段數(pass number)\n"
-"視訊寬度\n"
-"視訊高度\n"
-"視訊位元率(bitrate)\n"
-"音訊位元率(bitrate)"
-
-#. i18n: file ./lib/main/prefMencoder.ui line 70
-#: po/rc.cpp:440 ui_prefMencoder.h:428 rc.cpp:440
-#, no-c-format
-msgid "Video codecs"
-msgstr "視訊編碼器"
-
-#. i18n: file ./lib/main/prefMencoder.ui line 121
-#: po/rc.cpp:446 ui_prefMencoder.h:420 rc.cpp:446
-#, no-c-format
-msgid "fourcc"
-msgstr "fourcc"
-
-#. i18n: file ./lib/main/prefMencoder.ui line 131
-#: po/rc.cpp:449 ui_prefMencoder.h:421 rc.cpp:449
-#, no-c-format
-msgid "first pass"
-msgstr "第一階段"
-
-#. i18n: file ./lib/main/prefMencoder.ui line 233
-#: po/rc.cpp:452 ui_prefMencoder.h:424 rc.cpp:452
-#, no-c-format
-msgid "one pass"
-msgstr "一階段"
-
-#. i18n: file ./lib/main/prefMencoder.ui line 301
-#: po/rc.cpp:455 ui_prefMencoder.h:427 rc.cpp:455
-#, no-c-format
-msgid "second pass"
-msgstr "第二階段"
-
-#. i18n: file ./lib/main/prefMencoder.ui line 322
-#: po/rc.cpp:458 ui_prefMencoder.h:432 rc.cpp:458
-#, no-c-format
-msgid "Audio codecs"
-msgstr "音訊編碼器"
-
-#. i18n: file ./lib/main/prefMencoder.ui line 427
-#: po/rc.cpp:464 ui_prefMencoder.h:431 rc.cpp:464
-#, no-c-format
-msgid "options"
-msgstr "選項"
-
-#. i18n: file ./lib/main/prefMencoder.ui line 453
-#: po/rc.cpp:467 ui_prefMencoder.h:433 rc.cpp:467
-#, no-c-format
-msgid "Available variables"
-msgstr "可用的變數"
-
-#. i18n: file ./lib/main/prefMPEG4.ui line 57
-#: po/rc.cpp:473 ui_prefMPEG4.h:382 rc.cpp:473
-#, no-c-format
-msgid "Video"
-msgstr "視訊"
-
-#. i18n: file ./lib/main/prefMPEG4.ui line 63
-#: po/rc.cpp:476 ui_prefMPEG4.h:359 rc.cpp:476
-#, no-c-format
-msgid "2 pass"
-msgstr "2 階段"
-
-#. i18n: file ./lib/main/prefMPEG4.ui line 66
-#: po/rc.cpp:479 ui_prefMPEG4.h:360 rc.cpp:479
-#, no-c-format
-msgid "Alt+2"
-msgstr "Alt+2"
-
-#. i18n: file ./lib/main/prefMPEG4.ui line 73
-#. i18n: file ./lib/main/prefMPEG4.ui line 403
-#. i18n: file ./lib/main/prefMPEG4.ui line 73
-#. i18n: file ./lib/main/prefMPEG4.ui line 403
-#: po/rc.cpp:482 po/rc.cpp:530 ui_prefMPEG4.h:361 ui_prefMPEG4.h:383
-#: rc.cpp:482 rc.cpp:530
-#, no-c-format
-msgid "Codec"
-msgstr "編碼器(Codec)"
-
-#. i18n: file ./lib/main/prefMPEG4.ui line 93
-#: po/rc.cpp:485 ui_prefMPEG4.h:364 rc.cpp:485
-#, no-c-format
-msgid "XviD"
-msgstr "XviD"
-
-#. i18n: file ./lib/main/prefMPEG4.ui line 98
-#: po/rc.cpp:488 ui_prefMPEG4.h:365 rc.cpp:488
-#, no-c-format
-msgid "lavc MPEG4"
-msgstr "lavc MPEG4"
-
-#. i18n: file ./lib/main/prefMPEG4.ui line 103
-#: po/rc.cpp:491 ui_prefMPEG4.h:366 rc.cpp:491
-#, no-c-format
-msgid "x264"
-msgstr "x264"
-
-#. i18n: file ./lib/main/prefMPEG4.ui line 152
-#: po/rc.cpp:500 ui_prefMPEG4.h:371 rc.cpp:500
-#, no-c-format
-msgid "640"
-msgstr "640"
-
-#. i18n: file ./lib/main/prefMPEG4.ui line 168
-#: po/rc.cpp:503 ui_prefMPEG4.h:372 rc.cpp:503
-#, no-c-format
-msgid "&keep aspect ratio"
-msgstr "保持長寬比例 (&K)"
-
-#. i18n: file ./lib/main/prefMPEG4.ui line 297
-#: po/rc.cpp:512 ui_prefMPEG4.h:377 rc.cpp:512
-#, no-c-format
-msgid "File size"
-msgstr "檔案大小"
-
-#. i18n: file ./lib/main/prefMPEG4.ui line 300
-#: po/rc.cpp:515 ui_prefMPEG4.h:378 rc.cpp:515
-#, no-c-format
-msgid "Alt+S"
-msgstr "Alt+S"
-
-#. i18n: file ./lib/main/prefMPEG4.ui line 322
-#: po/rc.cpp:518 ui_prefMPEG4.h:379 rc.cpp:518
-#, no-c-format
-msgid " MB"
-msgstr " MB"
-
-#. i18n: file ./lib/main/prefMPEG4.ui line 420
-#: po/rc.cpp:533 ui_prefMPEG4.h:386 rc.cpp:533
-#, no-c-format
-msgid "mp3"
-msgstr "mp3"
-
-#. i18n: file ./lib/main/prefMPEG4.ui line 425
-#: po/rc.cpp:536 ui_prefMPEG4.h:387 rc.cpp:536
-#, no-c-format
-msgid "faac"
-msgstr "faac"
-
-#. i18n: file ./lib/main/prefMPEG4.ui line 430
-#: po/rc.cpp:539 ui_prefMPEG4.h:388 rc.cpp:539
-#, no-c-format
-msgid "mp2"
-msgstr "mp2"
-
-#. i18n: file ./lib/main/prefMPEG4.ui line 435
-#: po/rc.cpp:542 ui_prefMPEG4.h:389 rc.cpp:542
-#, no-c-format
-msgid "ac3"
-msgstr "ac3"
-
-#. i18n: file ./lib/main/prefMPEG4.ui line 440
-#: po/rc.cpp:545 ui_prefMPEG4.h:390 rc.cpp:545
-#, no-c-format
-msgid "adpcm ima"
-msgstr "adpcm ima"
-
-#. i18n: file ./lib/main/prefMPEG4.ui line 512
-#: po/rc.cpp:551 ui_prefMPEG4.h:394 rc.cpp:551
-#, no-c-format
-msgid "Gain"
-msgstr "增強(Gain)"
-
-#. i18n: file ./lib/main/prefMPEG4.ui line 542
-#: po/rc.cpp:554 ui_prefMPEG4.h:396 rc.cpp:554
-#, no-c-format
-msgid "use cell cache"
-msgstr "使用 cell cache"
-
-#. i18n: file ./lib/main/prefpreview.ui line 34
-#: po/rc.cpp:560 ui_prefpreview.h:208 rc.cpp:560
-#, no-c-format
-msgid "&Internal Player"
-msgstr "內部播放器 (&I)"
-
-#. i18n: file ./lib/main/prefpreview.ui line 37
-#: po/rc.cpp:563 ui_prefpreview.h:209 rc.cpp:563
-#, no-c-format
-msgid "Alt+I"
-msgstr "Alt+I"
-
-#. i18n: file ./lib/main/prefpreview.ui line 44
-#: po/rc.cpp:566 ui_prefpreview.h:210 rc.cpp:566
-#, no-c-format
-msgid "MPlayer"
-msgstr "MPlayer"
-
-#. i18n: file ./lib/main/prefpreview.ui line 47
-#: po/rc.cpp:569 ui_prefpreview.h:211 rc.cpp:569
-#, no-c-format
-msgid "Alt+M"
-msgstr "Alt+M"
-
-#. i18n: file ./lib/main/prefpreview.ui line 109
-#: po/rc.cpp:572 ui_prefpreview.h:212 rc.cpp:572
-#, no-c-format
-msgid "Internal viewer options"
-msgstr "內部檢視器選項"
-
-#. i18n: file ./lib/main/prefpreview.ui line 119
-#: po/rc.cpp:575 ui_prefpreview.h:213 rc.cpp:575
-#, no-c-format
-msgid "use OpenGL"
-msgstr "使用 OpenGL"
-
-#. i18n: file ./lib/main/prefpreview.ui line 154
-#: po/rc.cpp:578 ui_prefpreview.h:214 rc.cpp:578
-#, no-c-format
-msgid "Video output"
-msgstr "視訊輸出"
-
-#. i18n: file ./lib/main/prefpreview.ui line 170
-#: po/rc.cpp:581 ui_prefpreview.h:215 rc.cpp:581
-#, no-c-format
-msgid "Audio output"
-msgstr "音訊輸出"
-
-#. i18n: file ./lib/main/prefpreview.ui line 181
-#: po/rc.cpp:584 ui_prefpreview.h:218 rc.cpp:584
-#, no-c-format
-msgid "X11"
-msgstr "X11"
-
-#. i18n: file ./lib/main/prefpreview.ui line 186
-#: po/rc.cpp:587 ui_prefpreview.h:219 rc.cpp:587
-#, no-c-format
-msgid "Xv"
-msgstr "Xv"
-
-#. i18n: file ./lib/main/prefpreview.ui line 191
-#: po/rc.cpp:590 ui_prefpreview.h:220 rc.cpp:590
-#, no-c-format
-msgid "OpenGL"
-msgstr "OpenGL"
-
-#. i18n: file ./lib/main/prefpreview.ui line 196
-#. i18n: file ./lib/main/prefpreview.ui line 221
-#. i18n: file ./lib/main/prefpreview.ui line 196
-#. i18n: file ./lib/main/prefpreview.ui line 221
-#: po/rc.cpp:593 po/rc.cpp:602 ui_prefpreview.h:221 ui_prefpreview.h:227
-#: rc.cpp:593 rc.cpp:602
-#, no-c-format
-msgid "SDL"
-msgstr "SDL"
-
-#. i18n: file ./lib/main/prefpreview.ui line 211
-#: po/rc.cpp:596 ui_prefpreview.h:225 rc.cpp:596
-#, no-c-format
-msgid "ALSA"
-msgstr "ALSA"
-
-#. i18n: file ./lib/main/prefpreview.ui line 216
-#: po/rc.cpp:599 ui_prefpreview.h:226 rc.cpp:599
-#, no-c-format
-msgid "OSS"
-msgstr "OSS"
-
-#. i18n: file ./lib/main/prefpreview.ui line 267
-#: po/rc.cpp:605 ui_prefpreview.h:229 rc.cpp:605
-#, no-c-format
-msgid "MPlayer options"
-msgstr "MPlayer 選項"
-
-#. i18n: file ./lib/main/titlefactor.ui line 13
-#: po/rc.cpp:608 ui_titlefactor.h:116 rc.cpp:608
-#, no-c-format
-msgid "Shrink Factors"
-msgstr "壓縮係數"
-
-#. i18n: file ./lib/main/titlefactor.ui line 40
-#: po/rc.cpp:611 ui_titlefactor.h:117 rc.cpp:611
-#, no-c-format
-msgid "Shrink Factor for Title %1"
-msgstr "標題 %1 的壓縮係數"
-
-#. i18n: file ./lib/main/titlefactor.ui line 56
-#: po/rc.cpp:614 ui_titlefactor.h:118 rc.cpp:614
-#, no-c-format
-msgid "Change Factor"
-msgstr "變更係數"
-
-#. i18n: file ./lib/main/titlefactor.ui line 92
-#: po/rc.cpp:617 ui_titlefactor.h:119 rc.cpp:617
-#, no-c-format
-msgid "0.00"
-msgstr "0.00"
-
-#. i18n: file ./lib/main/viewmpeg2.ui line 31
-#: po/rc.cpp:620 ui_viewmpeg2.h:133 rc.cpp:620
-#, no-c-format
-msgid "Title Preview"
-msgstr "預覽標題"
-
-#. i18n: file ./lib/mplayer/mplayer.ui line 54
-#: po/rc.cpp:629 ui_mplayer.h:244 rc.cpp:629
-#, no-c-format
-msgid "Subpicture"
-msgstr "字幕"
-
-#. i18n: file ./lib/mplayer/mplayer.ui line 271
-#: po/rc.cpp:632 ui_mplayer.h:249 rc.cpp:632
-#, no-c-format
-msgid "-"
-msgstr "-"
-
-#. i18n: file ./lib/mplayer/mplayer.ui line 391
-#: po/rc.cpp:635 ui_mplayer.h:251 rc.cpp:635
-#, no-c-format
-msgid "+"
-msgstr "+"
-
-#. i18n: file ./prefs_base.ui line 16
-#: po/rc.cpp:638 rc.cpp:638
-msgid "Background color:"
-msgstr ""
-
-#. i18n: file ./prefs_base.ui line 26
-#: po/rc.cpp:641 rc.cpp:641
-#, no-c-format
-msgid "Choose a new background color"
-msgstr ""
-
-#. i18n: file ./prefs_base.ui line 32
-#: po/rc.cpp:644 rc.cpp:644
-#, no-c-format
-msgid ""
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
-"\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'DejaVu Serif'; font-size:9pt; "
-"font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\">Change the <span style=\" "
-"font-weight:600;\">background</span> color by clicking here and choose the "
-"new <span style=\" color:#ff0000;\">color</span> in the <span style=\" font-"
-"style:italic;\">color dialog</span>.</p></body></html>"
-msgstr ""
-
-#. i18n: file ./prefs_base.ui line 42
-#: po/rc.cpp:650 rc.cpp:650
-#, no-c-format
-msgid "Project age:"
-msgstr ""
-
-#. i18n: file ./prefs_base.ui line 52
-#: po/rc.cpp:653 rc.cpp:653
-#, no-c-format
-msgid "Foreground color:"
-msgstr ""
-
-#. i18n: file ./prefs_base.ui line 62
-#: po/rc.cpp:656 rc.cpp:656
-#, no-c-format
-msgid "Choose a new foreground color"
-msgstr ""
-
-#. i18n: file ./prefs_base.ui line 68
-#: po/rc.cpp:659 rc.cpp:659
-#, no-c-format
-msgid ""
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
-"\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'DejaVu Serif'; font-size:9pt; "
-"font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\">Change the <span style=\" "
-"font-weight:600;\">foreground</span> color by clicking here and choose the "
-"new <span style=\" color:#ff0000;\">color</span> in the <span style=\" font-"
-"style:italic;\">color dialog</span>.</p></body></html>"
-msgstr ""
-
-#. i18n: file ./prefs_base.ui line 110
-#: po/rc.cpp:665 rc.cpp:665
-#, no-c-format
-msgid "Set the project age (in days)"
-msgstr ""
-
-#. i18n: file ./prefs_base.ui line 113
-#: po/rc.cpp:668 rc.cpp:668
-#, no-c-format
-msgid "Change the project age (in days) by choosing a new number of days."
-msgstr ""
-
-#: po/rc.cpp:669 rc.cpp:669
+#: po/rc.cpp:1 rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 
-#: po/rc.cpp:670 rc.cpp:670
+#: po/rc.cpp:2 rc.cpp:2
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
+
+#: src/assistant/k9assistant.cpp:49
+#, fuzzy
+msgid "DVD backup assistant"
+msgstr "DVD 備份取消"
+
+#: src/assistant/k9assistant.cpp:53
+#, fuzzy
+msgid "source"
+msgstr "fourcc"
+
+#: src/assistant/k9assistant.cpp:54
+msgid "Select the source of the backup"
+msgstr ""
+
+#: src/assistant/k9assistant.cpp:64
+msgid "destination"
+msgstr ""
+
+#: src/assistant/k9assistant.cpp:65
+msgid "Select the destination of the backup"
+msgstr ""
+
+#: src/assistant/k9assistant.cpp:74
+#, fuzzy
+msgid "titles"
+msgstr "字幕"
+
+#: src/assistant/k9assistant.cpp:75
+msgid "Select the titles you want to copy"
+msgstr ""
+
+#: src/assistant/k9assistant.cpp:87
+msgid "streams"
+msgstr ""
+
+#: src/assistant/k9assistant.cpp:88
+msgid "Select the streams you want to keep"
+msgstr ""
+
+#: src/assistant/k9assistant.cpp:98
+#, fuzzy
+msgid "mp4"
+msgstr "mp3"
+
+#: src/assistant/k9assistant.cpp:99
+msgid "Set mp4 options for each title"
+msgstr ""
+
+#: src/assistant/k9assistant.cpp:109
+#, fuzzy
+msgid "DVDOption"
+msgstr "選項"
+
+#: src/assistant/k9assistant.cpp:110
+#, fuzzy
+msgid "Set DVD playback options"
+msgstr "DVD 播放選項"
+
+#: src/assistant/k9assistant.cpp:120
+msgid "mpeg"
+msgstr ""
+
+#: src/assistant/k9assistant.cpp:121
+msgid "Set mpeg options for each title"
+msgstr ""
+
+#: src/assistant/k9assistant.cpp:151 src/assistant/k9assistant.cpp:155
+#: src/assistant/k9assistant.cpp:255 src/import/k9importfiles.cpp:249
+#: src/main/k9copy.cpp:398 src/main/k9settings.cpp:46
+msgid "Settings"
+msgstr "設定"
+
+#: src/assistant/k9assistant.cpp:152 src/assistant/k9assistant.cpp:156
+#, fuzzy
+msgid "k9copy settings"
+msgstr "設定"
+
+#: src/assistant/k9assistant.cpp:195
+msgid "The destination of the copy isn't valid"
+msgstr ""
+
+#: src/assistant/k9assistant.cpp:212
+msgid "You must select at least on title !"
+msgstr ""
+
+#: src/assistant/k9assistant.cpp:250
+msgid "cannot continue"
+msgstr ""
+
+#. i18n("Couldn't read enough bytes for title.\n");
+#. setError(c);
+#: src/assistant/k9astdestination.cpp:83 src/core/k9dvd.cpp:224
+#: src/core/k9dvd.cpp:232 src/core/k9dvd.cpp:240 src/core/k9dvd.cpp:427
+#: src/main/k9main.cpp:520 src/main/k9main.cpp:1542
+msgid "unknown"
+msgstr "未知"
+
+#: src/assistant/k9aststreams.cpp:57
+msgid "%4 - %1 %2 %3 ch"
+msgstr ""
+
+#: src/assistant/k9aststreams.cpp:68
+msgid "%3 - %1 %2"
+msgstr ""
+
+#: src/assistant/k9asttitles.cpp:258 src/backup/k9mp4enc.cpp:319
+#: src/backup/k9mp4enc.cpp:321 src/backup/k9mp4enc.cpp:381
+#: src/backup/k9mp4enc.cpp:810 src/main/k9main.cpp:545 src/main/k9main.cpp:675
+#: src/main/k9main.cpp:699 src/main/k9main.cpp:720 src/main/k9main.cpp:741
+#: src/main/k9mp4title.cpp:110 src/main/k9prefdvd.cpp:48
+#: src/main/k9prefmpeg4.cpp:35
+msgid "MB"
+msgstr "MB"
+
+#: src/assistant/k9asttitles.cpp:279 src/assistant/k9asttitles.cpp:290
+#: src/import/k9import.cpp:189 src/import/k9import.cpp:204
+#: src/import/k9newtitle.cpp:183 src/import/k9newtitle.cpp:205
+#: src/main/k9main.cpp:616 src/main/k9main.cpp:634
+msgid "chapter %1"
+msgstr "章節 %1"
+
+#: src/assistant/k9asttitles.cpp:284 src/assistant/k9asttitles.cpp:294
+#: src/main/k9main.cpp:620 src/main/k9main.cpp:640 src/main/k9main.cpp:1485
+msgid "%1 MB"
+msgstr "%1 MB"
+
+#: src/backup/k9backupdlg.cpp:70 src/backup/k9backupdlg.cpp:72
+#: src/backup/k9dvdauthor.cpp:475 src/backup/k9dvdauthor.cpp:477
+msgid "Backup progression"
+msgstr "備份進度"
+
+#. i18n("'%s' not selected"),l_track->getname().latin1());
+#: src/backup/k9dvdauthor.cpp:177 src/backup/k9dvdauthor.cpp:431
+msgid "'%1' not selected"
+msgstr "'%1' 未被選取"
+
+#: src/backup/k9dvdauthor.cpp:178 src/backup/k9dvdauthor.cpp:432
+#: src/backup/k9dvdauthor.cpp:455 src/backup/k9dvdauthor.cpp:521
+#: src/backup/k9dvdauthor.cpp:530 src/backup/k9dvdauthor.cpp:535
+#: src/import/k9newdvd.cpp:140
+msgid "authoring"
+msgstr "編寫(authoring)"
+
+#: src/backup/k9dvdauthor.cpp:455 src/backup/k9execcopy.cpp:191
+#: src/backup/k9mp4enc.cpp:160 src/backup/k9mp4enc.cpp:161
+#: src/backup/k9mp4enc.cpp:171 src/backup/k9mp4enc.cpp:172
+#: src/core/k9burndvd.cpp:263 src/core/k9burndvd.cpp:362
+#: src/mplayer/k9mplayer.cpp:177 src/mplayer/k9xine.cpp:163
+msgid "Unable to run %1"
+msgstr "無法執行 %1"
+
+#: src/backup/k9dvdauthor.cpp:473 src/backup/k9dvdauthor.cpp:564
+#: src/backup/k9dvdauthor.cpp:604 src/import/k9newdvd.cpp:161
+#: src/main/k9settings.cpp:89 src/main/k9settings.cpp:90
+msgid "Authoring"
+msgstr "編寫 (Authoring)"
+
+#: src/backup/k9dvdauthor.cpp:521
+msgid "Dvdauthor error :\n"
+msgstr "Dvdauthor 錯誤 :\n"
+
+#. i18n("authoring"), tr2i18n("Authoring canceled"));
+#: src/backup/k9dvdauthor.cpp:530
+msgid "Authoring cancelled"
+msgstr "取消編寫 (Authoring)"
+
+#: src/backup/k9dvdauthor.cpp:535 src/import/k9newdvd.cpp:154
+msgid "An error occured while running DVDAuthor:\n"
+msgstr "執行 DVDAuthor 時發生錯誤:\n"
+
+#: src/backup/k9dvdauthor.cpp:605
+msgid "Fixing VOBUS"
+msgstr "修正 VOBUS"
+
+#: src/backup/k9dvdbackup.cpp:170 src/backup/k9dvdbackup.cpp:184
+#: src/backup/k9dvdbackup.cpp:572 src/backup/k9dvdbackup.cpp:659
+msgid "DVD backup cancelled"
+msgstr "DVD 備份取消"
+
+#: src/backup/k9dvdbackup.cpp:197
+msgid "unable to open VIDEO_TS.IFO"
+msgstr "無法開啟 VIDEO_TS.IFO"
+
+#: src/backup/k9dvdbackup.cpp:219 src/backup/k9dvdbackup.cpp:416
+#: src/backup/k9dvdbackup.cpp:495
+msgid "Unable to open file "
+msgstr "無法開啟檔案"
+
+#: src/backup/k9dvdbackup.cpp:298
+msgid "Unable to open titleset %1"
+msgstr "無法開啟標題組 %1"
+
+#: src/backup/k9dvdbackup.cpp:304 src/backup/k9dvdbackup.cpp:630
+msgid "Extracting titleset %1"
+msgstr "正在抽取標題組 %1"
+
+#: src/backup/k9dvdbackup.cpp:502
+msgid "Unable to open menu for titleset %1"
+msgstr "無法開啟標題組 %1 的選單"
+
+#: src/backup/k9dvdbackup.cpp:528
+msgid "Extracting menu for titleset %1"
+msgstr "正在抽取標題組 %1 的選單"
+
+#: src/backup/k9dvdbackup.cpp:622
+msgid "Unable to open ifo file for titleset %1"
+msgstr "無法開啟標題組 %1 的 ifo 檔"
+
+#: src/backup/k9dvdbackup.cpp:635 src/backup/k9dvdbackup.cpp:1806
+msgid "Unable to open DVD"
+msgstr "無法開啟 DVD"
+
+#: src/backup/k9dvdbackup.cpp:645
+msgid "Unable to open vobs for titleset %1"
+msgstr "無法開啟標題組 %1 的 vobs"
+
+#: src/backup/k9dvdbackup.cpp:1500
+msgid "Updating vob %1"
+msgstr "更新 vob %1"
+
+#: src/backup/k9dvdbackup.cpp:1517
+msgid "DVD backup canceled"
+msgstr "DVD 備份取消"
+
+#: src/backup/k9execcopy.cpp:33 src/core/k9burndvd.cpp:192
+#: src/core/k9burndvd.cpp:325 src/import/k9import.cpp:333
+#: src/main/k9main.cpp:1368 src/main/k9playbackoptions.cpp:133
+msgid "default"
+msgstr "預設"
+
+#: src/backup/k9execcopy.cpp:42 src/backup/k9execcopy.cpp:137
+#: src/backup/k9execcopy.cpp:345 src/backup/k9execcopy.cpp:401
+msgid "DVD is not opened"
+msgstr "DVD 尚未開啟"
+
+#: src/backup/k9execcopy.cpp:42 src/backup/k9execcopy.cpp:73
+#: src/backup/k9execcopy.cpp:127
+msgid "DVD Copy"
+msgstr "複製 DVD"
+
+#: src/backup/k9execcopy.cpp:73
+#, fuzzy
+msgid ""
+"Insufficient disk space on %1\n"
+"%2 MB expected."
+msgstr ""
+"%1 上磁碟空間不足\n"
+"預期需要 %2 mb"
+
+#: src/backup/k9execcopy.cpp:80
+msgid ""
+"Directory already exists.\n"
+"Please choose another location or rename the DVD title."
+msgstr ""
+
+#: src/backup/k9execcopy.cpp:80
+msgid "Warning!"
+msgstr ""
+
+#: src/backup/k9execcopy.cpp:127 src/backup/k9execcopy.cpp:392
+#: src/backup/k9execcopy.cpp:452
+msgid "Selected titles have been successfully extracted"
+msgstr ""
+
+#: src/backup/k9execcopy.cpp:137 src/backup/k9execcopy.cpp:345
+#: src/main/k9settings.cpp:72 src/player/k9play.cpp:90
+msgid "MPEG-4 Encoding"
+msgstr "MPEG-4 編碼"
+
+#: src/backup/k9execcopy.cpp:155 src/backup/k9execcopy.cpp:363
+#: src/backup/k9execcopy.cpp:419 src/backup/k9mp4enc.cpp:308
+msgid "Save file to disk"
+msgstr "儲存檔案到磁碟"
+
+#: src/backup/k9execcopy.cpp:191 src/backup/k9mp4enc.cpp:145
+#: src/backup/k9mp4enc.cpp:154 src/backup/k9mp4enc.cpp:161
+#: src/backup/k9mp4enc.cpp:172 src/backup/k9mp4enc.cpp:459
+msgid "Encoding error"
+msgstr "編碼錯誤"
+
+#: src/backup/k9execcopy.cpp:212
+msgid "Selected titles have been successfully encoded"
+msgstr ""
+
+#: src/backup/k9execcopy.cpp:212 src/backup/k9execcopy.cpp:392
+#: src/backup/k9execcopy.cpp:452 src/backup/k9mp4dlg.cpp:38
+#: src/backup/k9mp4dlg.cpp:40
+msgid "Encoding"
+msgstr "編碼"
+
+#: src/backup/k9execcopy.cpp:324
+msgid "Muxing Matroska file"
+msgstr ""
+
+#: src/backup/k9execcopy.cpp:337
+#, fuzzy
+msgid "An error occured while running mkvmerge"
+msgstr "執行 DVDAuthor 時發生錯誤:\n"
+
+#: src/backup/k9execcopy.cpp:337
+msgid "Muxing Matroska"
+msgstr ""
+
+#: src/backup/k9execcopy.cpp:401
+msgid "Audio Extraction"
+msgstr ""
+
+#: src/backup/k9mp4enc.cpp:144 src/backup/k9mp4enc.cpp:145
+msgid "Audio extraction can only be done with ffmpeg"
+msgstr ""
+
+#: src/backup/k9mp4enc.cpp:153 src/backup/k9mp4enc.cpp:154
+msgid "Matroska encoding can only be done with ffmpeg"
+msgstr ""
+
+#: src/backup/k9mp4enc.cpp:184
+msgid "Starting extraction of %1, chapters %2"
+msgstr ""
+
+#: src/backup/k9mp4enc.cpp:186
+msgid "Starting encoding of %1, chapters %2"
+msgstr ""
+
+#: src/backup/k9mp4enc.cpp:187
+msgid "source : %1"
+msgstr ""
+
+#: src/backup/k9mp4enc.cpp:188
+msgid "destination : %1"
+msgstr ""
+
+#: src/backup/k9mp4enc.cpp:189
+msgid "disk cache : %1"
+msgstr ""
+
+#: src/backup/k9mp4enc.cpp:189
+msgid "activated"
+msgstr ""
+
+#: src/backup/k9mp4enc.cpp:189
+msgid "disabled"
+msgstr ""
+
+#: src/backup/k9mp4enc.cpp:208 src/main/k9titlefactor.cpp:63
+#: src/main/k9titlefactor.cpp:100 src/main/k9titlefactor.cpp:134
+msgid "size : %1 MB"
+msgstr ""
+
+#: src/backup/k9mp4enc.cpp:210
+#, fuzzy
+msgid "audio bitrate : %1"
+msgstr "正在轉碼的標題 : %1"
+
+#: src/backup/k9mp4enc.cpp:213
+msgid "user defined video bitrate : %1"
+msgstr ""
+
+#: src/backup/k9mp4enc.cpp:215
+msgid "calculated video bitrate : %1"
+msgstr ""
+
+#: src/backup/k9mp4enc.cpp:242
+msgid "starting pass %1 of %2"
+msgstr ""
+
+#: src/backup/k9mp4enc.cpp:510 src/backup/k9mp4enc.cpp:574
+#: src/backup/k9mp4enc.cpp:576 src/backup/k9mp4enc.cpp:693
+#: src/backup/k9mp4enc.cpp:695 src/import/k9newdvd.cpp:285
+msgid "Encoding %1"
+msgstr "正在編碼 %1"
+
+#: src/backup/k9mp4enc.cpp:522 src/backup/k9mp4enc.cpp:643
+#: src/backup/k9mp4enc.cpp:750 src/core/k9burndvd.cpp:237
+#: src/core/k9burndvd.cpp:258 src/core/k9burndvd.cpp:356
+msgid "starting thread : %1"
+msgstr ""
+
+#: src/backup/k9mp4enc.cpp:574 src/backup/k9mp4enc.cpp:693
+msgid "pass %1"
+msgstr "階段 %1"
+
+#: src/backup/k9mp4enc.cpp:758
+msgid "cancel requested"
+msgstr ""
+
+#: src/backup/k9mp4enc.cpp:897 src/backup/k9mp4enc.cpp:922
+#, fuzzy
+msgid "An error occured while encoding the %1 stream"
+msgstr "燒錄 DVD 時發生了一個錯誤: %1"
+
+#: src/backup/k9mp4enc.cpp:897
+#, fuzzy
+msgid "audio"
+msgstr "音訊"
+
+#: src/backup/k9mp4enc.cpp:922
+msgid "video"
+msgstr "視訊"
+
+#: src/core/k9burndvd.cpp:151
+msgid "image size : %1"
+msgstr ""
+
+#: src/core/k9burndvd.cpp:204 src/core/k9burndvd.cpp:206
+#: src/core/k9burndvd.cpp:208 src/core/k9burndvd.cpp:299
+#: src/core/k9burndvd.cpp:301 src/core/k9burndvd.cpp:303
+#: src/core/k9burndvd.cpp:415
+msgid "Burning DVD"
+msgstr "燒錄 DVD"
+
+#: src/core/k9burndvd.cpp:219 src/core/k9burndvd.cpp:331
+#: src/import/k9import.cpp:306
+msgid "Save image to disk"
+msgstr "儲存映像檔到磁碟"
+
+#: src/core/k9burndvd.cpp:235
+msgid "computing image size"
+msgstr ""
+
+#: src/core/k9burndvd.cpp:246 src/core/k9burndvd.cpp:248
+#: src/core/k9burndvd.cpp:349
+msgid "Insert a recordable DVD"
+msgstr "插入可寫入的 DVD"
+
+#: src/core/k9burndvd.cpp:246 src/core/k9burndvd.cpp:248
+#: src/core/k9burndvd.cpp:263 src/core/k9burndvd.cpp:271
+#: src/core/k9burndvd.cpp:281 src/core/k9burndvd.cpp:284
+#: src/core/k9burndvd.cpp:350 src/core/k9burndvd.cpp:362
+#: src/core/k9burndvd.cpp:371 src/core/k9burndvd.cpp:379
+msgid "DVD burning"
+msgstr "DVD 燒錄"
+
+#: src/core/k9burndvd.cpp:257 src/core/k9burndvd.cpp:355
+#, fuzzy
+msgid "start burning"
+msgstr "DVD 燒錄"
+
+#: src/core/k9burndvd.cpp:262 src/core/k9burndvd.cpp:274
+#: src/core/k9burndvd.cpp:360 src/core/k9burndvd.cpp:375
+msgid "Error"
+msgstr ""
+
+#: src/core/k9burndvd.cpp:263 src/core/k9burndvd.cpp:362
+msgid "Error burning DVD :\n"
+msgstr "燒錄 DVD 發生錯誤:\n"
+
+#: src/core/k9burndvd.cpp:269 src/core/k9burndvd.cpp:367
+msgid "Success"
+msgstr ""
+
+#: src/core/k9burndvd.cpp:271 src/core/k9burndvd.cpp:371
+msgid "DVD Burning finished"
+msgstr "DVD 燒錄完成"
+
+#: src/core/k9burndvd.cpp:279 src/core/k9burndvd.cpp:378
+#, fuzzy
+msgid "An error occured while Burning DVD"
+msgstr "燒錄 DVD 時發生了一個錯誤: %1"
+
+#: src/core/k9burndvd.cpp:279 src/core/k9burndvd.cpp:378
+msgid "Insert an other DVD"
+msgstr "插入另一片 DVD"
+
+#: src/core/k9burndvd.cpp:416
+msgid "Current write speed :%1 x"
+msgstr "目前寫入速度: %1 x"
+
+#: src/core/k9burndvd.cpp:436
+msgid "%1"
+msgstr ""
+
+#: src/core/k9dialogs.cpp:86
+#, fuzzy
+msgid "select a directory"
+msgstr "輸出目錄"
+
+#: src/core/k9dialogs.cpp:151
+#, fuzzy
+msgid "Continue"
+msgstr "內容"
+
+#: src/core/k9dvd.cpp:152
+msgid "for visually impaired"
+msgstr "給視覺障礙者"
+
+#: src/core/k9dvd.cpp:153
+msgid "director's comments"
+msgstr "導演講評"
+
+#: src/core/k9dvd.cpp:154
+msgid "alternate director's comments"
+msgstr "可替換的導演講評"
+
+#: src/core/k9dvd.cpp:158
+msgid "Large"
+msgstr "大"
+
+#: src/core/k9dvd.cpp:159
+msgid "Children"
+msgstr "兒童"
+
+#: src/core/k9dvd.cpp:160 src/core/k9dvd.cpp:166 src/core/k9dvd.cpp:167
+#: src/core/k9dvd.cpp:168
+msgid "reserved"
+msgstr "保留"
+
+#: src/core/k9dvd.cpp:161
+msgid "Normal captions"
+msgstr "正常標題"
+
+#: src/core/k9dvd.cpp:162
+msgid "Large captions"
+msgstr "大型標題"
+
+#: src/core/k9dvd.cpp:163
+msgid "Children captions"
+msgstr "兒童標題"
+
+#: src/core/k9dvd.cpp:165
+msgid "Forced"
+msgstr "強制"
+
+#: src/core/k9dvd.cpp:169
+msgid "Director's comments"
+msgstr "導演講評"
+
+#: src/core/k9dvd.cpp:170
+msgid "Large director's comments"
+msgstr "導演講評 (大)"
+
+#: src/core/k9dvd.cpp:171
+msgid "Director's comments for children"
+msgstr "給兒童的導演講評"
+
+#: src/core/k9dvd.cpp:222
+msgid "Couldn't open %1 for title\n"
+msgstr "無法開啟標題的 %1\n"
+
+#: src/core/k9dvd.cpp:230
+msgid "Couldn't seek in %1 for title\n"
+msgstr "無法在標題的 %1 內搜尋\n"
+
+#: src/core/k9dvd.cpp:256
+msgid "Not Specified"
+msgstr "未指定"
+
+#: src/core/k9dvd.cpp:256
+msgid "Afar"
+msgstr "Afar"
+
+#: src/core/k9dvd.cpp:256
+msgid "Abkhazian"
+msgstr "阿布哈西亞語"
+
+#: src/core/k9dvd.cpp:256
+msgid "Afrikaans"
+msgstr "南非荷蘭語"
+
+#: src/core/k9dvd.cpp:256
+msgid "Amharic"
+msgstr "衣索比亞語"
+
+#: src/core/k9dvd.cpp:257
+msgid "Arabic"
+msgstr "阿拉伯語"
+
+#: src/core/k9dvd.cpp:257
+msgid "Assamese"
+msgstr "阿薩姆語"
+
+#: src/core/k9dvd.cpp:257
+msgid "Aymara"
+msgstr "Aymara"
+
+#: src/core/k9dvd.cpp:257
+msgid "Azerbaijani"
+msgstr "亞塞拜然語"
+
+#: src/core/k9dvd.cpp:257
+msgid "Bashkir"
+msgstr "Bashkir"
+
+#: src/core/k9dvd.cpp:258
+msgid "Byelorussian"
+msgstr "白俄羅斯語"
+
+#: src/core/k9dvd.cpp:258
+msgid "Bulgarian"
+msgstr "保加利亞語"
+
+#: src/core/k9dvd.cpp:258
+msgid "Bihari"
+msgstr "印度比哈爾邦(Bihar)語"
+
+#: src/core/k9dvd.cpp:258
+msgid "Bislama"
+msgstr "Bislama"
+
+#: src/core/k9dvd.cpp:258
+msgid "Bengali; Bangla"
+msgstr "孟加拉語"
+
+#: src/core/k9dvd.cpp:259
+msgid "Tibetan"
+msgstr "西藏語"
+
+#: src/core/k9dvd.cpp:259
+msgid "Breton"
+msgstr "Breton"
+
+#: src/core/k9dvd.cpp:259
+msgid "Catalan"
+msgstr "(西班牙)嘉泰羅尼亞語"
+
+#: src/core/k9dvd.cpp:259
+msgid "Corsican"
+msgstr "Corsican"
+
+#: src/core/k9dvd.cpp:259
+msgid "Czech"
+msgstr "捷克語"
+
+#: src/core/k9dvd.cpp:260
+msgid "Welsh"
+msgstr "威爾斯語"
+
+#: src/core/k9dvd.cpp:260
+msgid "Dansk"
+msgstr "Dansk"
+
+#: src/core/k9dvd.cpp:260
+msgid "Deutsch"
+msgstr "德語"
+
+#: src/core/k9dvd.cpp:260
+msgid "Bhutani"
+msgstr "Bhutani"
+
+#: src/core/k9dvd.cpp:260
+msgid "Greek"
+msgstr "希臘語"
+
+#: src/core/k9dvd.cpp:260
+msgid "English"
+msgstr "英語"
+
+#: src/core/k9dvd.cpp:261
+msgid "Esperanto"
+msgstr "世界語(Esperanto)"
+
+#: src/core/k9dvd.cpp:261
+msgid "Espanol"
+msgstr "Espanol"
+
+#: src/core/k9dvd.cpp:261
+msgid "Estonian"
+msgstr "愛沙尼亞語"
+
+#: src/core/k9dvd.cpp:261
+msgid "Basque"
+msgstr "巴斯克語"
+
+#: src/core/k9dvd.cpp:261
+msgid "Persian"
+msgstr "波斯語"
+
+#: src/core/k9dvd.cpp:262
+msgid "Suomi"
+msgstr "Suomi"
+
+#: src/core/k9dvd.cpp:262
+msgid "Fiji"
+msgstr "斐濟語"
+
+#: src/core/k9dvd.cpp:262
+msgid "Faroese"
+msgstr "法羅群語"
+
+#: src/core/k9dvd.cpp:262
+msgid "Francais"
+msgstr "法語"
+
+#: src/core/k9dvd.cpp:262
+msgid "Frisian"
+msgstr "弗利然語"
+
+#: src/core/k9dvd.cpp:262
+msgid "Gaelic"
+msgstr "蓋爾語"
+
+#: src/core/k9dvd.cpp:263
+msgid "Scots Gaelic"
+msgstr "蘇格蘭蓋爾語"
+
+#: src/core/k9dvd.cpp:263
+msgid "Galician"
+msgstr "加里西亞語"
+
+#: src/core/k9dvd.cpp:263
+msgid "Guarani"
+msgstr "Guarani"
+
+#: src/core/k9dvd.cpp:263
+msgid "Gujarati"
+msgstr "Gujarati"
+
+#: src/core/k9dvd.cpp:263
+msgid "Hausa"
+msgstr "豪薩語(Hausa)"
+
+#: src/core/k9dvd.cpp:264 src/core/k9dvd.cpp:266
+msgid "Hebrew"
+msgstr "希伯來語"
+
+#: src/core/k9dvd.cpp:264
+msgid "Hindi"
+msgstr "北印度語"
+
+#: src/core/k9dvd.cpp:264
+msgid "Hrvatski"
+msgstr "Hrvatski"
+
+#: src/core/k9dvd.cpp:264
+msgid "Magyar"
+msgstr "Magyar"
+
+#: src/core/k9dvd.cpp:264
+msgid "Armenian"
+msgstr "亞美尼亞語"
+
+#: src/core/k9dvd.cpp:265
+msgid "Interlingua"
+msgstr "Interlingua"
+
+#: src/core/k9dvd.cpp:265
+msgid "Indonesian"
+msgstr "印尼語"
+
+#: src/core/k9dvd.cpp:265
+msgid "Interlingue"
+msgstr "Interlingue"
+
+#: src/core/k9dvd.cpp:265
+msgid "Inupiak"
+msgstr "Inupiak"
+
+#: src/core/k9dvd.cpp:266
+msgid "Islenska"
+msgstr "Islenska"
+
+#: src/core/k9dvd.cpp:266
+msgid "Italiano"
+msgstr "義大利語"
+
+#: src/core/k9dvd.cpp:266
+msgid "Inuktitut"
+msgstr "Inuktitut"
+
+#: src/core/k9dvd.cpp:266
+msgid "Japanese"
+msgstr "日語"
+
+#: src/core/k9dvd.cpp:267 src/core/k9dvd.cpp:282
+msgid "Yiddish"
+msgstr "意第緒語"
+
+#: src/core/k9dvd.cpp:267
+msgid "Javanese"
+msgstr "爪哇語"
+
+#: src/core/k9dvd.cpp:267
+msgid "Georgian"
+msgstr "Georgian"
+
+#: src/core/k9dvd.cpp:267
+msgid "Kazakh"
+msgstr "哈薩克語"
+
+#: src/core/k9dvd.cpp:267
+msgid "Greenlandic"
+msgstr "Greenlandic"
+
+#: src/core/k9dvd.cpp:268
+msgid "Cambodian"
+msgstr "柬埔寨語"
+
+#: src/core/k9dvd.cpp:268
+msgid "Kannada"
+msgstr "(印度)坎那達語"
+
+#: src/core/k9dvd.cpp:268
+msgid "Korean"
+msgstr "韓語"
+
+#: src/core/k9dvd.cpp:268
+msgid "Kashmiri"
+msgstr "喀什米爾語"
+
+#: src/core/k9dvd.cpp:268
+msgid "Kurdish"
+msgstr "庫德語"
+
+#: src/core/k9dvd.cpp:269
+msgid "Kirghiz"
+msgstr "吉爾吉斯語"
+
+#: src/core/k9dvd.cpp:269
+msgid "Latin"
+msgstr "拉丁語"
+
+#: src/core/k9dvd.cpp:269
+msgid "Lingala"
+msgstr "Lingala"
+
+#: src/core/k9dvd.cpp:269
+msgid "Laothian"
+msgstr "Laothian"
+
+#: src/core/k9dvd.cpp:269
+msgid "Lithuanian"
+msgstr "立陶宛語"
+
+#: src/core/k9dvd.cpp:270
+msgid "Latvian, Lettish"
+msgstr "拉脫維亞語"
+
+#: src/core/k9dvd.cpp:270
+msgid "Malagasy"
+msgstr "馬拉加西語"
+
+#: src/core/k9dvd.cpp:270
+msgid "Maori"
+msgstr "毛利語"
+
+#: src/core/k9dvd.cpp:270
+msgid "Macedonian"
+msgstr "馬其頓語"
+
+#: src/core/k9dvd.cpp:270
+msgid "Malayalam"
+msgstr "馬來亞拉姆語"
+
+#: src/core/k9dvd.cpp:271
+msgid "Mongolian"
+msgstr "蒙古語"
+
+#: src/core/k9dvd.cpp:271
+msgid "Moldavian"
+msgstr "Moldavian"
+
+#: src/core/k9dvd.cpp:271
+msgid "Marathi"
+msgstr "馬拉地語"
+
+#: src/core/k9dvd.cpp:271
+msgid "Malay"
+msgstr "馬來語"
+
+#: src/core/k9dvd.cpp:271
+msgid "Maltese"
+msgstr "馬爾他語"
+
+#: src/core/k9dvd.cpp:272
+msgid "Burmese"
+msgstr "緬甸語"
+
+#: src/core/k9dvd.cpp:272
+msgid "Nauru"
+msgstr "諾魯語"
+
+#: src/core/k9dvd.cpp:272
+msgid "Nepali"
+msgstr "尼泊爾語"
+
+#: src/core/k9dvd.cpp:272
+msgid "Nederlands"
+msgstr "荷蘭語"
+
+#: src/core/k9dvd.cpp:272
+msgid "Norsk"
+msgstr "挪威語"
+
+#: src/core/k9dvd.cpp:272
+msgid "Occitan"
+msgstr "Occitan"
+
+#: src/core/k9dvd.cpp:273
+msgid "Oromo"
+msgstr "Oromo"
+
+#: src/core/k9dvd.cpp:273
+msgid "Oriya"
+msgstr "Oriya"
+
+#: src/core/k9dvd.cpp:273
+msgid "Punjabi"
+msgstr "旁遮普語"
+
+#: src/core/k9dvd.cpp:273
+msgid "Polish"
+msgstr "波蘭語"
+
+#: src/core/k9dvd.cpp:273
+msgid "Pashto, Pushto"
+msgstr "(阿富汗)帕施圖語"
+
+#: src/core/k9dvd.cpp:274
+msgid "Portugues"
+msgstr "葡萄牙語"
+
+#: src/core/k9dvd.cpp:274
+msgid "Quechua"
+msgstr "(南非)蓋楚瓦語"
+
+#: src/core/k9dvd.cpp:274
+msgid "Rhaeto-Romance"
+msgstr "Rhaeto-Romance"
+
+#: src/core/k9dvd.cpp:274
+msgid "Kirundi"
+msgstr "Kirundi"
+
+#: src/core/k9dvd.cpp:274
+msgid "Romanian"
+msgstr "羅馬尼亞語"
+
+#: src/core/k9dvd.cpp:275
+msgid "Russian"
+msgstr "俄語"
+
+#: src/core/k9dvd.cpp:275
+msgid "Kinyarwanda"
+msgstr "Kinyarwanda"
+
+#: src/core/k9dvd.cpp:275
+msgid "Sanskrit"
+msgstr "梵語"
+
+#: src/core/k9dvd.cpp:275
+msgid "Sindhi"
+msgstr "Sindhi"
+
+#: src/core/k9dvd.cpp:275
+msgid "Sangho"
+msgstr "Sangho"
+
+#: src/core/k9dvd.cpp:276
+msgid "Serbo-Croatian"
+msgstr "Serbo-Croatian"
+
+#: src/core/k9dvd.cpp:276
+msgid "Sinhalese"
+msgstr "錫蘭語"
+
+#: src/core/k9dvd.cpp:276
+msgid "Slovak"
+msgstr "斯洛伐克語"
+
+#: src/core/k9dvd.cpp:276
+msgid "Slovenian"
+msgstr "斯洛維尼亞語"
+
+#: src/core/k9dvd.cpp:276
+msgid "Samoan"
+msgstr "薩摩牙語"
+
+#: src/core/k9dvd.cpp:277
+msgid "Shona"
+msgstr "Shona"
+
+#: src/core/k9dvd.cpp:277
+msgid "Somali"
+msgstr "索馬利語"
+
+#: src/core/k9dvd.cpp:277
+msgid "Albanian"
+msgstr "阿爾巴尼亞語"
+
+#: src/core/k9dvd.cpp:277
+msgid "Serbian"
+msgstr "塞爾維亞語"
+
+#: src/core/k9dvd.cpp:277
+msgid "Siswati"
+msgstr "Siswati"
+
+#: src/core/k9dvd.cpp:278
+msgid "Sesotho"
+msgstr "Sesotho"
+
+#: src/core/k9dvd.cpp:278
+msgid "Sundanese"
+msgstr "Sundanese"
+
+#: src/core/k9dvd.cpp:278
+msgid "Svenska"
+msgstr "Svenska"
+
+#: src/core/k9dvd.cpp:278
+msgid "Swahili"
+msgstr "斯華西里語"
+
+#: src/core/k9dvd.cpp:278
+msgid "Tamil"
+msgstr "坦米爾語"
+
+#: src/core/k9dvd.cpp:279
+msgid "Telugu"
+msgstr "Telugu"
+
+#: src/core/k9dvd.cpp:279
+msgid "Tajik"
+msgstr "塔吉克語"
+
+#: src/core/k9dvd.cpp:279
+msgid "Thai"
+msgstr "泰語"
+
+#: src/core/k9dvd.cpp:279
+msgid "Tigrinya"
+msgstr "提格利尼亞語"
+
+#: src/core/k9dvd.cpp:279
+msgid "Turkmen"
+msgstr "土庫曼語"
+
+#: src/core/k9dvd.cpp:279
+msgid "Tagalog"
+msgstr "塔加拉族語"
+
+#: src/core/k9dvd.cpp:280
+msgid "Setswana"
+msgstr "Setswana"
+
+#: src/core/k9dvd.cpp:280
+msgid "Tonga"
+msgstr "東加語"
+
+#: src/core/k9dvd.cpp:280
+msgid "Turkish"
+msgstr "土耳其語"
+
+#: src/core/k9dvd.cpp:280
+msgid "Tsonga"
+msgstr "Tsonga"
+
+#: src/core/k9dvd.cpp:280
+msgid "Tatar"
+msgstr "韃靼語"
+
+#: src/core/k9dvd.cpp:280
+msgid "Twi"
+msgstr "契維語"
+
+#: src/core/k9dvd.cpp:281
+msgid "Uighur"
+msgstr "維吾爾語"
+
+#: src/core/k9dvd.cpp:281
+msgid "Ukrainian"
+msgstr "烏克蘭語"
+
+#: src/core/k9dvd.cpp:281
+msgid "Urdu"
+msgstr "烏都語"
+
+#: src/core/k9dvd.cpp:281
+msgid "Uzbek"
+msgstr "烏茲別克語"
+
+#: src/core/k9dvd.cpp:281
+msgid "Vietnamese"
+msgstr "越南語"
+
+#: src/core/k9dvd.cpp:282
+msgid "Volapuk"
+msgstr "沃拉普克語"
+
+#: src/core/k9dvd.cpp:282
+msgid "Wolof"
+msgstr "Wolof"
+
+#: src/core/k9dvd.cpp:282
+msgid "Xhosa"
+msgstr "科薩語"
+
+#: src/core/k9dvd.cpp:282
+msgid "Yoruba"
+msgstr "優魯巴語"
+
+#: src/core/k9dvd.cpp:282
+msgid "Zhuang"
+msgstr "瑤族語"
+
+#: src/core/k9dvd.cpp:283
+msgid "Chinese"
+msgstr "中文"
+
+#: src/core/k9dvd.cpp:283
+msgid "Zulu"
+msgstr "祖魯語"
+
+#: src/core/k9dvd.cpp:283 src/core/k9dvd.cpp:295 src/core/k9dvd.cpp:541
+msgid "Unknown"
+msgstr "未知"
+
+#: src/core/k9dvd.cpp:401 src/core/k9dvd.cpp:435
+msgid "Can't open disc %1!\n"
+msgstr "無法開啟碟片 %1!\n"
+
+#: src/core/k9dvd.cpp:413
+msgid "Can't open main ifo!\n"
+msgstr "無法開啟主要 ifo!\n"
+
+#. i18n("Title %1").arg(indexedCount);
+#. TODO:PTZ161210 txt=i18n("Title %1").arg(numTitle); experiement
+#: src/core/k9dvd.cpp:461 src/core/k9dvd.cpp:753
+msgid "Title %1"
+msgstr "標題 %1"
+
+#: src/core/k9dvd.cpp:806
+msgid "reading title"
+msgstr "讀取標題"
+
+#: src/core/k9dvd.cpp:923
+msgid "Error opening vobs for title %1\n"
+msgstr "開啟標題 %1 的 vobs 時發生錯誤\n"
+
+#: src/core/k9dvd.cpp:934
+msgid "ERROR reading block %1\n"
+msgstr "讀取區塊 %1 時發生錯誤\n"
+
+#: src/core/k9dvdprogress.cpp:37 src/core/k9dvdprogress.cpp:39
+msgid "DVD Analyze"
+msgstr "分析 DVD"
+
+#: src/core/k9process.cpp:141 src/core/k9tools.cpp:94 src/import/k9menu.cpp:148
+msgid "Error starting program %1"
+msgstr ""
+
+#: src/core/k9process.cpp:141 src/core/k9tools.cpp:94 src/core/k9tools.cpp:118
+#: src/import/k9menu.cpp:148
+msgid "Running program"
+msgstr ""
+
+#: src/core/k9tools.cpp:109
+msgid "Enter the root password"
+msgstr ""
+
+#: src/core/k9tools.cpp:118
+msgid "The root password is not valid"
+msgstr ""
+
+#: src/devices/k9cddrive.cpp:218
+msgid ""
+"The root password is needed to change the read ahead property of the dvd "
+"drive"
+msgstr ""
+
+#: src/import/k9avidecode.cpp:63 src/import/k9avidecode.cpp:66
+#: src/import/k9avidecode.cpp:76 src/import/k9avidecode.cpp:111
+#: src/vamps/k9ffmpeg.cpp:41
+msgid "Cannot open the library %1"
+msgstr "無法開啟涵式庫 %1"
+
+#: src/import/k9avidecode.cpp:70 src/vamps/k9ffmpeg.cpp:33
+#: src/vamps/k9ffmpeg.cpp:37 src/vamps/k9ffmpeg.cpp:46
+#, fuzzy
+msgid "Cannot open then library %1"
+msgstr "無法開啟涵式庫 %1"
+
+#: src/import/k9avidecode.cpp:188
+msgid "Couldn't open the file %1"
+msgstr "無法開啟檔案 %1"
+
+#: src/import/k9avidecode.cpp:199
+msgid "Couldn't find stream information"
+msgstr "無法找到串流資訊"
+
+#: src/import/k9avidecode.cpp:212
+msgid "The file doesn't contain any video stream"
+msgstr "這個檔案並不包含任何視訊串流"
+
+#: src/import/k9avidecode.cpp:223
+msgid "Unsupported codec"
+msgstr "不支援的解碼器"
+
+#: src/import/k9avidecode.cpp:234
+#, fuzzy
+msgid "Could'nt open the codec"
+msgstr "無法開啟解碼器"
+
+#: src/import/k9avidecode.cpp:245
+msgid "Unable to allocate memory for frames"
+msgstr "無法配置 frames 所需的所有記憶體"
+
+#: src/import/k9import.cpp:44 src/import/k9import.cpp:46
+msgid "import"
+msgstr "匯入"
+
+#: src/import/k9import.cpp:79 src/import/k9menuedit.cpp:342
+msgid "Root Menu"
+msgstr "最上層選單"
+
+#: src/import/k9import.cpp:97 src/main/k9main.cpp:460
+msgid "ISO Image"
+msgstr "ISO 映像檔"
+
+#: src/import/k9import.cpp:98
+msgid "Folder"
+msgstr "目錄"
+
+#: src/import/k9import.cpp:249 src/import/k9import.cpp:264
+msgid "remove"
+msgstr ""
+
+#: src/import/k9import.cpp:252
+#, fuzzy
+msgid "add chapter"
+msgstr "章節"
+
+#: src/import/k9importfiles.cpp:102 src/main/k9copy.cpp:304
+#: src/main/k9copy.cpp:306
+msgid "DVD Author"
+msgstr "DVD 編寫 (Author)"
+
+#: src/import/k9importfiles.cpp:124
+msgid "Add Title"
+msgstr ""
+
+#: src/import/k9importfiles.cpp:132
+msgid "Chapter properties"
+msgstr "章節屬性"
+
+#: src/import/k9importfiles.cpp:145
+msgid "Edit menu"
+msgstr "編輯選單"
+
+#: src/import/k9importfiles.cpp:187 src/import/k9importfiles.cpp:191
+msgid "Create DVD"
+msgstr "建立 DVD"
+
+#: src/import/k9importfiles.cpp:188 src/import/k9importfiles.cpp:192
+#: src/main/k9settings.cpp:55
+msgid "DVD Backup"
+msgstr "DVD 備份"
+
+#: src/import/k9menuedit.cpp:301
+msgid "Title %1 Menu"
+msgstr "標題 %1 選單"
+
+#: src/import/k9menuedit.cpp:310 src/import/k9menuedit.cpp:347
+msgid "Play Menu"
+msgstr "播放選單"
+
+#: src/import/k9menuedit.cpp:312
+msgid "Play Title"
+msgstr "播放標題"
+
+#: src/import/k9menuedit.cpp:318
+msgid "Play Root Menu"
+msgstr "播放最上層選單"
+
+#: src/import/k9menuedit.cpp:320
+msgid "Play Title Menu"
+msgstr "播放標題選單"
+
+#: src/import/k9menuedit.cpp:325 src/import/k9menuedit.cpp:351
+msgid "Play Title %1"
+msgstr "播放標題 %1"
+
+#: src/import/k9newdvd.cpp:107
+msgid "Creating root menu"
+msgstr "建立最上層選單"
+
+#: src/import/k9newdvd.cpp:152
+msgid "The dvd authoring was canceled"
+msgstr "DVD 編寫 (Authoring) 已被取消"
+
+#: src/import/k9newdvd.cpp:178
+msgid "Creating menu for title %1"
+msgstr "正在建立標題 %1 的選單"
+
+#. i18n("filename") + " : " + m_aviDecode.getFileName();
+#: src/import/k9newdvd.cpp:465
+msgid "fps"
+msgstr "fps"
+
+#: src/import/k9newdvd.cpp:502 src/import/k9newtitle.cpp:129
+msgid "title %1"
+msgstr "標題 %1"
+
+#: src/import/k9newtitle.cpp:121
+msgid "Add title"
+msgstr "新增標題"
+
+#: src/main/k9copy.cpp:94 src/main/k9main.cpp:439 src/main/k9main.cpp:564
+#: src/main/k9main.cpp:1210 src/main/k9main.cpp:1219 src/main/k9main.cpp:1229
+msgid "Ready"
+msgstr "就緒"
+
+#: src/main/k9copy.cpp:170
+msgid "Shrink Factor"
+msgstr "壓縮係數"
+
+#: src/main/k9copy.cpp:181
+msgid "MPEG4 Encoding Options"
+msgstr "MPEG4 編碼選項"
+
+#: src/main/k9copy.cpp:205
+msgid "DVD playback options"
+msgstr "DVD 播放選項"
+
+#: src/main/k9copy.cpp:214
+msgid "Selection"
+msgstr "選擇"
+
+#: src/main/k9copy.cpp:234 src/main/k9settings.cpp:80
+#: src/mplayer/k9mplayer.cpp:177 src/mplayer/k9xine.cpp:163
+msgid "Preview"
+msgstr "預覽"
+
+#: src/main/k9copy.cpp:280 src/main/k9copy.cpp:282
+msgid "Copy"
+msgstr ""
+
+#: src/main/k9copy.cpp:288 src/main/k9copy.cpp:290
+msgid "Eject"
+msgstr "退出"
+
+#: src/main/k9copy.cpp:296 src/main/k9copy.cpp:298
+msgid "Wizard"
+msgstr ""
+
+#: src/main/k9copy.cpp:328 src/main/k9copy.cpp:330
+msgid "Use Gtk Style"
+msgstr ""
+
+#: src/main/k9cropselect.cpp:53 src/main/k9cropselect.cpp:55
+#, fuzzy
+msgid "Crop selection"
+msgstr "選擇"
+
+#: src/main/k9ffmpegcmdgen.cpp:144
+msgid "ffmpeg command generator"
+msgstr ""
+
+#: src/main/k9langselect.cpp:98
+msgid "Audio"
+msgstr "音訊"
+
+#: src/main/k9langselect.cpp:109
+msgid "Subtitles"
+msgstr "字幕"
+
+#: src/main/k9main.cpp:515
+msgid "Open DVD"
+msgstr "開啟 DVD"
+
+#: src/main/k9main.cpp:538
+msgid "Titleset %1"
+msgstr "標題組 %1"
+
+#: src/main/k9main.cpp:609
+msgid "chapters"
+msgstr "章節"
+
+#: src/main/k9main.cpp:693
+msgid "video %1 "
+msgstr "視訊 %1 "
+
+#: src/main/k9main.cpp:706
+msgid "audio %1 "
+msgstr "音訊 %1 "
+
+#: src/main/k9main.cpp:730
+msgid "subpicture %1 "
+msgstr "字幕 %1 "
+
+#: src/main/k9main.cpp:1392
+msgid "Open ISO Image"
+msgstr "開啟 ISO 映像檔"
+
+#: src/main/k9mencodercmdgen.cpp:65 src/main/k9mencodercmdgen.cpp:67
+msgid "MEncoder options"
+msgstr "MEncoder 選項"
+
+#: src/main/k9mencodercmdgen.cpp:86
+msgid "Audio Codec"
+msgstr "音訊編碼器(Codec)"
+
+#: src/main/k9mencodercmdgen.cpp:102
+msgid "Video Codec"
+msgstr "視訊編碼器(Codec)"
+
+#: src/main/k9mencodercmdgen.cpp:121
+msgid "Filters"
+msgstr "過濾器"
+
+#: src/main/k9mp4title.cpp:44 src/main/k9mp4title.cpp:189
+#: src/main/k9titlefactor.cpp:110
+msgid "Select a Title in the treeview..."
+msgstr "在樹狀列表中選取一個標題..."
+
+#: src/main/k9mp4title.cpp:76 src/main/k9mp4title.cpp:79
+#, fuzzy
+msgid "Crop detection"
+msgstr "選擇"
+
+#: src/main/k9playbackoptions.cpp:135
+msgid "none"
+msgstr "無"
+
+#: src/main/k9prefmencoder.cpp:176 src/main/k9prefmencoder.cpp:186
+#: src/main/k9prefmencoder.cpp:206 src/main/k9prefmencoder.cpp:214
+msgid "new profile"
+msgstr "新建個人設定"
+
+#: src/main/k9settings.cpp:54
+msgid "DVD"
+msgstr "DVD"
+
+#: src/main/k9settings.cpp:63
+#, fuzzy
+msgid "Encoders"
+msgstr "MEncoder"
+
+#: src/main/k9settings.cpp:64
+msgid "MPEG-4 Codecs"
+msgstr "MPEG-4 編碼器"
+
+#: src/main/k9settings.cpp:71
+msgid "MPEG-4"
+msgstr "MPEG-4"
+
+#: src/main/k9settings.cpp:81
+msgid "Title preview"
+msgstr "預覽標題"
+
+#: src/main/k9settings.cpp:98
+msgid "Paths"
+msgstr ""
+
+#: src/main/k9settings.cpp:99
+#, fuzzy
+msgid "Default paths"
+msgstr "預設語言"
+
+#: src/main/k9settings.cpp:108 src/main/kconfigdlg.cpp:49
+#: src/main/kconfigdlg.cpp:51
+msgid "Devices"
+msgstr "裝置"
+
+#: src/main/k9settings.cpp:109
+msgid "Devices not detected by k9copy"
+msgstr "k9copy 沒有偵測到的裝置"
+
+#: src/main/k9titlefactor.cpp:121
+msgid "Shrink Factor for %1"
+msgstr "%1 的壓縮係數"
+
+#: src/main/kviewmpeg2.cpp:88 src/main/kviewmpeg2.cpp:90
+msgid "Title Preview"
+msgstr "預覽標題"
+
+#: src/player/k9play.cpp:90
+msgid "MPEG-4 Encoding cancelled"
+msgstr "MPEG-4 編碼取消"
+
+#: src/player/k9play.cpp:361
+#, fuzzy
+msgid "Error opening the DVD"
+msgstr "燒錄 DVD 發生錯誤:\n"
+
+#: src/player/k9play.cpp:369
+msgid "Error on dvdnav_set_readahead_flag: %1"
+msgstr ""
+
+#: src/player/k9play.cpp:395
+msgid "Error on setting languages: %1"
+msgstr ""
+
+#: src/player/k9play.cpp:404
+msgid "Error on dvdnav_set_PGC_positioning_flag: %1"
+msgstr ""
+
+#: src/player/k9play.cpp:439
+msgid "Error getting next block: %1"
+msgstr ""
+
+#: src/player/main.cpp:51 src/xine/main.cpp:47
+msgid "A KDE 4 Application"
+msgstr ""
+
+#: src/player/main.cpp:62 src/xine/main.cpp:56 src/xine/main.cpp:66
+msgid "<p>(C) 2014 Pauline123 </p><p>(C) 2007 Jean-Michel</p>"
+msgstr ""
+
+#: src/player/main.cpp:72
+msgid "<p> (C) 2014 Pauline123 </p><p>(C) 2007 Jean-Michel</p>"
+msgstr ""
+
+#: src/player/main.cpp:75 src/xine/main.cpp:69
+msgid "Jean-Michel"
+msgstr ""
+
+#: src/player/main.cpp:96 src/player/main.cpp:120
+msgid "no gui"
+msgstr ""
+
+#: src/player/main.cpp:100 src/player/main.cpp:124
+msgid "play title to stdout"
+msgstr "播放標題到標準輸出 (stdout)"
+
+#: src/player/main.cpp:101 src/player/main.cpp:125
+msgid "start sector"
+msgstr "開始區段"
+
+#: src/player/main.cpp:102 src/player/main.cpp:126
+msgid "end sector"
+msgstr "結束區段"
+
+#: src/player/main.cpp:103 src/player/main.cpp:127
+msgid "list of audio streams"
+msgstr "音訊串流列表"
+
+#: src/player/main.cpp:104 src/player/main.cpp:128
+msgid "list of spu streams"
+msgstr "spu 串流列表"
+
+#: src/player/main.cpp:105 src/player/main.cpp:129
+msgid "shrink factor"
+msgstr "壓縮係數"
+
+#: src/player/main.cpp:106 src/player/main.cpp:130
+msgid "shrink factor forced"
+msgstr "強制壓縮係數"
+
+#: src/player/main.cpp:107 src/player/main.cpp:131
+msgid "size of the cell to be copied"
+msgstr "要複製的 cell 大小"
+
+#: src/player/main.cpp:108 src/player/main.cpp:132
+msgid "total size of selected titles"
+msgstr "所有選取標題的大小總和"
+
+#: src/player/main.cpp:109 src/player/main.cpp:133
+msgid "size of the chapters being copied"
+msgstr "複製中章節的大小"
+
+#: src/player/main.cpp:110 src/player/main.cpp:134
+msgid "selected chapters"
+msgstr "選取的章節"
+
+#: src/player/main.cpp:111 src/player/main.cpp:135
+msgid "new dvd size"
+msgstr "新 DVD 大小"
+
+#: src/player/main.cpp:112 src/player/main.cpp:136
+msgid "selected chapter"
+msgstr "選取的章節"
+
+#: src/player/main.cpp:113 src/player/main.cpp:137
+msgid "cell number in selected chapter"
+msgstr "選取的章節內的 cell 數量"
+
+#: src/player/main.cpp:114 src/player/main.cpp:138
+msgid "status file name"
+msgstr "狀態檔名"
+
+#: src/player/main.cpp:115 src/player/main.cpp:139
+msgid "initialize status file"
+msgstr "初始化狀態檔"
+
+#: src/player/main.cpp:116 src/player/main.cpp:140
+msgid "continue playing from last sector"
+msgstr "從上一個區段繼續播放"
+
+#: src/player/main.cpp:117 src/player/main.cpp:141
+msgid "don't save status at end"
+msgstr "結束時不紀錄狀態"
+
+#: src/player/main.cpp:118 src/player/main.cpp:142
+msgid "save cell in a temporary file before encoding"
+msgstr "編碼前先將 cell 存到暫存檔案"
+
+#: src/xine/main.cpp:84 src/xine/main.cpp:90
+#, fuzzy
+msgid "wid"
+msgstr "契維語"
+
+#: src/xine/main.cpp:85 src/xine/main.cpp:91
+msgid "vo"
+msgstr ""
+
+#: src/xine/main.cpp:86 src/xine/main.cpp:92
+msgid "ao"
+msgstr ""
+
+#~ msgid "Error while running mencoder :"
+#~ msgstr "執行 mencoder 時發生錯誤:"
+
+#~ msgid "Play title"
+#~ msgstr "播放標題"
+
+#~ msgid "Create MPEG-4"
+#~ msgstr "建立 MPEG-4"
+
+#~ msgid "Backup in progress"
+#~ msgstr "備份正在進行中"
+
+#~ msgid "Open DVD folder"
+#~ msgstr "開啟 DVD 資料夾"
+
+#~ msgid "A&ctions"
+#~ msgstr "動作 (&A)"
+
+#~ msgid "Actions ToolBar"
+#~ msgstr "動作工具列"
+
+#~ msgid "<p align=\"left\"><b>DVD Backup</b></p>"
+#~ msgstr "<p align=\"left\"><b>DVD 備份</b></p>"
+
+#~ msgid "Current step"
+#~ msgstr " 目前步驟"
+
+#~ msgid "Elapsed Time"
+#~ msgstr "經過時間"
+
+#~ msgid "--:--:--"
+#~ msgstr "--:--:--"
+
+#~ msgid "transcoding"
+#~ msgstr "轉碼"
+
+#~ msgid "Bitrate"
+#~ msgstr "位元率(Bitrate)"
+
+#~ msgid "Size"
+#~ msgstr "大小"
+
+#~ msgid "Process List"
+#~ msgstr "處理列表"
+
+#~ msgid "Processes"
+#~ msgstr "處理"
+
+#~ msgid "Elapsed"
+#~ msgstr "經過時間"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "Alt+C"
+#~ msgstr "Alt+C"
+
+#~ msgid ""
+#~ "*.avi\n"
+#~ "*.mpeg"
+#~ msgstr ""
+#~ "*.avi\n"
+#~ "*.mpeg"
+
+#~ msgid "start"
+#~ msgstr "開始"
+
+#~ msgid "set Current Frame"
+#~ msgstr "設定目前 Frame"
+
+#~ msgid "break continuity"
+#~ msgstr "破壞連續性"
+
+#~ msgid "end"
+#~ msgstr "結束"
+
+#~ msgid "set Title button"
+#~ msgstr "設定標題按鈕"
+
+#~ msgid "Output"
+#~ msgstr "輸出"
+
+#~ msgid "Video files"
+#~ msgstr "視訊檔案"
+
+#~ msgid "PAL"
+#~ msgstr "PAL"
+
+#~ msgid "NTSC"
+#~ msgstr "NTSC"
+
+#~ msgid "Edit Menu"
+#~ msgstr "編輯選單"
+
+#~ msgid "Text"
+#~ msgstr "文字"
+
+#~ msgid "Background picture"
+#~ msgstr "背景圖片"
+
+#~ msgid "At start"
+#~ msgstr "在開始處"
+
+#~ msgid "Play menu"
+#~ msgstr "播放選單"
+
+#~ msgid "Play title 1"
+#~ msgstr "播放標題 1"
+
+#~ msgid "At End"
+#~ msgstr "在結尾處"
+
+#~ msgid "Play root menu"
+#~ msgstr "播放最上層選單"
+
+#~ msgid "Play title menu"
+#~ msgstr "播放標題選單"
+
+#~ msgid "number of chapters"
+#~ msgstr "章節數量"
+
+#~ msgid "chapter length"
+#~ msgstr "章節長度"
+
+#~ msgid "Video file"
+#~ msgstr "視訊檔案"
+
+#~ msgid "device"
+#~ msgstr "裝置"
+
+#~ msgid "label"
+#~ msgstr "標籤"
+
+#~ msgid "Input"
+#~ msgstr "輸入"
+
+#~ msgid "MainDlg"
+#~ msgstr "MainDlg"
+
+#~ msgid "Output device "
+#~ msgstr "輸出裝置"
+
+#~ msgid "@"
+#~ msgstr "@"
+
+#~ msgid "Input device "
+#~ msgstr "輸入裝置"
+
+#~ msgid "X"
+#~ msgstr "X"
+
+#~ msgid "D&VD"
+#~ msgstr "D&VD"
+
+#~ msgid "Title"
+#~ msgstr "標題"
+
+#~ msgid "Open a folder"
+#~ msgstr "開啟一個資料夾"
+
+#~ msgid "Open an iso image"
+#~ msgstr "開啟一個iso映像檔"
+
+#~ msgid "Languages"
+#~ msgstr "語言"
+
+#~ msgid "&Keep original menus"
+#~ msgstr "保留原有 DVD 選單 (&K)"
+
+#~ msgid "Alt+K"
+#~ msgstr "Alt+K"
+
+#~ msgid "Selected Titles"
+#~ msgstr "選取的標題"
+
+#~ msgid "Subtitle"
+#~ msgstr "字幕"
+
+#~ msgid "Authoring options"
+#~ msgstr "編寫 (Authoring) 選項"
+
+#~ msgid "AC3"
+#~ msgstr "AC3"
+
+#~ msgid "MP2"
+#~ msgstr "MP2"
+
+#~ msgid "128"
+#~ msgstr "128"
+
+#~ msgid "192"
+#~ msgstr "192"
+
+#~ msgid "320"
+#~ msgstr "320"
+
+#~ msgid "Format"
+#~ msgstr "格式"
+
+#~ msgid "Buttons"
+#~ msgstr "按鈕"
+
+#~ msgid "Hilite color"
+#~ msgstr "高亮度色彩"
+
+#~ msgid "Text color"
+#~ msgstr "文字色彩"
+
+#~ msgid "prefDVD"
+#~ msgstr "prefDVD"
+
+#~ msgid "Burn with k3b"
+#~ msgstr "使用 k3b 燒錄"
+
+#~ msgid "Alt+B"
+#~ msgstr "Alt+B"
+
+#~ msgid "Auto burn"
+#~ msgstr "自動燒錄"
+
+#~ msgid "Alt+T"
+#~ msgstr "Alt+T"
+
+#~ msgid "DVD size"
+#~ msgstr "DVD 大小"
+
+#~ msgid "Quick scan"
+#~ msgstr "快速掃描"
+
+#~ msgid "Alt+Q"
+#~ msgstr "Alt+Q"
+
+#~ msgid "use dvdAuthor for copy without menus"
+#~ msgstr "使用 dvdAuthor 做不包含選單的複製"
+
+#~ msgid "Alt+D"
+#~ msgstr "Alt+D"
+
+#~ msgid "Clear output directory on exit"
+#~ msgstr "結束時清除輸出目錄"
+
+#~ msgid "Alt+Y"
+#~ msgstr "Alt+Y"
+
+#~ msgid "Form1"
+#~ msgstr "Form1"
+
+#~ msgid ""
+#~ "$PASS\n"
+#~ "$WIDTH\n"
+#~ "$HEIGHT\n"
+#~ "$VIDBR\n"
+#~ "$AUDBR"
+#~ msgstr ""
+#~ "$PASS\n"
+#~ "$WIDTH\n"
+#~ "$HEIGHT\n"
+#~ "$VIDBR\n"
+#~ "$AUDBR"
+
+#~ msgid ""
+#~ "pass number\n"
+#~ "video width\n"
+#~ "video height\n"
+#~ "video bitrate\n"
+#~ "audio bitrate"
+#~ msgstr ""
+#~ "階段數(pass number)\n"
+#~ "視訊寬度\n"
+#~ "視訊高度\n"
+#~ "視訊位元率(bitrate)\n"
+#~ "音訊位元率(bitrate)"
+
+#~ msgid "Video codecs"
+#~ msgstr "視訊編碼器"
+
+#~ msgid "first pass"
+#~ msgstr "第一階段"
+
+#~ msgid "one pass"
+#~ msgstr "一階段"
+
+#~ msgid "second pass"
+#~ msgstr "第二階段"
+
+#~ msgid "Audio codecs"
+#~ msgstr "音訊編碼器"
+
+#~ msgid "Available variables"
+#~ msgstr "可用的變數"
+
+#~ msgid "Video"
+#~ msgstr "視訊"
+
+#~ msgid "2 pass"
+#~ msgstr "2 階段"
+
+#~ msgid "Alt+2"
+#~ msgstr "Alt+2"
+
+#~ msgid "Codec"
+#~ msgstr "編碼器(Codec)"
+
+#~ msgid "XviD"
+#~ msgstr "XviD"
+
+#~ msgid "lavc MPEG4"
+#~ msgstr "lavc MPEG4"
+
+#~ msgid "x264"
+#~ msgstr "x264"
+
+#~ msgid "640"
+#~ msgstr "640"
+
+#~ msgid "&keep aspect ratio"
+#~ msgstr "保持長寬比例 (&K)"
+
+#~ msgid "File size"
+#~ msgstr "檔案大小"
+
+#~ msgid "Alt+S"
+#~ msgstr "Alt+S"
+
+#~ msgid " MB"
+#~ msgstr " MB"
+
+#~ msgid "faac"
+#~ msgstr "faac"
+
+#~ msgid "mp2"
+#~ msgstr "mp2"
+
+#~ msgid "ac3"
+#~ msgstr "ac3"
+
+#~ msgid "adpcm ima"
+#~ msgstr "adpcm ima"
+
+#~ msgid "Gain"
+#~ msgstr "增強(Gain)"
+
+#~ msgid "use cell cache"
+#~ msgstr "使用 cell cache"
+
+#~ msgid "&Internal Player"
+#~ msgstr "內部播放器 (&I)"
+
+#~ msgid "Alt+I"
+#~ msgstr "Alt+I"
+
+#~ msgid "MPlayer"
+#~ msgstr "MPlayer"
+
+#~ msgid "Alt+M"
+#~ msgstr "Alt+M"
+
+#~ msgid "Internal viewer options"
+#~ msgstr "內部檢視器選項"
+
+#~ msgid "use OpenGL"
+#~ msgstr "使用 OpenGL"
+
+#~ msgid "Video output"
+#~ msgstr "視訊輸出"
+
+#~ msgid "Audio output"
+#~ msgstr "音訊輸出"
+
+#~ msgid "X11"
+#~ msgstr "X11"
+
+#~ msgid "Xv"
+#~ msgstr "Xv"
+
+#~ msgid "OpenGL"
+#~ msgstr "OpenGL"
+
+#~ msgid "SDL"
+#~ msgstr "SDL"
+
+#~ msgid "ALSA"
+#~ msgstr "ALSA"
+
+#~ msgid "OSS"
+#~ msgstr "OSS"
+
+#~ msgid "MPlayer options"
+#~ msgstr "MPlayer 選項"
+
+#~ msgid "Shrink Factors"
+#~ msgstr "壓縮係數"
+
+#~ msgid "Shrink Factor for Title %1"
+#~ msgstr "標題 %1 的壓縮係數"
+
+#~ msgid "Change Factor"
+#~ msgstr "變更係數"
+
+#~ msgid "0.00"
+#~ msgstr "0.00"
+
+#~ msgid "Subpicture"
+#~ msgstr "字幕"
+
+#~ msgid "-"
+#~ msgstr "-"
+
+#~ msgid "+"
+#~ msgstr "+"
 
 #~ msgid "lavc"
 #~ msgstr "lavc"
@@ -2525,21 +2216,11 @@ msgstr ""
 #~ msgid "kDecMPEG2"
 #~ msgstr "kDecMPEG2"
 
-#~ msgid "A DVD Backup tool for KDE"
-#~ msgstr "KDE 下的 DVD 備份工具"
-
 #~ msgid "for internal use"
 #~ msgstr "僅為內部使用"
 
 #~ msgid "MPEG4 Encoding options"
 #~ msgstr "MPEG4 編碼選項"
-
-#~ msgid ""
-#~ "Insuffisant disk space on %1\n"
-#~ "%2 mb expected."
-#~ msgstr ""
-#~ "%1 上磁碟空間不足\n"
-#~ "預期需要 %2 mb"
 
 #~ msgid "processing"
 #~ msgstr "正在處理"
