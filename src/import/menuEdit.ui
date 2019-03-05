@@ -165,7 +165,7 @@
             <widget class="QLineEdit" name="leTitle"/>
            </item>
            <item>
-            <widget class="KPushButton" name="bAddText">
+            <widget class="QPushButton" name="bAddText">
              <property name="sizePolicy">
               <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
                <horstretch>0</horstretch>
@@ -208,7 +208,7 @@
           </widget>
          </item>
          <item row="4" column="2">
-          <widget class="KPushButton" name="bFont">
+          <widget class="QPushButton" name="bFont">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
              <horstretch>0</horstretch>
@@ -282,13 +282,13 @@
    <header>kurlrequester.h</header>
   </customwidget>
   <customwidget>
-   <class>KPushButton</class>
-   <extends>KPushButton</extends>
-   <header>kpushbutton.h</header>
+   <class>QPushButton</class>
+   <extends>QPushButton</extends>
+   <header>qpushbutton.h</header>
   </customwidget>
   <customwidget>
    <class>KColorButton</class>
-   <extends>KPushButton</extends>
+   <extends>QPushButton</extends>
    <header>kcolorbutton.h</header>
   </customwidget>
  </customwidgets>
@@ -303,10 +303,10 @@
  </tabstops>
  <includes>
   <include location="local">kurlrequester.h</include>
-  <include location="local">kpushbutton.h</include>
+  <include location="local">qpushbutton.h</include>
   <include location="local">kcolorbutton.h</include>
-  <include location="local">kpushbutton.h</include>
-  <include location="local">kpushbutton.h</include>
+  <include location="local">qpushbutton.h</include>
+  <include location="local">qpushbutton.h</include>
  </includes>
  <resources/>
  <connections>

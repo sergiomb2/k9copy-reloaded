@@ -24,6 +24,8 @@
 #include "dvdread/dvd_reader.h"
 #include "k9copy.h"
 #include "k9play.h"
+#include "k9tools.h"
+
 #if QT_VERSION >= 0x050000
 #include <kaboutdata.h>
 #include <KLocalizedString>
@@ -49,6 +51,8 @@ static const char description[] =
     I18N_NOOP("A KDE 4 Application");
 
 static const char version[] = VERSION ;
+
+//k9tools& m_k9tool;
 
 int main(int argc, char **argv) {
 #if QT_VERSION >= 0x050000

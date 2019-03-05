@@ -18,6 +18,12 @@
 *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
 ***************************************************************************/
 
+#include "config.h"
+//#include <stdlib.h>
+//#include <time.h>
+//#include <fcntl.h>
+//#include <sys/stat.h>
+
 #include "k9dvd.h"
 #include "k9dvdtitle.h"
 #include "k9dvdtitleset.h"
@@ -25,7 +31,6 @@
 #include "k9dvdprogress.h"
 #include "k9ifo2.h"
 #include <QApplication>
-#include <sys/stat.h>
 
 
 k9DVDTitle* k9DVD::gettitle(int num) {
@@ -352,6 +357,23 @@ int k9DVD::scandvd (const QString & device,bool _quickScan) {
         connect(this, SIGNAL(sigVobProgress(unsigned int,unsigned int)), this, SLOT(slotVobProgress(unsigned int,unsigned int)));
         connect(this, SIGNAL(sigTitleProgress(unsigned int,unsigned int)), this, SLOT(slotTitleProgress(unsigned int,unsigned int)));
         connect(this, SIGNAL(sigTitleText(QString&)), this, SLOT(slotTitleText(QString&)));
+
+        //// TODO: PTZ161123
+// Thread 1 (Thread 0x7f959430c340 (LWP 7997)):
+// [KCrash Handler]
+// #6  0x000055b3d3e2e2e8 in k9DVDProgress::setlblTotal (this=0x0, text=...) at /usr/src/k9copy-code/k9copy/src/core/k9dvdprogress.cpp:68
+        // why we lost this?! might be a carpet pull right under
+        //or Ui_DVDProgress..lblTotal is not instanciated?
+        
+        // #7  0x000055b3d3e20b80 in k9DVD::slotTotalText (this=0x55b3d54e4a90, text=...) at /usr/src/k9copy-code/k9copy/src/core/k9dvd.cpp:1053
+        
+// #8  0x000055b3d3e4eb37 in k9DVD::qt_static_metacall (_o=0x55b3d54e4a90, _c=QMetaObject::InvokeMetaMethod, _id=7, _a=0x7ffd08b311c0) at /usr/src/k9copy-code/k9copy/bld/k9_5_automoc.dir/moc_k9dvd_RHQA5WVO7RR5FY.cpp:109
+// #9  0x00007f95a9cdfc89 in QMetaObject::activate (sender=0x55b3d54e4a90, signalOffset=<optimized out>, local_signal_index=<optimized out>, argv=<optimized out>) at kernel/qobject.cpp:3740
+// #10 0x000055b3d3e4ef55 in k9DVD::sigTotalText (this=0x55b3d54e4a90, _t1=...) at /usr/src/k9copy-code/k9copy/bld/k9_5_automoc.dir/moc_k9dvd_RHQA5WVO7RR5FY.cpp:207
+// #11 0x000055b3d3e1de7c in k9DVD::scandvd (this=0x55b3d54e4a90, device=..., _quickScan=true) at /usr/src/k9copy-code/k9copy/src/core/k9dvd.cpp:444
+// #12 0x000055b3d3da8909 in k9Main::Open (this=0x55b3d553fdd0) at /usr/src/k9copy-code/k9copy/src/main/k9main.cpp:513
+// #13 0x000055b3d3dceb4f in k9Copy::fileOpen (this=0x55b3d53d8c70) at /usr/src/k9copy-code/k9copy/src/main/k9copy.cpp:391
+       
         connect(this, SIGNAL(sigTotalText(QString&)), this, SLOT(slotTotalText(QString&)));
         m_progressDlg->show();
     } else
@@ -435,7 +457,11 @@ int k9DVD::scandvd (const QString & device,bool _quickScan) {
                 vts_ttn =  ttn;//ifo->vts_ptt_srpt->title[j].ptt[0].pgcn; //ifo_zero->tt_srpt->title[j].vts_ttn;
 
                 //JMPtxt=i18n("Title %1").arg(indexedCount);
-                txt=i18n("Title %1").arg(numTitle);
+                
+                //TODO:PTZ161210 txt=i18n("Title %1").arg(numTitle); experiement
+                txt=i18n("Title %1", numTitle);
+                //txt=tr("Title %1").arg(numTitle);
+                
                 emit sigTotalText (txt);
                 emit sigTitleProgress(numTitle,ltitles);
                 video_attr = &vtsi_mat->vts_video_attr;

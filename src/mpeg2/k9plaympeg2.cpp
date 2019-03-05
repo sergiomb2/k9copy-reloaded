@@ -9,11 +9,19 @@
 // Copyright: See COPYING file that comes with this distribution
 //
 //
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include <sys/stat.h>
+
 #include "k9plaympeg2.h"
 #include "kdecmpeg2.h"
 #include "dvdnav/dvdnav.h" //PM DVDNAV
 
 #include <qapplication.h>
+
 
 k9PlayMPEG2::k9PlayMPEG2()
 {

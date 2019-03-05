@@ -20,6 +20,9 @@
 #ifndef K9CELL_H
 #define K9CELL_H
 
+#include <QMutexLocker>
+#include <QReadWriteLock>
+#include <QAtomicPointer>
 #include "k9dvdtitle.h"
 
 
@@ -49,15 +52,30 @@ public:
     bool firstRefOk,secondRefOk,thirdRefOk;
 };
 
+//make QList thread-safe!, is QVector thread-safe?
+// not sure how to use QAtomicPointer<k9Vobu *> ;
+//QMutexLocker locker(&mutex);
 class k9VobuList : public QList <k9Vobu *> {
 public:
     k9Vobu *findVobu(uint32_t sector);
     void clearList();
+    void append(k9Vobu * _vobu);
+    k9Vobu * last();
+    k9Vobu * first();
+    k9Vobu * at(int _i);
+    int count();
+    
 private:
     k9Vobu * findVobu(uint32_t sector, uint32_t start, uint32_t end);
+    mutable QMutex mutex;
 protected:
     static bool compareItems (const k9Vobu *item1, const k9Vobu *item2 ) ;
 };
+
+
+
+
+
 
 class k9Cell  {
 public:
@@ -65,7 +83,7 @@ public:
     ~k9Cell();
     k9Vobu * addVobu(uint32_t _sector);
     void addNewVobus(char *_buffer,uint32_t _len,uint32_t _position,int _vobNum,long _vobPos);
-    static int isNavPack (uchar *ptr);
+    static bool isNavPack(uchar *_buf, long _len = DVD_VIDEO_LB_LEN);
     static streamType_t identifyStream( uchar *buffer,int * packetType );
     static int getStreamID(int type);
     k9Vobu * findVobu(uint32_t _oldSector);
@@ -95,7 +113,7 @@ public:
 private:
     int numVobu;
     void addRefStream(k9Vobu *_vobu,uchar *_buffer,uint32_t _position);
-    QList <k9DVDTitle*> m_titles;
+    QList <k9DVDTitle*> m_titles;    
 };
 
 

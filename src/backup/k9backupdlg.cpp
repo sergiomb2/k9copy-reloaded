@@ -51,8 +51,19 @@
 #include <kdialog.h>
 #endif
 
+//Thread 1 (Thread 0x7ff692074b40 (LWP 12828)):
+//[KCrash Handler]
+//#6  QWidgetPrivate::init (this=0x55879c45aad0, parentWidget=0x55879c607840, f=...) at kernel/qwidget.cpp:1128
+//#7  0x00007ff6a6a316a5 in QDialog::QDialog (this=0x55879c5802d0, parent=0x55879c607840, f=...) at dialogs/qdialog.cpp:324
+//#8  0x000055879924b3d9 in k9BackupDlg::k9BackupDlg (this=0x55879c5802d0, parent=0x55879c607840) at /usr/src/k9copy-code/k9copy/src/backup/k9backupdlg.cpp:55
+//#9  0x000055879924003f in k9DVDBackup::k9DVDBackup (this=0x55879c699010, _dvd=0x55879bdd20b0) at /usr/src/k9copy-code/k9copy/src/backup/k9dvdbackup.cpp:114
+//#10 0x000055879922fbba in k9ExecCopy::copyDVD (this=0x7ffe496397e0) at /usr/src/k9copy-code/k9copy/src/backup/k9execcopy.cpp:87
+//#11 0x000055879918f51b in k9Main::Copy (this=0x55879bdbc2f0) at /usr/src/k9copy-code/k9copy/src/main/k9main.cpp:436
+//#12 0x00005587991b61a1 in k9Copy::ActionCopy (this=0x55879bb13fb0) at /usr/src/k9copy-code/k9copy/src/main/k9copy.cpp:438
+
 k9BackupDlg::k9BackupDlg(QWidget* parent)
-        : QDialog(parent),k9InternalPlayer() {
+: QDialog(parent) //// TODO: PTZ161111 this crashes time to time...!?
+, k9InternalPlayer() {
     ui_backupDlg.setupUi(this);
     setModal(true);
 #if QT_VERSION >= 0x050000

@@ -34,6 +34,9 @@
 #include "dvdread/nav_read.h" //PM DVDREAD
 #include "dvdread/nav_types.h" //PM DVDREAD
 
+#include <QtCore>
+#include <QtCore/QGlobalStatic>
+
 #include <QObject>
 
 #ifndef DVD_BLOCK_LEN
@@ -48,14 +51,10 @@
 #include "k9log.h"
 #include "k9tools.h"
 
-
-
-#if QT_VERSION >= 0x050000
-#include <KLocalizedString>
-#else //Qt4 Code
-#include <KLocale>
-#endif
-
+#include <KDE/KLocale>
+//#include <KDE/KLocalizedString>
+#include <KI18n/KLocalizedString>
+//#include <KDE/KLocalizedDate>
 
 #include "k9config.h"
 #include "k9process.h"

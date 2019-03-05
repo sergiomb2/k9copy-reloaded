@@ -25,7 +25,15 @@ static int sws_flags = SWS_BICUBIC;
 
 void av_free_packet_internal(AVPacket *pkt)
 {
+    //// TODO: PTZ161107 maybe resize to 0?
+    //#if FF_API_AVPACKET_OLD_API
+    //av_free_packet(pkt);
+    //#else
+    //av_packet_unref(pkt);
+    //#endif  
     if (pkt) {
+        //if (pkt->destruct) pkt->destruct(pkt);
+        
         pkt->data = NULL; pkt->size = 0;
     }
 }
@@ -103,7 +111,11 @@ k9AviDecode::k9AviDecode(QObject *parent, const char *)
       errs << i18n("Cannot open the library %1").arg("libswscale");
 #endif
     av_free = (av_free_t)dlsym(CodecHandle,"av_free");
-    av_free_packet = (av_free_packet_t)dlsym(CodecHandle,"av_free_packet");
+    av_free_packet = (av_free_packet_t)dlsym(CodecHandle,"av_packet_unref");
+#if FF_API_AVPACKET_OLD_API
+    if (av_free_packet==0)
+        av_free_packet = (av_free_packet_t)dlsym(CodecHandle,"av_free_packet");
+#endif
     if (av_free_packet==0)
          av_free_packet=av_free_packet_internal;
     avcodec_close = (avcodec_close_t)dlsym(FormatHandle,"avcodec_close");

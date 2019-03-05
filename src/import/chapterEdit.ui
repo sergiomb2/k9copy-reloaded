@@ -180,7 +180,7 @@
     </widget>
    </item>
    <item row="1" column="3" >
-    <widget class="KPushButton" name="bStart" >
+    <widget class="QPushButton" name="bStart" >
      <property name="sizePolicy" >
       <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
        <horstretch>0</horstretch>
@@ -255,7 +255,7 @@
     </widget>
    </item>
    <item row="4" column="3" >
-    <widget class="KPushButton" name="bEnd" >
+    <widget class="QPushButton" name="bEnd" >
      <property name="sizePolicy" >
       <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
        <horstretch>0</horstretch>
@@ -291,7 +291,7 @@
     </spacer>
    </item>
    <item row="7" column="0" >
-    <widget class="KPushButton" name="bTitleButton" >
+    <widget class="QPushButton" name="bTitleButton" >
      <property name="sizePolicy" >
       <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
        <horstretch>0</horstretch>
@@ -308,9 +308,9 @@
  <layoutdefault spacing="6" margin="11" />
  <customwidgets>
   <customwidget>
-   <class>KPushButton</class>
-   <extends>KPushButton</extends>
-   <header>kpushbutton.h</header>
+   <class>QPushButton</class>
+   <extends>QPushButton</extends>
+   <header>qpushbutton.h</header>
   </customwidget>
   <customwidget>
    <class>KUrlRequester</class>
@@ -320,8 +320,8 @@
  </customwidgets>
  <includes>
   <include location="local" >kurlrequester.h</include>
-  <include location="local" >kpushbutton.h</include>
-  <include location="local" >kpushbutton.h</include>
+  <include location="local" >qpushbutton.h</include>
+  <include location="local" >qpushbutton.h</include>
  </includes>
  <resources/>
  <connections>

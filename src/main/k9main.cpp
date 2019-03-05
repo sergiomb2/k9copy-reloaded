@@ -1513,10 +1513,10 @@ void k9Main::cbInputChanged(int _index)
     #if QT_VERSION >= 0x050000
     // Qt5 code
 	Ui_MainDlg.urInput->fileDialog()->setAcceptMode(QFileDialog::AcceptOpen);
-    #else()
+    #else
     // Qt4 Code
 	Ui_MainDlg.urInput->fileDialog()->setOperationMode(KFileDialog::Opening);
-    #endif()
+    #endif
         Ui_MainDlg.urInput->setFilter("*.iso|Iso Image (*.iso)");
 
 

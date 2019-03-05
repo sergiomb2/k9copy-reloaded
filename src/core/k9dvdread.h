@@ -25,9 +25,9 @@ class k9Ifo2;
 class k9DVDFile {
 friend class k9DVDRead;
 private:
-    //TODO:PTZ161129 might not be ready in time
+///TODO:PTZ161129 might not be ready in time
     dvd_file_t *m_file = NULL;
-    k9DVDRead *m_dvd;
+    k9DVDRead *m_dvd = NULL;
     void openIfo(uint _vts);
     void openMenu(uint _vts);
     void openTitle(uint _vts);
@@ -44,7 +44,10 @@ public:
 class k9DVDRead{
 friend class k9DVDTitle;
 private:
-  dvd_reader_t *m_dvd;
+//PTZ170218 weird crashes with x00007f8f9d78ebd9 in DVDReadBlocks
+// with m_file	0xf4300000005, which is strange? handler might have been knocked/closed?
+// k9DVDRead* dvdfile =m_dvd.openTitle( title);
+ dvd_reader_t *m_dvd = NULL;
   QList <k9DVDFile*> m_files;
   QList <k9Ifo2*> m_ifos;
   void deleteIfos();

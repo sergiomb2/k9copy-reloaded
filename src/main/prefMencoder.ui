@@ -157,7 +157,7 @@ crop height</string>
     </layout>
    </item>
    <item row="1" column="2">
-    <widget class="KPushButton" name="bReset">
+    <widget class="QPushButton" name="bReset">
      <property name="sizePolicy">
       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
        <horstretch>0</horstretch>
@@ -205,7 +205,7 @@ crop height</string>
           <widget class="QListWidget" name="lbvCodecs"/>
          </item>
          <item row="2" column="0">
-          <widget class="KPushButton" name="btnAddV">
+          <widget class="QPushButton" name="btnAddV">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
              <horstretch>0</horstretch>
@@ -218,7 +218,7 @@ crop height</string>
           </widget>
          </item>
          <item row="2" column="1">
-          <widget class="KPushButton" name="btnDeleteV">
+          <widget class="QPushButton" name="btnDeleteV">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
              <horstretch>0</horstretch>
@@ -475,7 +475,7 @@ crop height</string>
           <widget class="QListWidget" name="lbaCodecs"/>
          </item>
          <item row="2" column="0">
-          <widget class="KPushButton" name="btnAddA">
+          <widget class="QPushButton" name="btnAddA">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
              <horstretch>0</horstretch>
@@ -488,7 +488,7 @@ crop height</string>
           </widget>
          </item>
          <item row="2" column="1">
-          <widget class="KPushButton" name="btnDeleteA">
+          <widget class="QPushButton" name="btnDeleteA">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
              <horstretch>0</horstretch>
@@ -601,9 +601,9 @@ crop height</string>
  <layoutdefault spacing="6" margin="11"/>
  <customwidgets>
   <customwidget>
-   <class>KPushButton</class>
-   <extends>KPushButton</extends>
-   <header>kpushbutton.h</header>
+   <class>QPushButton</class>
+   <extends>QPushButton</extends>
+   <header>qpushbutton.h</header>
   </customwidget>
  </customwidgets>
  <tabstops>
@@ -631,15 +631,15 @@ crop height</string>
   <tabstop>bReset</tabstop>
  </tabstops>
  <includes>
-  <include location="local">kpushbutton.h</include>
-  <include location="local">kpushbutton.h</include>
-  <include location="local">kpushbutton.h</include>
-  <include location="local">kpushbutton.h</include>
-  <include location="local">kpushbutton.h</include>
-  <include location="local">kpushbutton.h</include>
-  <include location="local">kpushbutton.h</include>
-  <include location="local">kpushbutton.h</include>
-  <include location="local">kpushbutton.h</include>
+  <include location="local">qpushbutton.h</include>
+  <include location="local">qpushbutton.h</include>
+  <include location="local">qpushbutton.h</include>
+  <include location="local">qpushbutton.h</include>
+  <include location="local">qpushbutton.h</include>
+  <include location="local">qpushbutton.h</include>
+  <include location="local">qpushbutton.h</include>
+  <include location="local">qpushbutton.h</include>
+  <include location="local">qpushbutton.h</include>
  </includes>
  <resources/>
  <connections>
