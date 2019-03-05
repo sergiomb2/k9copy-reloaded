@@ -680,7 +680,7 @@ install(EXPORT k9copy-targets DESTINATION lib)
 ########### install files ###############
 install( FILES k9copy.desktop k9copy_assistant.desktop DESTINATION  ${XDG_APPS_INSTALL_DIR} )
 #install( FILES k9copy.kcfg  DESTINATION  ${KCFG_INSTALL_DIR} )
-install( FILES k9copyui.rc  DESTINATION  ${DATA_INSTALL_DIR}/k9copy )
+install( FILES k9copyui.rc  DESTINATION  ${KXMLGUI_INSTALL_DIR}/k9copy )
 
 install(FILES k9copy_open.desktop DESTINATION ${DATA_INSTALL_DIR}/solid/actions)
 install(FILES k9copy_assistant_open.desktop DESTINATION ${DATA_INSTALL_DIR}/solid/actions)
