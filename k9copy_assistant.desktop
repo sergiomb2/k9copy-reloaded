@@ -14,7 +14,6 @@ GenericName[fr]=Backup de DVD Video
 GenericName[tr]=DVD Vidyo Yedekleme Aracı
 GenericName[ru]=Копирование с видео-DVD
 GenericName[uk]=Копіювання відео-DVD
-MimeTypes=
 Terminal=false
 Icon=k9copy
 X-DocPath=k9copy/index.html
