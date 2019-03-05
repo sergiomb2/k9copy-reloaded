@@ -25,7 +25,8 @@ class k9Ifo2;
 class k9DVDFile {
 friend class k9DVDRead;
 private:
-    dvd_file_t *m_file;
+    //TODO:PTZ161129 might not be ready in time
+    dvd_file_t *m_file = NULL;
     k9DVDRead *m_dvd;
     void openIfo(uint _vts);
     void openMenu(uint _vts);
